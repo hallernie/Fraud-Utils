@@ -19,10 +19,8 @@ public class VantivUtils{
 
     public static void main(String[] args){
         VantivUtils vu = new VantivUtils();
-        vu.addRuleWeightsToRulesDataFile("rules.csv",
-                                         "default-v1097338.xml",
-                                         "Rules", //input_rules_column_name,
-                                         "ruleweight"); //output_weight_column_name
+        vu.fixThreatMetrixEventExportFileNew("events.csv");
+        //vu.fixThreatMetrixEventExportFile("ThreatMetrixEvents_20170104.csv");
     }
     
     //
@@ -492,6 +490,96 @@ public class VantivUtils{
     } // END: fixThreatMetrixEventExportFile
     
     
+
+
+    //
+    // Takes as input a TMX events export and:
+    //      1. Removes the blank first row of the file (if first row is blank)
+    //      2. Removes trailing "," from data rows.
+    //      3. Fix "DATETIME" format.
+    //          "2015-11-02 22:56:36.039 UTC" to "2015/11/02 22:56:36"
+    //      4. Fix "TRANSACTION_AMOUNT"
+    //          "500" to "5.00"
+    //      5. Fix "LOCAL_ATTRIB_9"
+    //          "request_id:819893079477290099" to "819893079477290099"
+    //      6. Does not include "REASON_CODE", "TMX_REASON_CODE" columns.
+    //
+    // Output is to standard out, so redirect to save.
+    //
+    public void fixThreatMetrixEventExportFileNew(String events_file_name){
+        try{
+            FileReader iFR = new FileReader (events_file_name);
+	        BufferedReader iBR = new BufferedReader(iFR);
+            String current_line = null;
+
+            current_line = iBR.readLine();
+
+            // Process the remainder of the file
+            //
+            // Find the "DATETIME", "TRANSACTION_AMOUNT", "LOCAL_ATTRIB_9" columns
+            int event_time_column = findColumnGivenHeader(current_line, "DATETIME");
+            int transaction_amount_column = findColumnGivenHeader(current_line, "TRANSACTION_AMOUNT");
+            int custom_attr9_column = findColumnGivenHeader(current_line, "LOCAL_ATTRIB_9");
+
+            // Find the "REASON_CODE", and "TMX_REASON_CODE" columns
+            int reasons_column = findColumnGivenHeader(current_line, "REASON_CODE");
+            int tmx_reasons_column = findColumnGivenHeader(current_line, "TMX_REASON_CODE");
+
+            CSVReader reader = null;
+            String[] aNextLine = null;
+            String str_out = "";
+            int cnt = -1;
+            
+            // Print the header row. Exclude "Reasons" and "TMX Reason Code" columns.
+            // Note: the header row does not have the extra "," (ARGH!!!)
+            reader = new CSVReader(new StringReader(current_line));
+            aNextLine = reader.readNext();
+            for(String val: aNextLine){
+                cnt++;
+                if( (cnt != reasons_column) && (cnt != tmx_reasons_column) ){
+                    str_out += val + ",";
+                }
+            }
+            System.out.println(str_out.substring(0,str_out.length()-1));
+
+            while( ((current_line = iBR.readLine()) != null) ) {
+                cnt = -1;
+                str_out = "";
+                reader = new CSVReader(new StringReader(current_line));
+                aNextLine = reader.readNext();
+
+                if(event_time_column != -1){
+                    aNextLine[event_time_column] = fixEventTime(aNextLine[event_time_column]);
+                }
+                if(transaction_amount_column != -1){
+                    aNextLine[transaction_amount_column] = fixTransactionAmountNew(aNextLine[transaction_amount_column]);
+                }
+                if(custom_attr9_column != -1){
+                    aNextLine[custom_attr9_column] = fixCustomAttribute9(aNextLine[custom_attr9_column]);
+                }
+
+                for(String val: aNextLine){
+                    cnt++;
+                    if( (cnt != reasons_column) && (cnt != tmx_reasons_column) ){
+                        // Keeping the following check in the code, just in case column is included
+                        // that contains "," (comma) in the data.
+                        if(val.contains(",")){
+                            // Change the separator char from "," to "%"
+                            val = val.replace(",","%");
+                        }
+                        str_out += val + ",";
+                    }
+                }
+                System.out.println(str_out.substring(0,str_out.length()-1));
+            }
+            
+        }
+        catch(IOException ex){
+            System.out.println("IOException in fixThreatMetrixEventExportFile");
+        }
+    } // END: fixThreatMetrixEventExportFileNew
+    
+    
     // Takes as input:
     //      1. TMX events export file
     //      2. Name of "Join" column
@@ -919,8 +1007,34 @@ public class VantivUtils{
         }
 
         if(transaction_amount.length() == 2){
-            return "0" + transaction_amount.substring(0,transaction_amount.length() - 2) + "." +
+            return "0." + transaction_amount;
+        }
+
+        if(transaction_amount.length() < 2){
+            return "0.0" + transaction_amount;
+        }
+            return transaction_amount;
+    } // END: fixTransactionAmount
+
+
+    // 
+    // Takes as input the TMX Transaction Amount formatted string "500.0"
+    // Return the string in the format below:
+    //
+    //      "5.00"
+    //
+    public String fixTransactionAmountNew(String transaction_amount){
+        if(transaction_amount.length() != 0){
+            transaction_amount = transaction_amount.substring(0,transaction_amount.length() - 2);
+        }
+
+        if(transaction_amount.length() > 2){
+            return transaction_amount.substring(0,transaction_amount.length() - 2) + "." +
                 transaction_amount.substring(transaction_amount.length() - 2);
+        }
+
+        if(transaction_amount.length() == 2){
+            return "0." + transaction_amount;
         }
 
         if(transaction_amount.length() < 2){
