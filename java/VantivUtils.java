@@ -222,6 +222,24 @@ public class VantivUtils{
     } // END: extractRuleNames
 
 
+    // Input is string in the following format:
+    //
+    //      "{TrueIPGeoOnLocalBlacklist}"
+    //      "{5PaymentsOnDeviceLocalDay,5PaymentsOnFuzzyDeviceLocalDay,5PaymentsOnTrueIPLocalDay}"
+    //
+    // Returns a String[] containing the rule names.
+    //
+    public String[] extractRuleNames2(String commaDelimitedRuleNames){
+        if(commaDelimitedRuleNames.equals("")){
+            return null;
+        }
+
+        //commaDelimitedRuleNames = commaDelimitedRuleNames.substring(1,commaDelimitedRuleNames.length()-1);
+        String[] ruleNames = commaDelimitedRuleNames.split(",");
+        return ruleNames;
+    } // END: extractRuleNames2
+
+
     //
     //Return a copy of the input map.
     //
@@ -749,6 +767,87 @@ public class VantivUtils{
     } // END: extractRulesOld
     
     
+    // Takes as input:
+    //      1. TMX events export file
+    //
+    // Output is two columns csv file. First column is join id column value. Second column is
+    // rule associated to this join id. For example for input of:
+    //
+    //      1234,{rule1,rule2}
+    //      4321,{rule1}
+    //
+    // Output would be:
+    //
+    //      1234,rule1
+    //      1234,rule2
+    //      4321,rule1
+    //
+    // Output is to standard out, so redirect to save.
+    //
+    public void extractRulesNew(String events_file_name){
+        try{
+            FileReader iFR = new FileReader (events_file_name);
+	        BufferedReader iBR = new BufferedReader(iFR);
+            String current_line = null;
+
+            // Find the header row by reading the file until finding the string "Request ID"
+            // Only check the first two rows.
+            boolean found = false;
+            int line_count = 0;
+            while( ((current_line = iBR.readLine()) != null) && (line_count < 2) ) {
+                if(current_line.contains("REQUEST_ID")){
+                    found = true;
+                    break;
+                }
+                line_count++;
+            }
+
+            if(!found){
+                System.out.println("extractRulesNew: Header column not found.");
+                System.exit(0);
+            }
+
+            // Check that the rules column exists
+            if(! current_line.contains("REASON_CODE")){
+                System.out.println("extractRulesNew: Rules column not found.");
+                System.exit(0);
+            }
+            
+            int rules_column = findColumnGivenHeader(current_line, "REASON_CODE");
+            int join_column = findColumnGivenHeader(current_line, "REQUEST_ID");
+
+            // Print the header row
+            System.out.println("Request ID,Rules");
+
+            // Process the remainder of the file
+            CSVReader reader = null;
+            String[] aNextLine = null;
+
+            // Process the remainder of the file.
+            String[] stra_rules = null;
+            String request_id = null;
+            while( (current_line = iBR.readLine()) != null){
+                reader = new CSVReader(new StringReader(current_line));
+                aNextLine = reader.readNext();
+                stra_rules = extractRuleNames2(aNextLine[rules_column]);
+                request_id = aNextLine[join_column];
+
+                if(stra_rules != null){
+                    for(String val: stra_rules){
+                        System.out.println(request_id + "," + val);
+                    }
+                }
+                else{
+                    System.out.println(request_id + ",no_rules");
+                }
+            }
+        }
+        catch(IOException ex){
+            System.out.println("IOException in extractRulesNew");
+        }
+    } // END: extractRulesNew
+    
+    
     
     // Takes as input:
     //      1. TMX events export file
@@ -912,13 +1011,13 @@ public class VantivUtils{
             }
 
             if(!found){
-                System.out.println("extractRulesOld: Header column not found.");
+                System.out.println("extractTmxRulesOld: Header column not found.");
                 System.exit(0);
             }
 
             // Check that the rules column exists
             if(! current_line.contains("TMX Reasons")){
-                System.out.println("extractRulesOld: Rules column not found.");
+                System.out.println("extractTmxRulesOld: Rules column not found.");
                 System.exit(0);
             }
             
@@ -989,9 +1088,128 @@ public class VantivUtils{
             }
         }
         catch(IOException ex){
-            System.out.println("IOException in extractRulesOld");
+            System.out.println("IOException in extractTmxRulesOld");
         }
     } // END: extractTmxRulesOld
+
+
+
+    // Takes as input:
+    //      1. TMX events export file
+    //
+    // Output is two columns csv file. First column is join id column value. Second column is
+    // rule associated to this join id. For example for input of:
+    //
+    //      1234,{rule1,rule2}
+    //      4321,{rule1}
+    //
+    // Output would be:
+    //
+    //      1234,rule1
+    //      1234,rule2
+    //      4321,rule1
+    //
+    // Output is to standard out, so redirect to save.
+    //
+    public void extractTmxRulesNew(String events_file_name){
+        try{
+            FileReader iFR = new FileReader (events_file_name);
+	        BufferedReader iBR = new BufferedReader(iFR);
+            String current_line = null;
+
+            // Find the header row by reading the file until finding the string "Request ID"
+            // Only check the first two rows.
+            boolean found = false;
+            int line_count = 0;
+            while( ((current_line = iBR.readLine()) != null) && (line_count < 2) ) {
+                if(current_line.contains("REQUEST_ID")){
+                    found = true;
+                    break;
+                }
+                line_count++;
+            }
+
+            if(!found){
+                System.out.println("extractTmxRulesNew: Header column not found.");
+                System.exit(0);
+            }
+
+            // Check that the rules column exists
+            if(! current_line.contains("TMX_REASON_CODE")){
+                System.out.println("extractTmxRulesNew: Rules column not found.");
+                System.exit(0);
+            }
+            
+            int rules_column = findColumnGivenHeader(current_line, "TMX_REASON_CODE");
+            int join_column = findColumnGivenHeader(current_line, "REQUEST_ID");
+
+            // Print the header row
+            System.out.printf("%1$s,%2$s,TmxCoreRule,IsVelocity,VelocityExpression,VHr,VDay,VWeek,VMonth%n",
+                                "REQUEST_ID","tmxrules");
+
+            // Process the remainder of the file
+            CSVReader reader = null;
+            String[] aNextLine = null;
+
+            String[] stra_rules = null;
+            String request_id = null;
+            String is_velocity = null;
+            String tmx_rule_name = null;
+            String core_rule_name = null;
+            String velocity_expr = null;
+            String vhr = null;
+            String vday = null;
+            String vweek = null;
+            String vmonth = null;
+            String[] stra_vel_expr = null;
+            String vel_regx = "_\\d+_\\d+_\\d+_\\d+";
+            Pattern vel_pattern = Pattern.compile(vel_regx);
+            Matcher vel_matcher = null;
+
+            while( (current_line = iBR.readLine()) != null){
+                reader = new CSVReader(new StringReader(current_line));
+                aNextLine = reader.readNext();
+                stra_rules = extractRuleNames2(aNextLine[rules_column]);
+                request_id = aNextLine[join_column];
+
+                if(stra_rules != null){
+                    for(String val: stra_rules){
+                        is_velocity = "0";
+                        tmx_rule_name = val;
+                        core_rule_name = val;
+                        velocity_expr = "NA";
+                        vhr = "NA";
+                        vday = "NA";
+                        vweek = "NA";
+                        vmonth = "NA";
+
+                        vel_matcher = vel_pattern.matcher(val);
+
+                        if(vel_matcher.find()){
+                            core_rule_name = val.substring(0,vel_matcher.start());
+                            is_velocity = "1";
+                            velocity_expr = vel_matcher.group().substring(1,vel_matcher.group().length());
+                            stra_vel_expr = vel_matcher.group().split("_");
+                            vhr = stra_vel_expr[1];
+                            vday = stra_vel_expr[2];
+                            vweek = stra_vel_expr[3];
+                            vmonth = stra_vel_expr[4];
+                        }
+                        System.out.printf("%1$s,%2$s,%3$s,%4$s,%5$s,%6$s,%7$s,%8$s,%9$s%n",
+                                            request_id,tmx_rule_name,core_rule_name,is_velocity,velocity_expr,
+                                            vhr,vday,vweek,vmonth);
+                    }
+                }
+                else{
+                    System.out.printf("%1$s,no_rules,no_rules,0,NA,NA,NA,NA,NA%n",
+                            request_id);
+                }
+            }
+        }
+        catch(IOException ex){
+            System.out.println("IOException in extractTmxRulesNew");
+        }
+    } // END: extractTmxRulesNew
 
 
     // 
