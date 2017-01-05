@@ -1,0 +1,387 @@
+Response Reason Code Description,Result
+Invalid data - bad format,Declined/Issuer
+3-D Secure transaction not supported by merchant,TBD
+Absolute Decline,TBD
+Account does not exist,Declined/Issuer
+Account number invalid,Declined/Issuer
+Account number not mod10,TBD
+Account number not numeric,TBD
+Account number too long,TBD
+Account number too short,TBD
+Account number was previously registered,TBD
+Account number was successfully registered,TBD
+Activity amount limit exceeded,Declined/Issuer
+Activity count limit exceeded,Declined/Issuer
+Add-on code already exists,TBD
+Allowable number of PIN-entry tries exceeded,Declined/Issuer
+"Allowable number of PIN-entry tries exceeded, Pick Up Card",Declined/Issuer
+Altered data,TBD
+Amount failed Litle edit checks when there is no valid auth,Declined/Vantiv
+Apple Pay Decryption Failed,Declined/Vantiv
+Apple Pay Key Mismatch,Declined/Vantiv
+Approved,Approved
+Approved - new account,Approved
+Approved - Preferred Account,Approved
+Approved - Recurring subscription created,Approved
+Approved - Updated Bank Routing Number,Approved
+Approved but Global not captured (card type),Approved
+Approved but Global not captured (EDC down),Approved
+Approved or completed successfully,Approved
+Approved with updated cardholder informtion,Approved
+"Approved, no AVS match - Merchant requested code",Approved
+Attempt to close batch by customer with system Batch Close option,TBD
+Attempt to transmit transaction to an already closed batch,TBD
+Auth recycle host system down,TBD
+Authorization already exists for the order,TBD
+Authorization amount has already been depleted,TBD
+Authorization has expired; no need to reverse,TBD
+Authorization no longer available,TBD
+Auto Recycling Complete,Declined/Vantiv
+Auto Recycling In Progress,Declined/Vantiv
+Automatic refund already issued,Declined/Vantiv
+Auto-void on refund,TBD
+Bad card but passes MOD 10 check,TBD
+Bad close,TBD
+Bank not supported by switch,TBD
+Bill to address is not equal to ship to address,TBD
+Blocked agreement,TBD
+Call - generic,Declined/Issuer
+Call AMEX,Declined/Issuer
+Call AMEX(touchtone),Declined/Issuer
+Call Diners Club,Declined/Issuer
+Call Diners Club (touchtone),Declined/Issuer
+Call Discover,Declined/Issuer
+Call Discover (touchtone),Declined/Issuer
+Call indicated number,Declined/Issuer
+Call indicated number (touchtone),Declined/Issuer
+Call JBS,Declined/Issuer
+Call TeleCheck,Declined/Issuer
+Call TeleCheck (touchtone),Declined/Issuer
+Call TeleCredit,Declined/Issuer
+Call TeleCredit (touchtone),Declined/Issuer
+Call Visa/MasterCard (touchtone),Declined/Issuer
+Call Visa/MasterCard Voice Authorization Center,Declined/Issuer
+Call Worldcheck,Declined/Issuer
+Call Worldcheck (touchtone),Declined/Issuer
+Cannot ACH,TBD
+Cannot Draft or ACH,TBD
+Capture amount can not be more than authorized amount,TBD
+Card already active,TBD
+Card already closed,TBD
+Card Authentication failed,TBD
+Card Brand token not supported,TBD
+Card has been restricted,Declined/Issuer
+Card has been restricted by Litle auth fraud advice filtering service,Declined/Vantiv
+Card has been restricted by Litle auth fraud velocity filtering service,Declined/Vantiv
+Card has been restricted by Litle due to chargeback,Declined/Vantiv
+Card has been restricted by Litle fraud AVS filtering service,Declined/Vantiv
+Card has been restricted by Litle international card filtering service,Declined/Vantiv
+Card has been restricted by Litle prepaid card filtering service,Declined/Vantiv
+Card not active,Declined/Issuer
+Card reader decryption service declined,TBD
+Card reader decryption service is not available,TBD
+Cardholder requested stop of all recurring/installment payments for a merchant,Declined/Issuer
+Cardholder requested stop payment of specific recurring or installment payment,Declined/Issuer
+Cash service not available,TBD
+Cashback request exceeds issuer limit,TBD
+CC number does not match MOP type,TBD
+Check Amount missing or Invalid,TBD
+Company Name required for corporate accounts for Echeck Verifications,TBD
+Contact the cardholder for updated information,Declined/Issuer
+Counter offer to supply PG,Declined/Issuer
+Credit Card Number Failed Litle Edit Checks,Declined/Vantiv
+Credit Card Number Failed Litle Edit Checks - Invalid account range,Declined/Vantiv
+Credit card number was invalid,Declined/Issuer
+Credit referal. Retry after 24 Hours,Declined/Issuer
+Customer already has product,Declined/Issuer
+CVV2 failure,Declined/Issuer
+CVV2 has been updated on existing token,Declined/Issuer
+Debt Repayment only allowed for VI txn on MCCs 6012 or 6051,Declined/Vantiv
+"Decline - credit floor, insufficient funds",Declined/Issuer
+Decline - generic,Declined/Issuer
+Decline - insufficient funds due to partial approval,Declined/Issuer
+Decline - Multiple billing addresses sharing the same shipping address,TBD
+"Decline, Need Positive ID",Declined/Issuer
+"Declined, foreign currency, must be USD",TBD
+DeclinePreferred account credit decline,TBD
+Deconverted BIN,TBD
+Decryption failed,TBD
+Default call (touchtone),TBD
+Deny - Account Cancelled,Declined/Issuer
+Deny - New Card Issued,Declined/Issuer
+Deposit has not been returned for insufficient/non-sufficient funds,TBD
+Deposit is already referenced by a chargeback,TBD
+Deposit rejected due to amount higher than stip authorization,TBD
+Deposit rejected due to declined authorization,TBD
+Destination cannot be found for routing,Declined/Issuer
+Discount code already exists,TBD
+Do not honor,Declined/Issuer
+Do not honor - New account verification failed,Declined/Issuer
+Duplicate account request,TBD
+Duplicate add-on codes in request,TBD
+Duplicate App Check,TBD
+Duplicate discount codes in request,TBD
+Duplicate of an approved transaction,TBD
+Duplicate order number (merchant reference id),TBD
+Duplicate transaction,TBD
+Duplicate transmission detected,TBD
+ECheck Payment Return,TBD
+Edit error - bill to outside USA,TBD
+Edit Error - Invalid T&C version,TBD
+Edit Error - major mismatch,TBD
+Exceed the threshold for sending redeposits,TBD
+"Existing account verification failed, does not match what we have in profile",TBD
+Expiration Date Failed Litle Edit Checks,TBD
+Expired card,Declined/Issuer
+Expired Card - Call Center,Declined/Issuer
+Expired paypage registration id,TBD
+Failed velocity check,TBD
+Failure,TBD
+File is temporarily unavailable,TBD
+First Name and Last Name required for Echeck Verifications,TBD
+Force STIP,TBD
+Forward to issuer 1,TBD
+Forward to issuer 2,TBD
+Generic token registration error,TBD
+Generic token use error,TBD
+Gift Card escheated,TBD
+Global CALL ND - no network response,TBD
+Global DECLINE - no network response,TBD
+Global EDC system unavailable,TBD
+Global settlement detail record errors,TBD
+Hard Decline - Account Issue,TBD
+Hard Decline - Alt Payment failed,TBD
+Hard Decline - confirmed email address not available,TBD
+Hard Decline - Contact PayPal consumer for another payment method,TBD
+Hard Decline - Exceeded maximum number of PayPal authorization attempts,TBD
+Hard Decline - Internal system error with PayPal - Call Litle,TBD
+Hard Decline - Issue with PayPal primary funding source,TBD
+Hard Decline - Issue with PayPal refund,TBD
+Hard Decline - PayPal authorization ID missing,TBD
+Hard Decline - PayPal authorization voided or expired,TBD
+Hard Decline - PayPal buyer account denied,TBD
+Hard Decline - PayPal buyer account restricted,TBD
+Hard Decline - PayPal credentials issue,TBD
+Hard Decline - PayPal funding sources unavailable.,TBD
+"Hard Decline - PayPal order has been voided, expired or completed",TBD
+Hard Decline - PayPal profile setting does not allow this transaction type,TBD
+Hard Decline - PayPal transaction ID or auth ID is invalid.,TBD
+Hard Decline - Required PayPal parameters missing,TBD
+Hard Decline - Transaction amount exceeds merchants PayPal account limit.,TBD
+Honor with ID,Declined/Issuer
+Inactive card,Declined/Issuer
+Incorrect acquiring bank id,TBD
+Incorrect CVV/iCVV,Declined/Issuer
+Input data is invalid,TBD
+Insufficient buying power,Declined/Issuer
+Insufficient data to update subscription,TBD
+Internal System Error,TBD
+International filtering for issuing card country,TBD
+Inv Terminal - Terminal Not Found,TBD
+Invalid account number,TBD
+Invalid Account Number - original or NOC updated eCheck account required,TBD
+Invalid account status,TBD
+Invalid ACH Standard Entry Class Code,TBD
+Invalid Action Type For This Reversal,TBD
+Invalid activate,TBD
+Invalid Amex CID,TBD
+Invalid amount - 0 or unreadable,Declined/Issuer
+Invalid amount - 0 or unreadable by issuer,Declined/Issuer
+Invalid amount - not accepted by network,TBD
+Invalid Appr Amt - Approved for lesser amount - partial approval,TBD
+Invalid authorization life cycle,TBD
+Invalid Bank Routing Number,TBD
+Invalid Bank Routing Number - Not In Fed List,TBD
+Invalid batch number,TBD
+Invalid biller information,TBD
+Invalid Billing Agreement Id,TBD
+Invalid billing date,TBD
+Invalid billing descriptor,TBD
+Invalid billing descriptor prefix,TBD
+Invalid check number,TBD
+Invalid credit card number,Declined/Issuer
+Invalid credit card number - issuer generated,Declined/Issuer
+Invalid currency type,TBD
+Invalid Data - bad format,Declined/Issuer
+Invalid Data - missing data,Declined/Issuer
+Invalid division number,TBD
+Invalid eCheck Account Number,TBD
+Invalid EDC Merchant for Global,TBD
+Invalid Email Address,TBD
+Invalid expiration date,TBD
+Invalid Global Acquirer Reference Data,TBD
+Invalid Global processing code,TBD
+Invalid Global Service ID,TBD
+Invalid issue number (Switch/Solo only),TBD
+Invalid merchant,TBD
+Invalid merchant or service provider,Declined/Issuer
+Invalid Method of Payment (MOP),TBD
+Invalid paypage registration id,TBD
+Invalid PIN,Declined/Issuer
+Invalid plan code,TBD
+Invalid POS Capability for Cardholder Authorized Terminal Transaction,TBD
+Invalid POS Cardholder ID for Cardholder Authorized Terminal Transaction,TBD
+Invalid pre-approval number,TBD
+Invalid purchase level III - data bad or missing,TBD
+Invalid recurring request. See code/message in recurring response for details,TBD
+Invalid Report Group,TBD
+Invalid Reversal Type For Credit Card Transaction,TBD
+Invalid start date,TBD
+Invalid start date (Switch/Solo only),TBD
+Invalid subscription id,TBD
+Invalid Terminal Id,TBD
+Invalid track data,TBD
+Invalid transaction,Declined/Issuer
+Invalid transaction type,TBD
+Invalid Vendor URL,TBD
+"Invalid/nonexistent ""From Account"" specified",Declined/Issuer
+"Invalid/nonexistent ""To Account"" specified",Declined/Issuer
+Issuer requires positive id,TBD
+Issuer unavailable,TBD
+Issuer unavailable (touchtone capture),TBD
+Key exchange validation failed,TBD
+Local Token was not found,TBD
+Lost/stolen card,TBD
+MCC 9311 requires taxType element,TBD
+Merchant depleted,TBD
+Merchant ID Restrictions,TBD
+"Merchant ID, Station Number, or Check Type missing or Invalid",TBD
+Merchant is not authorized for eCheck tokens,TBD
+Merchant is not authorized for tokens,TBD
+Merchant is not authorized to perform Echeck Verification transactions,TBD
+Merchant is not enabled for Paypage,TBD
+Merchant is not enabled for surcharging,TBD
+Merchant not certified/enabled for healthcare IIAS,TBD
+Merchant not registered for Recurring Engine,TBD
+Merchant not set up for transaction code used,Declined/Issuer
+Missing data,TBD
+Missing healthcareIIAS tag in input XML for FSA transaction,TBD
+Missing Name,TBD
+Negative Decline,TBD
+Network Unavailable to Litle,Declined/Vantiv
+No action taken (unable to back out prior transaction),TBD
+No answer from auth network,TBD
+No changes found,TBD
+No checking account,Declined/Issuer
+No credit account,Declined/Issuer
+No Email Notification was sent for the transaction,TBD
+No hit at the credit bureau,TBD
+No match - Original Auth not found,TBD
+No match - Original Auth not matched,TBD
+No match for void transaction,TBD
+No match found,TBD
+No matching add-on code for the subscription,TBD
+No matching discount code for the subscription,TBD
+No reason to decline a request for account number or address verification,Approved
+No savings account,TBD
+No such issuer,Declined/Issuer
+No transaction found for reversal,TBD
+No transaction found with specified litleTxnId,TBD
+On negative file,TBD
+Original transaction found,TBD
+Original transaction found but response not yet available,TBD
+Original Transaction has been Processed - Future Redeposits Canceled,TBD
+Original transaction not found,TBD
+Other error - issuer generated,Declined/Issuer
+Over max balance,TBD
+Parent transaction declined - Recurring subscription not created,TBD
+Partial Approval,TBD
+Partial transaction is not supported when including a secondary amount,TBD
+Phone number required for eCheck Verifications,TBD
+Pickup,Declined/Issuer
+Pickup card (lost card),Declined/Issuer
+Pickup card (stolen card),Declined/Issuer
+"Pickup card, special condition (other than lost/stolen card)",Declined/Issuer
+PIN Change/Unblock request declined,TBD
+PIN cryptographic error found by VIC security module during PIN decryption,TBD
+Plan code already exists,TBD
+Possible compromise,Declined/Issuer
+Pre-approval number inactive,TBD
+"Previous message located, but is inconsistent with the repeat or reversal",TBD
+Private Label Card not supported,TBD
+Processing network unavailable,Declined/Vantiv
+Query Transaction not enabled,TBD
+Reauthorization declined time frame,TBD
+Redeposit against invalid transaction type,TBD
+Re-enter transaction,Declined/Issuer
+Refer to card issuer,Declined/Issuer
+"Refer to card issuer, special condition",Declined/Issuer
+Remote Token was not found,TBD
+Report Group Invalid,TBD
+Requested function not supported,Declined/Issuer
+Reserved for Recurring Engine,Declined/Vantiv
+Reserved for Recurring Engine 2,Declined/Vantiv
+Response received late,TBD
+Restricted by Litle due to security code mismatch,Declined/Vantiv
+Restricted card,Declined/Issuer
+Restricted Card - Call Center,Declined/Issuer
+Restricted Device or IP - ThreatMetrix Fraud Score Below Threshold,Declined/Vantiv
+Reversal amount does not match authorization amount,TBD
+Reversal Unsuccessful,TBD
+Revocation of All Authorization Orders,Declined/Issuer
+Routing number did not match one on file for token,TBD
+Scheduled recurring payment processed,TBD
+Secondary amount cannot be less than zero,Declined/Vantiv
+Secondary amount cannot exceed the sale amount,Declined/Vantiv
+Secondary amount not allowed on refund if not included on deposit,Declined/Vantiv
+Secondary amount required on partial refund when used on deposit,Declined/Vantiv
+Security violation,Declined/Issuer
+Settlement transaction successful,TBD
+Settlement transaction successful with test card,TBD
+Soft Decline - Alt Payment failed,TBD
+Soft Decline - Resubmit,TBD
+Stand-in approval,TBD
+Stand-in decline,TBD
+Stand-in rules - could not pull the bureau report in the specified time,TBD
+Success,TBD
+Sum of subcategory healthcare amounts exceeds total healthcare amount,TBD
+Surcharge cannot exceed 4% of the sale amount,TBD
+Surcharge is not valid for debit or prepaid cards,TBD
+Suspected Fraud,Declined/Issuer
+Syntax error in Global administrative message,TBD
+System malfunction (cannot process),Declined/Issuer
+System malfunction (message format error),Declined/Issuer
+System malfunction or certain field error condition,Declined/Issuer
+System Unavailable,Declined/Issuer
+Tax transactions only allowed for MCC 9311,TBD
+The account number was changed,Declined/Issuer
+The account was closed,Declined/Issuer
+The expiration date was changed,Declined/Issuer
+The issuing bank does not participate in the update program.,TBD
+The merchant is not registered in the update program.,TBD
+The provided token is not active,TBD
+This method of payment does not support authorization reversals,TBD
+This method of payment does not support secondary amount,TBD
+This method of payment does not support surcharging,TBD
+Token was invalid,TBD
+Total healthcare amount cannot be zero,TBD
+Total healthcare amount exceeds transaction amount,TBD
+Total refund amount exceeds deposit amount,TBD
+Transaction already reversed,TBD
+Transaction Amount Exceeds Merchant Limit,TBD
+Transaction cannot be completed;violation of law,Declined/Issuer
+Transaction ID Missing or Invalid,TBD
+Transaction not permitted to cardholder (Visa Cash - bad routing/load request),Declined/Issuer
+Transaction Not Voided - Already Settled,TBD
+Transaction Received,TBD
+Transaction reversal successful,TBD
+Transaction type currently unavailable,TBD
+Transaction Type Currently Unavailable - Online Authorizations Only,TBD
+Txn accidently treated as AVS only - should decline,TBD
+Unable to encrypt field,TBD
+Unable to go online; declined,TBD
+Unable to verify PIN,TBD
+Unauthorized user,TBD
+Undefined response reason code,TBD
+Under Age,TBD
+Unexpected Input Error,TBD
+Unsafe PIN,TBD
+Update cardholder data,TBD
+Update cardholder data (touchtone),TBD
+User limits exceeded,Declined/Issuer
+User not registered,TBD
+Valid token,TBD
+Verify billing address,Declined/Issuer
+VIP approval,TBD
+Visa: credit issuer unavailable. Private label / check acceptance: Invalid date,Declined/Issuer
+"Void transaction, already cancelled",TBD
