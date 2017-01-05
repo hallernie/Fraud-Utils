@@ -25,7 +25,7 @@ import java.util.LinkedList;
 //                that there should be column called "Bank Declined"
 //
 //
-//      WIDENED ThreatMetrix data file (args[1])
+//      Cleaned ThreatMetrix data file (args[1])
 //
 // Output (To the terminal. So redirect if you want to save):
 //
@@ -40,16 +40,16 @@ import java.util.LinkedList;
 //
 public class MergeWidenedToPidw{
     public static void main(String[] args){
-        if(args.length < 2){
+        if(args.length < 3){
             System.out.println("Usage:");
-            System.out.println("  % MergeWidenedToPidw pidw_filename events_filename");
+            System.out.println("  % MergeWidenedToPidw truthed_pidw_filename cleaned_events_filename auth_id_column_name_from_cleaned_events_file");
             System.exit(0);
         }
 
         MergeWidenedToPidw value = new MergeWidenedToPidw();
         Map<String,FraudTags> lookup_fraud_map = value.createFraudMap(args[0]);
 
-        value.widenWithPidwFraudData(args[1], "Custom Attribute 9", lookup_fraud_map);
+        value.widenWithPidwFraudData(args[1], args[2], lookup_fraud_map);
 
     } // END: main
 

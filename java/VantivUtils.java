@@ -448,7 +448,7 @@ public class VantivUtils{
 
             // Find the "Reasons", and "TMX Reason Code" columns
             int reasons_column = findColumnGivenHeader(current_line, "Reasons");
-            int tmx_reasons_column = findColumnGivenHeader(current_line, "TMX Reason Code");
+            int tmx_reasons_column = findColumnGivenHeader(current_line, "TMX Reasons");
             int event_id_column = findColumnGivenHeader(current_line, "Event ID");
 
             CSVReader reader = null;
@@ -456,7 +456,7 @@ public class VantivUtils{
             String str_out = "";
             int cnt = -1;
             
-            // Print the header row. Exclude "Reasons" and "TMX Reason Code" columns.
+            // Print the header row. Exclude "Reasons" and "TMX Reasons" columns.
             // Note: the header row does not have the extra "," (ARGH!!!)
             reader = new CSVReader(new StringReader(current_line));
             aNextLine = reader.readNext();
