@@ -817,7 +817,7 @@ public class VantivUtils{
             int join_column = findColumnGivenHeader(current_line, "REQUEST_ID");
 
             // Print the header row
-            System.out.println("Request ID,Rules");
+            System.out.println("REQUEST_ID,Rules");
 
             // Process the remainder of the file
             CSVReader reader = null;
