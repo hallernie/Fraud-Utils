@@ -58,7 +58,7 @@ println "   ${line_cnt} obs.  ${header_row.size()} variables:"
 
 def header_cnt = 0
 header_row.each{header_value->
-    print "\$ ${header_value} : "
+    print "${header_cnt + 1} ${header_value} : "
     value_list.each{values->
         print "\"${doSomething(header_cnt,values)}\" "
     }
