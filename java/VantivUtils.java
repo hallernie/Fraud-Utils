@@ -598,6 +598,95 @@ public class VantivUtils{
     } // END: fixThreatMetrixEventExportFileNew
     
     
+    
+    //
+    // Takes as input a TMX events export and:
+    //      1. Removes the blank first row of the file (if first row is blank)
+    //      2. Removes trailing "," from data rows.
+    //      3. Fix "DATETIME" format.
+    //          "2015-11-02 22:56:36.039 UTC" to "2015/11/02 22:56:36"
+    //      4. Fix "TRANSACTION_AMOUNT"
+    //          "500" to "5.00"
+    //      5. Fix "LOCAL_ATTRIB_9"
+    //          "request_id:819893079477290099" to "819893079477290099"
+    //      6. Does not include "REASON_CODE", "TMX_REASON_CODE" columns.
+    //
+    // Output is to standard out, so redirect to save.
+    //
+    public void fixThreatMetrixEventExportFileNew2(String events_file_name){
+        try{
+            FileReader iFR = new FileReader (events_file_name);
+	        BufferedReader iBR = new BufferedReader(iFR);
+            String current_line = null;
+
+            current_line = iBR.readLine();
+
+            // Process the remainder of the file
+            //
+            // Find the "Event Time", "Transaction Amount", "Custom Attribute 9" columns
+            int event_time_column = findColumnGivenHeader(current_line, "Event Time");
+            int transaction_amount_column = findColumnGivenHeader(current_line, "Transaction Amount");
+            int custom_attr9_column = findColumnGivenHeader(current_line, "Custom Attribute 9");
+
+            // Find the "Reasons", and "TMX_REASON_CODE" columns
+            int reasons_column = findColumnGivenHeader(current_line, "Reasons");
+            int tmx_reasons_column = findColumnGivenHeader(current_line, "TMX Reason Code");
+
+            CSVReader reader = null;
+            String[] aNextLine = null;
+            String str_out = "";
+            int cnt = -1;
+            
+            // Print the header row. Exclude "Reasons" and "TMX Reason Code" columns.
+            // Note: the header row does not have the extra "," (ARGH!!!)
+            reader = new CSVReader(new StringReader(current_line));
+            aNextLine = reader.readNext();
+            for(String val: aNextLine){
+                cnt++;
+                if( (cnt != reasons_column) && (cnt != tmx_reasons_column) ){
+                    str_out += val + ",";
+                }
+            }
+            System.out.println(str_out.substring(0,str_out.length()-1));
+
+            while( ((current_line = iBR.readLine()) != null) ) {
+                cnt = -1;
+                str_out = "";
+                reader = new CSVReader(new StringReader(current_line));
+                aNextLine = reader.readNext();
+
+                if(event_time_column != -1){
+                    aNextLine[event_time_column] = fixEventTime(aNextLine[event_time_column]);
+                }
+                if(transaction_amount_column != -1){
+                    aNextLine[transaction_amount_column] = fixTransactionAmountNew(aNextLine[transaction_amount_column]);
+                }
+                if(custom_attr9_column != -1){
+                    aNextLine[custom_attr9_column] = fixCustomAttribute9(aNextLine[custom_attr9_column]);
+                }
+
+                for(String val: aNextLine){
+                    cnt++;
+                    if( (cnt != reasons_column) && (cnt != tmx_reasons_column) ){
+                        // Keeping the following check in the code, just in case column is included
+                        // that contains "," (comma) in the data.
+                        if(val.contains(",")){
+                            // Change the separator char from "," to "%"
+                            val = val.replace(",","%");
+                        }
+                        str_out += val + ",";
+                    }
+                }
+                System.out.println(str_out.substring(0,str_out.length()-1));
+            }
+            
+        }
+        catch(IOException ex){
+            System.out.println("IOException in fixThreatMetrixEventExportFile");
+        }
+    } // END: fixThreatMetrixEventExportFileNew
+    
+    
     // Takes as input:
     //      1. TMX events export file
     //      2. Name of "Join" column
