@@ -28,7 +28,7 @@ def review_status = ''
 input_file = args[0]
 
 new File(input_file).eachLine {
-    if(it.contains("perf1a")){
+    if( (it.contains("perf1a")) || (it.contains("prod1a")) ){
         return
     }
     session_id = it.split(',')[4]
