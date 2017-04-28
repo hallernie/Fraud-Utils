@@ -18,26 +18,75 @@ m_year = 31536000
 #   i_window_size: the size of the rolling window
 #
 # Output:
-#   dictionary with id/count pairs, where the count is the number of
-#   transactions that have occured for that id, in the window_size
+#   Two colomn id/count pairs, where the count is the number of
+#   transactions that have occured for that id, in the window_size.
+#   Output is to standard out.
 #
 # Example:
 #   d_values = {"id1":100, "id2":105, "id3":115, "id4":120}
 #   i_window_size = 5
 #
-#   d_output = {"id1":1, "id2":2, "id3":1, "id4":2}
+#   Example output:
+#       "id1",1
+#       "id2":2
+#       "id3":1
+#       "id4":2
 #
 def calc_window_counts(d_values, i_window_size):
     for key, value in d_values.items():
         cnt = 0
         for key1, value1 in d_values.items():
             if( (value - value1 >= 0) and
-                    (value - value1 <= i_window_size) ):
+                (value - value1 <= i_window_size) ):
                 cnt += 1
 
         print("{0},{1}".format(key, cnt))
 #
 ### end: calc_window_counts
+#
+
+
+#
+# Name: *** calc_window_counts2 ***
+#
+# Input:
+#   d_values: dictionary with id/time_ints pairs
+#   i_window_size: the size of the rolling windowd_secondary_attributes
+#   d_secondary_attributes: dictionary with saved secondary attributes
+#
+# Output:
+#   Two colomn id/count pairs, where the count is the number of
+#   distinct secondary attributes that have occured for that id, in the window_size.
+#   Output is to standard out.
+#
+# Example:
+#   d_values = {'id1':100, 'id2':105, 'id3':115, 'id4':120}
+#   i_window_size = 5
+#   d_secondary_attributes = {'id1':'ernie.hall@vantiv.com',
+#                               'id2':'bob@vantiv.com',
+#                               'id3':'carol@vantiv.com',
+#                               'id4':'judy@vantiv.com'}
+#
+#   Example output:
+#       "id1",1
+#       "id2":2
+#       "id3":1
+#       "id4":2
+#
+def calc_window_counts2(d_values, i_window_size, d_secondary_attributes):
+    for key, value in d_values.items():
+        # Dictionary to hold the secondary attribute values.
+        # In the form: {'secondary attrib': 'dont care'}
+        d_cnt = {}
+
+        for key1, value1 in d_values.items():
+            if( (value - value1 >= 0) and
+                (value - value1 <= i_window_size) ):
+                d_cnt[d_secondary_attributes[key1]] = 'dont care' 
+
+        print("{0},{1}".format(key, len(d_cnt)))
+#
+### end: calc_window_counts2
 #
 
 
@@ -82,7 +131,8 @@ def seconds_from_datetime(datetime):
 
 
 #
-# Name: *** straight_velocity_aggregate ***
+# Name: *** entity_velocity ***
+# Description: Detect if specified entity seen multiple times in a specified time frame.
 #
 # Input:
 #   str_event_filename: Cleaned event file. Note: file must contain column "Event Time" and "Request ID"
@@ -92,7 +142,7 @@ def seconds_from_datetime(datetime):
 #                           that will contain the aggregate value
 #
 # Output:
-#   Two column csv file: "Request ID", "Aggregate Count"
+#   Two column csv data: "Request ID", "Aggregate Count"
 #       assume:
 #           str_attrib_to_aggregate = 'Credit Card Hash'
 #           str_output_column_name = 'cc_per_day'
@@ -104,12 +154,12 @@ def seconds_from_datetime(datetime):
 #                   ...
 #                   ...
 #
-def straight_velocity_aggregate(str_event_filename,
+def entity_velocity(str_event_filename,
                                 str_attrib_to_aggregate,
                                 i_window_size,
                                 str_output_column_name):
 
-    # find "Event Time" and str_attrib column indexes
+    # find "Event Time", "Request ID", and str_attrib column indexes
     event_file_csv_reader = csv.reader(open(str_event_filename, newline=''))
     l_header = next(event_file_csv_reader)
     event_time_col = findColumnGivenHeader(l_header, 'Event Time')
@@ -117,19 +167,24 @@ def straight_velocity_aggregate(str_event_filename,
     attrib_col = findColumnGivenHeader(l_header, str_attrib_to_aggregate)
 
     if(event_time_col == -1):
-        print('straight_velocity_aggregate: "Event Time" column not found.')
+        print('entity_velocity: "Event Time" column not found.')
         exit()
     if(attrib_col == -1):
-        print('straight_velocity_aggregate: "attribute" column not found.')
+        print('entity_velocity: "attribute" column not found.')
         exit()
     if(request_id_col == -1):
-        print('straight_velocity_aggregate: "Request ID" column not found.')
+        print('entity_velocity: "Request ID" column not found.')
         exit()
 
     # Print the header row
     print("Request ID," + str_output_column_name)
+
     # Process the remainder of the input event file
-    l_checked_attrib = []
+    l_checked_attrib = [] # Keep track of the attributes that have already been seen
+
+    # Dictionary in the form:
+    # {str_attrib_to_aggregate: {Request ID1: time_in_seconds,
+    #                            Request ID2: time_in_seconds}
     d_values_plus = {}
 
     for val in event_file_csv_reader:
@@ -143,13 +198,106 @@ def straight_velocity_aggregate(str_event_filename,
         else: # must have seen this attrib before
             d_values_plus[attrib_val][request_id_val] = seconds_from_datetime(event_time_val)
 
-    for key, value in d_values_plus.items():
-        calc_window_counts(value,i_window_size)
-    #def calc_window_counts(d_values, i_window_size):
-    #return d_values_plus
+    for d_values in d_values_plus.values():
+        calc_window_counts(d_values, i_window_size)
 
 #
-### end: straight_velocity_aggregate
+### end: entity_velocity
+##
+
+
+#
+# Name: *** attribute_anomaly ***
+# Description: Detect when one attribute varies for events with another attribute in common.
+#
+# Input:
+#   str_event_filename: Cleaned event file. Note: file must contain column "Event Time" and "Request ID"
+#   str_primary_attrib: Fixed attribute
+#   str_secondary_attrib: Varying attribute
+#   i_window_size: The size of the rolling window
+#   str_output_column_name: The name of the output variable (output column name)
+#                           that will contain the aggregate value
+#
+# Output:
+#   Two column csv data: "Request ID", "Aggregate Count"
+#       assume:
+#          str_primary_attrib = ['Credit Card Hash',
+#          str_secondary_attrib = ['Account Email',
+#          str_output_column_name = 'emails_per_cc_per_day'
+#          i_window_size: 86400
+#
+#       Request ID,cc_per_day
+#   5e6db53ea0d2695dcc98a894caac123bec387cb8,5
+#   aeaa2d2e19a59ba63144ccd77a74a41cf878412d,1
+#                   ...
+#                   ...
+#                   ...
+#
+def attribute_anomaly(str_event_filename,
+                      str_primary_attrib,
+                      str_secondary_attrib,
+                      i_window_size,
+                      str_output_column_name):
+
+    # find "Event Time", "Request ID", str_primary_attrib, and str_secondary_attrib column indexes
+    event_file_csv_reader = csv.reader(open(str_event_filename, newline=''))
+    l_header = next(event_file_csv_reader)
+    event_time_col = findColumnGivenHeader(l_header, 'Event Time')
+    request_id_col = findColumnGivenHeader(l_header, 'Request ID')
+    primary_attrib_col = findColumnGivenHeader(l_header, str_primary_attrib)
+    secondary_attrib_col = findColumnGivenHeader(l_header, str_secondary_attrib)
+
+    if(event_time_col == -1):
+        print('attribute_anomaly: "Event Time" column not found.')
+        exit()
+    if(request_id_col == -1):
+        print('attribute_anomaly: "Request ID" column not found.')
+        exit()
+    if(primary_attrib_col == -1):
+        print('attribute_anomaly: "str_primary_attrib" column not found.')
+        exit()
+    if(secondary_attrib_col == -1):
+        print('attribute_anomaly: "secondary_attrib_col" column not found.')
+        exit()
+
+    # Print the header row
+    print("Request ID," + str_output_column_name)
+
+    # Process the remainder of the input event file
+
+    # List to keep track of the attributes that have already been seen
+    l_checked_attrib = [] 
+
+    # Use two dictionaries to keep track of primary/secondary attribute data
+    # Dictionary in the form:
+    # {str_primary_attrib: {Request ID1: time_in_seconds,
+    #                       Request ID2: time_in_seconds}
+    d_values_plus = {}
+
+    # Dictionary in the form:
+    # {'Request ID': 'secondary attribute'}
+    d_secondary_attributes = {}
+
+    for val in event_file_csv_reader:
+        primary_attrib_val = val[primary_attrib_col]
+        secondary_attrib_val = val[secondary_attrib_col]
+        event_time_val = val[event_time_col]
+        request_id_val = val[request_id_col]
+
+        # Store secondary attribute
+        d_secondary_attributes[request_id_val] = secondary_attrib_val
+
+        if(primary_attrib_val not in l_checked_attrib):
+            l_checked_attrib.append(primary_attrib_val)
+            d_values_plus[primary_attrib_val] = {request_id_val: seconds_from_datetime(event_time_val)}
+        else: # must have seen this attrib before
+            d_values_plus[primary_attrib_val][request_id_val] = seconds_from_datetime(event_time_val)
+
+    for d_values in d_values_plus.values():
+        calc_window_counts2(d_values, i_window_size, d_secondary_attributes)
+
+#
+### end: attribute_anomaly
 ##
 
 
@@ -227,7 +375,13 @@ datetime = "2017/04/19 20:32:03.864"
     #print(z)
 
 #get_attribute_and_datetime_from_file ('ydesign_events_cleaned.csv', 'Credit Card Hash')
-straight_velocity_aggregate('ydesign_events_cleaned.csv',
-                                'Credit Card Hash',
-                                86400, # 1 Day 86400
-                                'cc_hash_per_day')
+#entity_velocity('ydesign_events_cleaned.csv',
+                            #'Custom Attribute 5',
+                            #2, # 1 Day 86400
+                            #'exact_id_per_day')
+
+attribute_anomaly('ydesign_events_cleaned.csv',
+                    'Credit Card Hash',
+                    'Account Email',
+                    86400,
+                    'emails_per_cc_per_day')
