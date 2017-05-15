@@ -380,8 +380,47 @@ datetime = "2017/04/19 20:32:03.864"
                             #2, # 1 Day 86400
                             #'exact_id_per_day')
 
-attribute_anomaly('ydesign_events_cleaned.csv',
-                    'Credit Card Hash',
-                    'Account Email',
-                    86400,
-                    'emails_per_cc_per_day')
+#attribute_anomaly('ydesign_events_cleaned.csv',
+                    #'Credit Card Hash',
+                    #'Account Email',
+                    #86400,
+                    #'emails_per_cc_per_day')
+
+
+
+if(len(sys.argv) == 1):
+    # Print usage:
+    print('entity_velocity input_filename attribute_name window_in_seconds output_column_name')
+    print('attribute_anomaly input_filename primary_attribute_name secondary_attribute_name window_in_seconds output_column_name')
+
+elif(sys.argv[1] == 'entity_velocity'):
+    if(len(sys.argv) != 6):
+        print('entity_velocity input_filename attribute_name window_in_seconds output_column_name')
+        exit()
+
+    input_filename = sys.argv[2]
+    attribute_name = sys.argv[3]
+    window_in_seconds = int(sys.argv[4])
+    output_column_name = sys.argv[5]
+
+    entity_velocity(input_filename,
+                    attribute_name,
+                    window_in_seconds, # 1 Day 86400
+                    output_column_name)
+
+elif(sys.argv[1] == 'attribute_anomaly'):
+    if(len(sys.argv) != 7):
+        print('attribute_anomaly input_filename primary_attribute secondary_attribute window_in_seconds output_column_name')
+        exit()
+
+    input_filename = sys.argv[2]
+    primary_attribute = sys.argv[3]
+    secondary_attribute = sys.argv[4]
+    window_in_seconds = int(sys.argv[5])
+    output_column_name = sys.argv[6]
+
+    attribute_anomaly(input_filename,
+                        primary_attribute,
+                        secondary_attribute,
+                        window_in_seconds,
+                        output_column_name)
