@@ -31,10 +31,11 @@ new File(input_file).eachLine {
     if( (it.contains("perf1a")) || (it.contains("prod1a")) ){
         return
     }
-    session_id = it.split(',')[4]
-    event_time = it.split(',')[0]
     try{
-        review_status = it.split(',')[3]
+        // NOTE: modify splits below based on column locations
+        session_id = it.split(',')[3]
+        event_time = it.split(',')[0]
+        review_status = it.split(',')[2]
     }
     catch(ArrayIndexOutOfBoundsException ex){
         return
@@ -72,8 +73,15 @@ new File(input_file).eachLine {
         first = false
         return
     }
-    event_time = it.split(',')[0]
-    session_id = it.split(',')[4]
+    try{
+        // NOTE: modify splits below based on column locations
+        event_time = it.split(',')[0]
+        session_id = it.split(',')[3]
+    }
+    catch(ArrayIndexOutOfBoundsException ex){
+        return
+    }
+    
 
     if(session_map.containsKey(session_id)){
         if(event_time == session_map[session_id][1]){
