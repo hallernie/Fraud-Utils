@@ -180,7 +180,7 @@ def entity_velocity(str_event_filename,
     print("Request ID," + str_output_column_name)
 
     # Process the remainder of the input event file
-    l_checked_attrib = [] # Keep track of the attributes that have already been seen
+    d_checked_attrib = {} # Keep track of the attributes that have already been seen
 
     # Dictionary in the form:
     # {str_attrib_to_aggregate: {Request ID1: time_in_seconds,
@@ -192,15 +192,14 @@ def entity_velocity(str_event_filename,
         event_time_val = val[event_time_col]
         request_id_val = val[request_id_col]
 
-        if(attrib_val not in l_checked_attrib):
-            l_checked_attrib.append(attrib_val)
+        if(attrib_val not in d_checked_attrib):
+            d_checked_attrib[attrib_val] = ""
             d_values_plus[attrib_val] = {request_id_val: seconds_from_datetime(event_time_val)}
         else: # must have seen this attrib before
             d_values_plus[attrib_val][request_id_val] = seconds_from_datetime(event_time_val)
 
     for d_values in d_values_plus.values():
         calc_window_counts(d_values, i_window_size)
-
 #
 ### end: entity_velocity
 ##
@@ -265,8 +264,8 @@ def attribute_anomaly(str_event_filename,
 
     # Process the remainder of the input event file
 
-    # List to keep track of the attributes that have already been seen
-    l_checked_attrib = [] 
+    # Dictionary to keep track of the attributes that have already been seen
+    d_checked_attrib = {} 
 
     # Use two dictionaries to keep track of primary/secondary attribute data
     # Dictionary in the form:
@@ -287,8 +286,8 @@ def attribute_anomaly(str_event_filename,
         # Store secondary attribute
         d_secondary_attributes[request_id_val] = secondary_attrib_val
 
-        if(primary_attrib_val not in l_checked_attrib):
-            l_checked_attrib.append(primary_attrib_val)
+        if(primary_attrib_val not in d_checked_attrib):
+            d_checked_attrib[primary_attrib_val] = ""
             d_values_plus[primary_attrib_val] = {request_id_val: seconds_from_datetime(event_time_val)}
         else: # must have seen this attrib before
             d_values_plus[primary_attrib_val][request_id_val] = seconds_from_datetime(event_time_val)
