@@ -42,48 +42,46 @@ def getNewConsultant(request_id, ca5, f_product_type):
             f_product_type.write("{0},false\n".format(request_id))
     else:
         f_product_type.write("{0},not_found\n".format(request_id))
-#re_newconsultant = re.compile(r"newconsultant")
-#re_true = re.compile(r"true")
-#re_false = re.compile(r"false")
 
-def getConsultantId(ca5):
-    ca5 = val[1]
-    try:
-        if(ca5.split('%')[int(sys.argv[1])] == ""):
-            print("ca5= >{0}<".format(ca5))
-        elif( (ca5.split('%')[int(sys.argv[1])] == "10" ) ):
-            print("10 = >{0}<".format(ca5))
-        else:
-            print(">{0}<".format(ca5.split('%')[int(sys.argv[1])]))
-    except IndexError:
-        print("IndexError= >{0}<".format(ca5))
+# Assumes that consultant id is always the last value in ca5.
+def getConsultantId(request_id, ca5, f_product_type):
+    if(re_consultantid.search(ca5)):
+        f_consultant_id.write("{0},{1}\n".format(request_id, re_consultantid.split(ca5)[1]))
+    else:
+        f_consultant_id.write("{0},not_found\n".format(request_id))
 
 #*** MAIN ***
 
 # Open output files for writing
-#f_shipping_method = open("shipping_method.csv", "w")
-#f_shipping_method.write('Request ID,shipping_method\n')
+f_shipping_method = open("shipping_method.csv", "w")
+f_shipping_method.write('Request ID,shipping_method\n')
 
-#f_order_type = open("order_type.csv", "w")
-#f_order_type.write('Request ID,order_type\n')
+f_order_type = open("order_type.csv", "w")
+f_order_type.write('Request ID,order_type\n')
 
-#f_product_type = open("product_type.csv", "w")
-#f_product_type.write('Request ID,product_type\n')
+f_product_type = open("product_type.csv", "w")
+f_product_type.write('Request ID,product_type\n')
 
 f_new_consultant = open("new_consultant.csv", "w")
 f_new_consultant.write('Request ID,new_consultant\n')
 
+f_consultant_id = open("consultant_id.csv", "w")
+f_consultant_id.write('Request ID,consultant_id\n')
+
+# Some regex
 re_newconsultant = re.compile(r"newconsultant")
 re_true = re.compile(r"true")
 re_false = re.compile(r"false")
+re_consultantid = re.compile(r"consultantid:")
 
+# ca5.csv is a two column file with "Request ID, Custom Attribute 5"
 csv_reader = csv.reader(open("ca5.csv", newline=''))
 next(csv_reader) # skip the header row
 for val in csv_reader:
     request_id = val[0]
     ca5 = val[1]
-    #getShippingMethod(request_id, ca5, f_shipping_method)
-    #getOrderType(request_id, ca5, f_order_type)
-    #getProductType(request_id, ca5, f_product_type)
+    getShippingMethod(request_id, ca5, f_shipping_method)
+    getOrderType(request_id, ca5, f_order_type)
+    getProductType(request_id, ca5, f_product_type)
     getNewConsultant(request_id, ca5, f_new_consultant)
-    #getConsultantId(ca5)
+    getConsultantId(request_id, ca5, f_consultant_id)
