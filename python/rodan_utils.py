@@ -7,8 +7,6 @@ re_newconsultant = re.compile(r"newconsultant")
 re_true = re.compile(r"true")
 re_false = re.compile(r"false")
 re_consultantid = re.compile(r"consultantid:")
-re_request_id = re.compile(r"Request ID")
-re_ca5 = re.compile(r"Custom Attribute 5")
 
 #ordertype:6%shippingmethod:%producttype:9%newconsultant:false%consultantid:2086088
 #ordertype:3%shippingmethod:fedex 2 day %producttype:10%newconsultant:true
@@ -66,15 +64,8 @@ def processCA5(f_cleaned_event_file):
     l_header_row = next(csv_reader) # get the header row
 
     # find 'Request ID' and 'Custom Attribute 5' columns
-    n_request_id_column = -1
-    n_ca5_column = -1
-    cnt = 0
-    for val in l_header_row:
-        if(re_request_id.search(val)):
-            n_request_id_column = cnt
-        if(re_ca5.search(val)):
-            n_ca5_column = cnt
-        cnt+=1
+    n_request_id_column = findColumn(l_header_row, 'Request ID')
+    n_ca5_column = findColumn(l_header_row, 'Custom Attribute 5')
 
     # exit if both column are not found
     #print("req_id: {0},  ca5: {1}".format(n_request_id_column, n_ca5_column))
@@ -89,8 +80,8 @@ def processCA5(f_cleaned_event_file):
     f_order_type = open("order_type.csv", "w")
     f_order_type.write('Request ID,order_type\n')
 
-    f_product_type = open("product_type.csv", "w")
-    f_product_type.write('Request ID,product_type\n')
+    #f_product_type = open("product_type.csv", "w")
+    #f_product_type.write('Request ID,product_type\n')
 
     f_new_consultant = open("new_consultant.csv", "w")
     f_new_consultant.write('Request ID,new_consultant\n')
@@ -103,10 +94,33 @@ def processCA5(f_cleaned_event_file):
         ca5 = val[n_ca5_column]
         getShippingMethod(request_id, ca5, f_shipping_method)
         getOrderType(request_id, ca5, f_order_type)
-        getProductType(request_id, ca5, f_product_type)
+        #getProductType(request_id, ca5, f_product_type)
         getNewConsultant(request_id, ca5, f_new_consultant)
         getConsultantId(request_id, ca5, f_consultant_id)
 
+def findColumn(l_header, s_column_name):
+    re_column_name = re.compile(s_column_name)
+    n_column_location = -1
+    cnt = 0
+    for val in l_header:
+        if(re_column_name.search(val)):
+            n_column_location = cnt
+        cnt+=1
+    return n_column_location
+
+# STOPPED HERE. NEED TO FINISH THIS FUNCTION
+def processCA5ProductType(f_cleaned_event_file):
+    csv_reader = csv.reader(open(f_cleaned_event_file, newline=''))
+    l_header_row = next(csv_reader) # get the header row
+
+    # find 'Request ID' and 'Custom Attribute 5' columns
+    n_request_id_column = findColumn(l_header_row, 'Request ID')
+    n_ca5_column = findColumn(l_header_row, 'Custom Attribute 5')
+    print("{0}, {1}".format(n_request_id_column,n_ca5_column))
+    pass
+
+
 #*** MAIN ***
 
-processCA5('ca5.csv')
+#processCA5('ca5.csv')
+processCA5ProductType('Rodan_EventsCleaned_May2017.csv')
