@@ -67,7 +67,7 @@ def processCA5(f_cleaned_event_file):
     n_request_id_column = findColumn(l_header_row, 'Request ID')
     n_ca5_column = findColumn(l_header_row, 'Custom Attribute 5')
 
-    # exit if both column are not found
+    # exit if either column is not found
     #print("req_id: {0},  ca5: {1}".format(n_request_id_column, n_ca5_column))
     if( (n_request_id_column == -1) or (n_ca5_column == -1)):
         print("Error: 'Request ID' and 'Custom Attribute 5' column are required")
@@ -98,6 +98,34 @@ def processCA5(f_cleaned_event_file):
         getNewConsultant(request_id, ca5, f_new_consultant)
         getConsultantId(request_id, ca5, f_consultant_id)
 
+def processCA3(f_cleaned_event_file): # SKUs
+    
+    # f_cleaned_event_file should be cleaned event file containing a minimum of "Request ID, Custom Attribute 3"
+    csv_reader = csv.reader(open(f_cleaned_event_file, newline=''))
+
+    l_header_row = next(csv_reader) # get the header row
+
+    # find 'Request ID' and 'Custom Attribute 3' columns
+    n_request_id_column = findColumn(l_header_row, 'Request ID')
+    n_ca3_column = findColumn(l_header_row, 'Custom Attribute 3')
+
+    # exit if either column is not found
+    #print("req_id: {0},  ca5: {1}".format(n_request_id_column, n_ca5_column))
+    if( (n_request_id_column == -1) or (n_ca3_column == -1)):
+        print("Error: 'Request ID' and 'Custom Attribute 5' column are required")
+        exit()
+        
+    # Open output files for writing
+    f_sku = open("sku.csv", "w")
+    f_sku.write('Request ID,sku\n')
+
+    for val in csv_reader:
+        request_id = val[n_request_id_column]
+        ca3 = val[n_ca3_column]
+        l_ca3 = ca3.split('%')
+        for value in l_ca3:
+            f_sku.write("{0},{1}\n".format(request_id,value))
+
 def findColumn(l_header, s_column_name):
     re_column_name = re.compile(s_column_name)
     n_column_location = -1
@@ -122,5 +150,6 @@ def processCA5ProductType(f_cleaned_event_file):
 
 #*** MAIN ***
 
-#processCA5('ca5.csv')
-processCA5ProductType('Rodan_EventsCleaned_May2017.csv')
+processCA3('Rodan_EventsCleaned_May2017.csv')
+#processCA5('Rodan_EventsCleaned_Apr2017.csv')
+#processCA5ProductType('Rodan_EventsCleaned_May2017.csv')
