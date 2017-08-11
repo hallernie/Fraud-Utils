@@ -2,6 +2,7 @@ import sys
 import time
 import calendar
 import csv
+import re
 
 # Constants
 m_minute = 60
@@ -18,7 +19,7 @@ m_year = 31536000
 #   i_window_size: the size of the rolling window
 #
 # Output:
-#   Two colomn id/count pairs, where the count is the number of
+#   Two column id/count pairs, where the count is the number of
 #   transactions that have occured for that id, in the window_size.
 #   Output is to standard out.
 #
@@ -35,15 +36,15 @@ m_year = 31536000
 def calc_window_counts(d_values, i_window_size):
     for key, value in d_values.items():
         cnt = 0
-        for key1, value1 in d_values.items():
+        for value1 in d_values.values():
             if( (value - value1 >= 0) and
                 (value - value1 <= i_window_size) ):
                 cnt += 1
 
         print("{0},{1}".format(key, cnt))
-#
+##
 ### end: calc_window_counts
-#
+##
 
 
 #
@@ -51,7 +52,7 @@ def calc_window_counts(d_values, i_window_size):
 #
 # Input:
 #   d_values: dictionary with id/time_ints pairs
-#   i_window_size: the size of the rolling windowd_secondary_attributes
+#   i_window_size: the size of the rolling window
 #   d_secondary_attributes: dictionary with saved secondary attributes
 #
 # Output:
@@ -85,9 +86,47 @@ def calc_window_counts2(d_values, i_window_size, d_secondary_attributes):
                 d_cnt[d_secondary_attributes[key1]] = 'dont care' 
 
         print("{0},{1}".format(key, len(d_cnt)))
-#
+##
 ### end: calc_window_counts2
+##
+
+
 #
+# Name: *** calc_window_counts3***
+#
+# Input:
+#   d_values: dictionary with id/time_ints pairs
+#   i_window_size: the size of the rolling window
+#   str_request_id_val
+#
+# Output:
+#   Two column id/count pairs, where the count is the number of
+#   transactions that have occured for that id, in the window_size.
+#   Output is to standard out.
+#
+# Example:
+#   d_values = {"id1":100, "id2":105, "id3":115, "id4":120}
+#   i_window_size = 5
+#
+#   Example output:
+#       "id1",1
+#       "id2":2
+#       "id3":1
+#       "id4":2
+#
+def calc_window_counts3(d_values, i_window_size):
+    for key, value in d_values.items():
+        cnt = 0
+        for value1 in d_values.values():
+            if( (value - value1 >= 0) and
+                (value - value1 <= i_window_size) ):
+                cnt += 1
+
+        if(re.search('[a-z]',key)):
+            print("{0},{1}".format(key, cnt))
+##
+### end: calc_window_counts3
+##
 
 
 #
@@ -125,9 +164,99 @@ def seconds_from_datetime(datetime):
     #print(datetime2)
 
     return calendar.timegm(datetime2)
-#
+##
 ### end: seconds_from_datetime
 ##
+
+
+#
+# Name: *** merge_dictionaries ***
+#
+# Input:
+#   d_primary: primary dictionary
+#       d_primary = {'id1':100, 'id2':105, 'id3':115, 'id4':120}
+#   d_secondary: secondary dictionary
+#       d_secondary = {'id1':100, 'id6':90, 'id7':200}
+#
+# Output:
+#   d_merged: merged dictionary
+#       d_merged = {'id1':100, 'id2':105, 'id3':115,
+#                   'id4':120, 'id6':90, 'id7':200}
+#
+def merge_dictionaries(d_primary, d_secondary):
+    for key,value in d_secondary.items():
+        if(key not in d_primary):
+            d_primary[key] = value
+    return d_primary
+##
+### end: merge_dictionaries
+##
+
+
+#
+# Name: *** create_d_values_plus ***
+#
+# Description: d_values_plus is the main structure for calculating velocity
+#
+# Input:
+#   str_event_filename: Cleaned event file
+#   str_attrib_to_aggregate: Column name from event file containing the attribute that will be aggregated
+#
+#   Note: event file must contain column "Event Time", "Request ID", and "str_attrib_to_aggregate"
+#
+#   i_window_size: The size of the rolling window
+#
+# Output:
+#   d_values_plus:
+#       d_values_plus is a dictionary of dictionaries in the form:
+#            {str_attrib_to_aggregate_val1: {Request ID1: time_in_seconds,
+#                                            Request ID2: time_in_seconds},
+#             str_attrib_to_aggregate_val2: {Request ID3: time_in_seconds,
+#                                            Request ID4: time_in_seconds}}
+#                       ...
+#                       ...
+#
+def create_d_values_plus(str_event_filename,
+        str_attrib_to_aggregate):
+
+    # find "Event Time", "Request ID", and str_attrib column indexes
+    event_file_csv_reader = csv.reader(open(str_event_filename, newline=''))
+    l_header = next(event_file_csv_reader)
+    event_time_col = findColumnGivenHeader(l_header, 'Event Time')
+    request_id_col = findColumnGivenHeader(l_header, 'Request ID')
+    attrib_col = findColumnGivenHeader(l_header, str_attrib_to_aggregate)
+
+    if(event_time_col == -1):
+        print('create_d_values_plus: "Event Time" column not found.')
+        exit()
+    if(attrib_col == -1):
+        print('create_d_values_plus: "attribute" column not found.')
+        exit()
+    if(request_id_col == -1):
+        print('create_d_values_plus: "Request ID" column not found.')
+        exit()
+
+    # Process the remainder of the input event file
+    d_checked_attrib = {} # Keep track of the attributes that have already been seen
+
+    d_values_plus = {}
+
+    for val in event_file_csv_reader:
+        attrib_val = val[attrib_col]
+        event_time_val = val[event_time_col]
+        request_id_val = val[request_id_col]
+
+        if(attrib_val not in d_checked_attrib):
+            d_checked_attrib[attrib_val] = ""
+            d_values_plus[attrib_val] = {request_id_val: seconds_from_datetime(event_time_val)}
+        else: # must have seen this attrib before
+            d_values_plus[attrib_val][request_id_val] = seconds_from_datetime(event_time_val)
+
+    return d_values_plus
+##
+### end: create_d_values_plus
+##
+
 
 
 #
@@ -155,53 +284,244 @@ def seconds_from_datetime(datetime):
 #                   ...
 #
 def entity_velocity(str_event_filename,
-                                str_attrib_to_aggregate,
-                                i_window_size,
-                                str_output_column_name):
+                    str_attrib_to_aggregate,
+                    i_window_size,
+                    str_output_column_name):
 
-    # find "Event Time", "Request ID", and str_attrib column indexes
+
+    d_values_plus = create_d_values_plus(str_event_filename,
+                                         str_attrib_to_aggregate)
+    # Print the header row
+    print("Request ID," + str_output_column_name)
+
+    for d_values in d_values_plus.values():
+        calc_window_counts(d_values, i_window_size)
+##
+### end: entity_velocity
+##
+
+
+#
+# Name: *** remove_dups_from_secondary ***
+#
+# Description: This function used for the IP velocity. If a transaction
+# has both the True IP and the Proxy IP with the same value, then the velocity
+# count is off by +1. This function will remove the "dup" IP from the secondary
+# IP dicitonary. So, as if the TrueIP = ProxyIP case did not occur (so the velocity
+# calculation will be correct.
+#
+# Input:
+#   Primary and secondary IP dictionaries
+#
+# Output:
+#   Secondary dictionary with "dup" IPs removed.
+#
+def remove_dups_from_secondary(d_primary, d_secondary, d_secondary_copy):
+    for key_primary1, value_primary1 in d_primary.items(): # key is IP
+        if(key_primary1 in d_secondary):
+            for key_primary2 in value_primary1: # key is Request ID
+                for key_secondary1 in d_secondary[key_primary1].keys(): # key is Request ID
+                    if(key_primary2 == key_secondary1):
+                        d_secondary_copy[key_primary1].pop(key_secondary1)
+
+    return d_secondary_copy
+
+##
+### end: remove_dups_from_secondary
+##
+
+
+#
+# Name: *** entity_velocity_true_ip ***
+#
+# Description: Detect if specified True IP or Proxy IP entity seen multiple times
+# in a specified time frame. Velocity for IP is calculated slightly different from
+# other attributes. The "count" looks at the values for True IP, Proxy IP, and
+# Input IP. Note that my implementation only counts True IP and Proxy IP. The following is the description of "IP counting" provided by
+# ThreatMetrix:
+#
+#       "Within an Entity velocity rule we do not distinguish how the entity was used.
+#       In other words, an IP address can be identified as a True IP, Proxy IP, or
+#       Input IP. All instances are counted. However, since the entity type chosen
+#       was True IP, the rule will fire only when the IP appears as a True IP."
+#
+# Input:
+#   str_event_filename: Cleaned event file. Note: file must contain column "Event Time" and "Request ID"
+#   str_attrib_to_aggregate: Column name of "True IP" or "Proxy IP"
+#   i_window_size: The size of the rolling window
+#   str_output_column_name: The name of the output variable (output column name)
+#                           that will contain the aggregate value
+#
+# Output:
+#   Two column csv data: "Request ID", "Aggregate Count"
+#       assume:
+#           str_attrib_to_aggregate = 'Credit Card Hash'
+#           str_output_column_name = 'cc_per_day'
+#
+#       Request ID,cc_per_day
+#   5e6db53ea0d2695dcc98a894caac123bec387cb8,5
+#   aeaa2d2e19a59ba63144ccd77a74a41cf878412d,1
+#                   ...
+#                   ...
+#
+def entity_velocity_true_ip(str_event_filename,
+                       str_attrib_to_aggregate,
+                       i_window_size,
+                       str_output_column_name):
+
+#   d_values_plus is a dictionary of dictionaries in the form:
+#
+#       {str_attrib_to_aggregate_val1: {Request ID1: time_in_seconds,
+#                                       Request ID2: time_in_seconds},
+#       str_attrib_to_aggregate_val2: {Request ID3: time_in_seconds,
+#                                      Request ID4: time_in_seconds}}
+
+
+    # Must include both True IP and Proxy IP colums in event file
     event_file_csv_reader = csv.reader(open(str_event_filename, newline=''))
     l_header = next(event_file_csv_reader)
-    event_time_col = findColumnGivenHeader(l_header, 'Event Time')
-    request_id_col = findColumnGivenHeader(l_header, 'Request ID')
-    attrib_col = findColumnGivenHeader(l_header, str_attrib_to_aggregate)
+    true_ip_col = findColumnGivenHeader(l_header, 'True IP')
+    proxy_ip_col = findColumnGivenHeader(l_header, 'Proxy IP')
 
-    if(event_time_col == -1):
-        print('entity_velocity: "Event Time" column not found.')
+    if(true_ip_col == -1):
+        print('entity_velocity_ip: "True IP" column not found.')
         exit()
-    if(attrib_col == -1):
-        print('entity_velocity: "attribute" column not found.')
+    if(proxy_ip_col == -1):
+        print('entity_velocity_ip: "Proxy IP" column not found.')
         exit()
-    if(request_id_col == -1):
-        print('entity_velocity: "Request ID" column not found.')
-        exit()
+
+    d_values_plus_true_ip = create_d_values_plus(str_event_filename,
+                                                 'True IP')
+    d_values_plus_proxy_ip = create_d_values_plus(str_event_filename,
+                                                 'Proxy IP')
+    d_values_plus_proxy_ip_tmp = create_d_values_plus(str_event_filename,
+                                                 'Proxy IP')
+    d_values_plus_proxy_ip = remove_dups_from_secondary(d_values_plus_true_ip,
+                                                        d_values_plus_proxy_ip,
+                                                        d_values_plus_proxy_ip_tmp)
+
+    d_values_plus_proxy_ip_copy = {}
+
+    cnt = 0
+    for key1,value1 in d_values_plus_proxy_ip.items():
+        d_values = {}
+        for key in value1.keys():
+            str_cnt = str(cnt)
+            d_values[str_cnt] = value1[key]
+            cnt += 1
+        d_values_plus_proxy_ip_copy[key1] = d_values
+
 
     # Print the header row
     print("Request ID," + str_output_column_name)
 
-    # Process the remainder of the input event file
-    d_checked_attrib = {} # Keep track of the attributes that have already been seen
+    for key,value in d_values_plus_true_ip.items():
+        if(key in d_values_plus_proxy_ip_copy):
+            d_values_plus_true_ip[key] = merge_dictionaries(value, d_values_plus_proxy_ip_copy[key])
 
-    # Dictionary in the form:
-    # {str_attrib_to_aggregate: {Request ID1: time_in_seconds,
-    #                            Request ID2: time_in_seconds}
-    d_values_plus = {}
+    for d_values in d_values_plus_true_ip.values():
+        calc_window_counts3(d_values, i_window_size)
 
-    for val in event_file_csv_reader:
-        attrib_val = val[attrib_col]
-        event_time_val = val[event_time_col]
-        request_id_val = val[request_id_col]
 
-        if(attrib_val not in d_checked_attrib):
-            d_checked_attrib[attrib_val] = ""
-            d_values_plus[attrib_val] = {request_id_val: seconds_from_datetime(event_time_val)}
-        else: # must have seen this attrib before
-            d_values_plus[attrib_val][request_id_val] = seconds_from_datetime(event_time_val)
+##
+### end: entity_velocity_true_ip
+##
 
-    for d_values in d_values_plus.values():
-        calc_window_counts(d_values, i_window_size)
+
 #
-### end: entity_velocity
+# Name: *** entity_velocity_proxy_ip ***
+#
+# Description: Detect if specified True IP or Proxy IP entity seen multiple times
+# in a specified time frame. Velocity for IP is calculated slightly different from
+# other attributes. The "count" looks at the values for True IP, Proxy IP, and
+# Input IP. Note that my implementation only counts True IP and Proxy IP. The following is the description of "IP counting" provided by
+# ThreatMetrix:
+#
+#       "Within an Entity velocity rule we do not distinguish how the entity was used.
+#       In other words, an IP address can be identified as a True IP, Proxy IP, or
+#       Input IP. All instances are counted. However, since the entity type chosen
+#       was True IP, the rule will fire only when the IP appears as a True IP."
+#
+# Input:
+#   str_event_filename: Cleaned event file. Note: file must contain column "Event Time" and "Request ID"
+#   str_attrib_to_aggregate: Column name of "True IP" or "Proxy IP"
+#   i_window_size: The size of the rolling window
+#   str_output_column_name: The name of the output variable (output column name)
+#                           that will contain the aggregate value
+#
+# Output:
+#   Two column csv data: "Request ID", "Aggregate Count"
+#       assume:
+#           str_attrib_to_aggregate = 'Credit Card Hash'
+#           str_output_column_name = 'cc_per_day'
+#
+#       Request ID,cc_per_day
+#   5e6db53ea0d2695dcc98a894caac123bec387cb8,5
+#   aeaa2d2e19a59ba63144ccd77a74a41cf878412d,1
+#                   ...
+#                   ...
+#
+def entity_velocity_proxy_ip(str_event_filename,
+                       str_attrib_to_aggregate,
+                       i_window_size,
+                       str_output_column_name):
+
+#   d_values_plus is a dictionary of dictionaries in the form:
+#
+#       {str_attrib_to_aggregate_val1: {Request ID1: time_in_seconds,
+#                                       Request ID2: time_in_seconds},
+#       str_attrib_to_aggregate_val2: {Request ID3: time_in_seconds,
+#                                      Request ID4: time_in_seconds}}
+
+
+    # Must include both True IP and Proxy IP colums in event file
+    event_file_csv_reader = csv.reader(open(str_event_filename, newline=''))
+    l_header = next(event_file_csv_reader)
+    true_ip_col = findColumnGivenHeader(l_header, 'True IP')
+    proxy_ip_col = findColumnGivenHeader(l_header, 'Proxy IP')
+
+    if(true_ip_col == -1):
+        print('entity_velocity_ip: "True IP" column not found.')
+        exit()
+    if(proxy_ip_col == -1):
+        print('entity_velocity_ip: "Proxy IP" column not found.')
+        exit()
+
+    d_values_plus_proxy_ip = create_d_values_plus(str_event_filename,
+                                                 'Proxy IP')
+    d_values_plus_true_ip = create_d_values_plus(str_event_filename,
+                                                 'True IP')
+    d_values_plus_true_ip_tmp = create_d_values_plus(str_event_filename,
+                                                 'True IP')
+    d_values_plus_true_ip = remove_dups_from_secondary(d_values_plus_proxy_ip,
+                                                        d_values_plus_true_ip,
+                                                        d_values_plus_true_ip_tmp)
+
+    d_values_plus_true_ip_copy = {}
+
+    cnt = 0
+    for key1,value1 in d_values_plus_true_ip.items():
+        d_values = {}
+        for key in value1.keys():
+            str_cnt = str(cnt)
+            d_values[str_cnt] = value1[key]
+            cnt += 1
+        d_values_plus_true_ip_copy[key1] = d_values
+
+
+    # Print the header row
+    print("Request ID," + str_output_column_name)
+
+    for key,value in d_values_plus_proxy_ip.items():
+        if(key in d_values_plus_true_ip):
+            d_values_plus_proxy_ip[key] = merge_dictionaries(value, d_values_plus_true_ip[key])
+
+    for d_values in d_values_plus_proxy_ip.values():
+        calc_window_counts(d_values, i_window_size)
+
+
+##
+### end: entity_velocity_proxy_ip
 ##
 
 
@@ -295,7 +615,7 @@ def attribute_anomaly(str_event_filename,
     for d_values in d_values_plus.values():
         calc_window_counts2(d_values, i_window_size, d_secondary_attributes)
 
-#
+##
 ### end: attribute_anomaly
 ##
 
@@ -328,7 +648,7 @@ def get_attribute_and_datetime_from_file (str_event_filename,
     for key, value in d_values.items():
         print(key, value)
 
-#
+##
 ### end: get_attribute_and_datetime_from_file
 ##
 
@@ -352,7 +672,7 @@ def findColumnGivenHeader(l_header, str_column_name):
         position += 1
 
     return -1
-#
+##
 ### end: findColumnGivenHeader
 ##
 
@@ -361,35 +681,12 @@ def findColumnGivenHeader(l_header, str_column_name):
 #####
 ##### MAIN
 #####
-d_values = {"id1":100, "id2":105, "id3":115, "id4":120}
-i_window_size = 30
-datetime = "2017/04/19 20:32:03.864"
-
-# calc_window_counts(d_values, i_window_size)
-#print (seconds_from_datetime(datetime))
-
-# Reading a csv file
-#x = open("testing.csv", newline='')
-#for z in csv.reader(x):
-    #print(z)
-
-#get_attribute_and_datetime_from_file ('ydesign_events_cleaned.csv', 'Credit Card Hash')
-#entity_velocity('ydesign_events_cleaned.csv',
-                            #'Custom Attribute 5',
-                            #2, # 1 Day 86400
-                            #'exact_id_per_day')
-
-#attribute_anomaly('ydesign_events_cleaned.csv',
-                    #'Credit Card Hash',
-                    #'Account Email',
-                    #86400,
-                    #'emails_per_cc_per_day')
-
-
 
 if(len(sys.argv) == 1):
     # Print usage:
     print('entity_velocity input_filename attribute_name window_in_seconds output_column_name')
+    print('entity_velocity_true_ip input_filename "True IP" window_in_seconds output_column_name')
+    print('entity_velocity_proxy_ip input_filename "Proxy IP" window_in_seconds output_column_name')
     print('attribute_anomaly input_filename primary_attribute_name secondary_attribute_name window_in_seconds output_column_name')
 
 elif(sys.argv[1] == 'entity_velocity'):
@@ -406,6 +703,36 @@ elif(sys.argv[1] == 'entity_velocity'):
                     attribute_name,
                     window_in_seconds, # 1 Day 86400
                     output_column_name)
+
+elif(sys.argv[1] == 'entity_velocity_true_ip'):
+    if(len(sys.argv) != 6):
+        print('entity_velocity_true_ip input_filename "True IP" window_in_seconds output_column_name')
+        exit()
+
+    input_filename = sys.argv[2]
+    attribute_name = sys.argv[3]
+    window_in_seconds = int(sys.argv[4])
+    output_column_name = sys.argv[5]
+
+    entity_velocity_true_ip(input_filename,
+                       attribute_name,
+                       window_in_seconds, # 1 Day 86400
+                       output_column_name)
+
+elif(sys.argv[1] == 'entity_velocity_proxy_ip'):
+    if(len(sys.argv) != 6):
+        print('entity_velocity_proxy_ip input_filename "True IP" window_in_seconds output_column_name')
+        exit()
+
+    input_filename = sys.argv[2]
+    attribute_name = sys.argv[3]
+    window_in_seconds = int(sys.argv[4])
+    output_column_name = sys.argv[5]
+
+    entity_velocity_proxy_ip(input_filename,
+                       attribute_name,
+                       window_in_seconds, # 1 Day 86400
+                       output_column_name)
 
 elif(sys.argv[1] == 'attribute_anomaly'):
     if(len(sys.argv) != 7):
