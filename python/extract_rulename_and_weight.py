@@ -18,7 +18,7 @@ def countRules(l_rules):
 #       RuleName,RuleWeight
 def get_rulename_and_weight(l_rules):
     for val in l_rules:
-        if(val["ruleId"] not in [120,121]): # ruleId 121 is "Terminate" rule.
+        if(val["ruleId"] not in [120,121,122]): # ruleId 121 is "Terminate" rule.
             print("{0},{1}".format(val['displayName'], val['riskWeight']))
         elif("rules" in val.keys()): # if not in, then this IF statement has no internal rules
             get_rulename_and_weight(val["rules"])
