@@ -13,4 +13,4 @@ time_a -= 14400
 
 # Create a datetime object so that I can print the isoformat
 datetime_b = datetime.datetime.utcfromtimestamp(time_a)
-print(str(datetime_b.isoformat()).split('T')[0])  # 2017-07-07
+print(datetime_b.isoformat().split('T')[0])  # 2017-07-07
