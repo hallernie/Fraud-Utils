@@ -23,19 +23,40 @@ def review_status = ''
 // And removes duplicate Session ID transactions. It attempts to return the highest approval level, where multiple
 // Sesson IDs exist. So 2 rejects and 1 pass will keep the "pass" transaction.
 //
-// Note: DSW also wants to exclude Session IDs that begin with "perf1a" (ex: dswco-perf1a1847405388).
+// Note: Be sure that at a minimum the following columns are contained in the Event file:
+//
+//          event_time
+//          review_status
+//          session_id
+//          Account Name
+//          Account Number
+//          Account Email
+//          Custom Attribute 4 (address)
+//
+// Note: Exclude any line that contains:
+//
+//          perf1a
+//          prod1a
+//          perftest
+//          testerfirst
+//          soastafirst
 //
 input_file = args[0]
 
 new File(input_file).eachLine {
-    if( (it.contains("perf1a")) || (it.contains("prod1a")) ){
+    if( (it.contains("perf1a")) ||
+        (it.contains("prod1a")) ||
+        (it.contains("perftest")) ||
+        (it.contains("testerfirst")) ||
+        (it.contains("soastafirst")) ||
+        (it.contains("810 dsw dr")) ){
         return
     }
     try{
         // NOTE: modify splits below based on column locations
-        session_id = it.split(',')[3]
+        session_id = it.split(',')[2]
         event_time = it.split(',')[0]
-        review_status = it.split(',')[2]
+        review_status = it.split(',')[3]
     }
     catch(ArrayIndexOutOfBoundsException ex){
         return
@@ -76,7 +97,7 @@ new File(input_file).eachLine {
     try{
         // NOTE: modify splits below based on column locations
         event_time = it.split(',')[0]
-        session_id = it.split(',')[3]
+        session_id = it.split(',')[2]
     }
     catch(ArrayIndexOutOfBoundsException ex){
         return
