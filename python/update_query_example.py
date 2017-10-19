@@ -3,29 +3,33 @@ import urllib.request
 
 url = 'https://h-api.online-metrix.net/api/update'
 
-values = {'org_id' : 'real org id here',
-          'api_key' : 'real api key here',
+values = {'org_id' : '4ji5n0wo',
+          'api_key' : 'i6gqqs4i2bukjyty',
           'action' : 'update_event_tag',
-          'event_tag' : 'fraud_confirmed',
-          'request_id' : '8b7be1487253494aa57922de726e3c77'}
+          'event_tag' : 'fraud_confirmed'}
 
-data = urllib.parse.urlencode(values)
-data = data.encode('ascii') # data should be bytes
-req = urllib.request.Request(url, data)
+f_input = open('all_fraud_may.csv')
+# Skip the header row
+next(f_input)
 
-with urllib.request.urlopen(req) as response:
-   the_page = response.read()
+# Process the truth data file
+try:
+    for val in f_input:
+        str_request_id = val.strip().split(',')[0].strip('"')
+        values['request_id'] = str_request_id
 
-print(the_page)
-   
-#try: 
-    #response = urllib.request.urlopen('https://login.salesforce.com/')  
-    #print(response.geturl())
-    #print('response headers: "%s"' % response.info())
-#except IOError as e: 
-    #if hasattr(e, 'code'): # HTTPError 
-        #print('http error code: ', e.code)
-    #elif hasattr(e, 'reason'): # URLError 
-        #print("can't connect, reason: ", e.reason)
-    #else: 
-        #raise
+        data = urllib.parse.urlencode(values)
+        data = data.encode('ascii') # data should be bytes
+        req = urllib.request.Request(url, data)
+
+        with urllib.request.urlopen(req) as response:
+            the_page = response.read()
+
+        print(the_page)
+except IOError as e: 
+    if hasattr(e, 'code'): # HTTPError 
+        print('http error code: ', e.code)
+    elif hasattr(e, 'reason'): # URLError 
+        print("can't connect, reason: ", e.reason)
+    else: 
+        raise
