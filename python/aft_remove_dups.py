@@ -8,7 +8,7 @@ import re
 # and MC_ALERT_CREATE_DATE
 #
 # Input:
-#       aft filename
+#       aft.csv filename
 #
 # Output:
 #       aft data with duplicate rows removed. Output to standard out.
