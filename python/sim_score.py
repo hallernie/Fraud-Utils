@@ -1,9 +1,24 @@
 import csv
 
+#
+# This is the simulator functionality.
+#
 def simulate(str_ruleweights_filename, str_rules_filename):
     # Store rulenames/weights in a hash
-
-    #f_ruleweights = open('ruleweights.csv')
+    # The rules file is in the following format:
+    #           RuleName,RuleWeight
+    #           ------------- HEADER -------------,0
+    #           INVALID_account_address_zip,0
+    #           UnusualProxyAttributes,-10
+    #           SmartIDValid,0
+    #           ExactIDInvalid,0
+    #           MobileDevice,0
+    #           ------------- LOCAL BLACKLISTS -------------,0
+    #           DeviceOnLocalBlacklist,-100
+    #           FuzzyDeviceOnLocalBlacklist,-100
+    #           TrueIPOnLocalBlacklist,-100
+    #           TrueIPGeoOnLocalBlacklist,-100
+    #
     f_ruleweights = open(str_ruleweights_filename)
     next(f_ruleweights) # Skip the header row
 
@@ -25,7 +40,6 @@ def simulate(str_ruleweights_filename, str_rules_filename):
     #       8a03e707b5104628a206f2c2c60f955a,FlashDisabled,-5
     # Store results in a hash
     #
-    #f_rules = open('irc_Rules.csv')
     f_rules = open(str_rules_filename)
     next(f_rules) # Skip the header row
 
@@ -64,5 +78,39 @@ def simulate(str_ruleweights_filename, str_rules_filename):
         print("{0},{1}".format(key,value))
 
 
+#
+# Checks that the rules from the events file are contained in the lookup
+# file containing the rule/weights. You should add any rules output
+# from the function the rule/weights lookup file.
+#
+def check_rules(str_ruleweights_filename, str_rules_filename):
+    # Read rule lookup into a hash
+    f_ruleweights = open(str_ruleweights_filename)
+    next(f_ruleweights)
+
+    h_rulenames = {} # Lookup table for rule names
+    for val in f_ruleweights:
+        l_val = next(csv.reader([val.strip()]))
+        str_rulename = l_val[0]
+        h_rulenames[str_rulename] = ''
+    # Add "no_rules"
+    h_rulenames['no_rules'] = ''
+
+    # Read rule lookup into a hash
+    f_rules = open(str_rules_filename)
+    next(f_rules) # Skip the header row
+
+    h_results = {}
+    for val in f_rules:
+        l_val = next(csv.reader([val.strip()]))
+        str_rulename = l_val[1]
+
+        if not (str_rulename in h_rulenames):
+            h_results[str_rulename] = ''
+
+    for key in h_results.keys():
+        print(key)
+
 #***MAIN***
-simulate('ruleweights.csv', 'irc_Rules.csv')
+#simulate('ruleweights.csv', 'irc_Rules.csv')
+check_rules('ruleweights.csv', 'irc_Rules.csv')
