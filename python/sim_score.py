@@ -7,13 +7,11 @@ def simulate(str_ruleweights_filename, str_rules_filename):
     # Store rulenames/weights in a hash
     # The ruleweights file is in the following format:
     #           RuleName,RuleWeight
-    #           ------------- HEADER -------------,0
     #           INVALID_account_address_zip,0
     #           UnusualProxyAttributes,-10
     #           SmartIDValid,0
     #           ExactIDInvalid,0
     #           MobileDevice,0
-    #           ------------- LOCAL BLACKLISTS -------------,0
     #           DeviceOnLocalBlacklist,-100
     #           FuzzyDeviceOnLocalBlacklist,-100
     #           TrueIPOnLocalBlacklist,-100
@@ -165,6 +163,10 @@ def simulate2(str_ruleweights_filename, str_rules_filename):
 # file containing the rule/weights. You should add any rules output
 # from the function to the rule/weights lookup file.
 #
+# Note: Use this function if all rules in the rules file should be in the
+#       lookup table. Otherwise you don't have to check, and can use the
+#       function "simulate2".
+#
 def check_rules(str_ruleweights_filename, str_rules_filename):
     # Read rule lookup into a hash
     f_ruleweights = open(str_ruleweights_filename)
@@ -193,6 +195,68 @@ def check_rules(str_ruleweights_filename, str_rules_filename):
     for key in h_results.keys():
         print(key)
 
+
+#
+# Updates a rules file with new and/or updated rule/ruleweight value
+#
+# Output is the update RuleName,RuleWeight csv values
+#
+def update_rules_lookup_table(str_ruleweights_filename, str_update_rules_filename,
+                                str_lookup_column_name):
+    # ruleweights file is in the following format:
+    #
+    #           RuleName,RuleWeight
+    #           INVALID_account_address_zip,0
+    #           UnusualProxyAttributes,-10
+    #           SmartIDValid,0
+    #           ExactIDInvalid,0
+    #           MobileDevice,0
+    #           DeviceOnLocalBlacklist,-100
+    #           FuzzyDeviceOnLocalBlacklist,-100
+    #           TrueIPOnLocalBlacklist,-100
+    #           TrueIPGeoOnLocalBlacklist,-100
+    #
+    # str_update_rules_file is a csv file. Lookup column name indicates the column
+    # that has the updated rule weights.
+
+    # Load the initial rules/ruleweights
+    f_ruleweights = open(str_ruleweights_filename)
+    print(next(f_ruleweights).strip()) # Print the header row
+
+    h_results_weights = {} # Lookup table for rules/weights
+    for val in f_ruleweights:
+        l_val = next(csv.reader([val.strip()]))
+        str_rulename = l_val[0]
+        str_ruleweight = l_val[1]
+        h_results_weights[str_rulename] = int(str_ruleweight)
+
+    # Now update the rules/ruleweights
+    f_ruleweights = open(str_update_rules_filename)
+    str_header = next(f_ruleweights).strip()
+    n_weight_column = -1
+    b_found = False
+
+    for value in str_header.split(','):
+        n_weight_column += 1
+        if value == str_lookup_column_name:
+            b_found = True
+            break
+
+    if not b_found:
+        print('Did not find simulation column.')
+        exit()
+
+    for val in f_ruleweights:
+        l_val = next(csv.reader([val.strip()]))
+        str_rulename = l_val[0] # Assuming that rulename is always first column
+        str_ruleweight = l_val[n_weight_column]
+        h_results_weights[str_rulename] = int(str_ruleweight)
+
+    # Output the new lookup table
+    for key, value in h_results_weights.items():
+        print("{0},{1}".format(key,value))
+
 #***MAIN***
-simulate2('ruleweights.csv', 'total_RulesJun.csv')
+simulate2('ruleweights_sim1.csv', 'total_RulesJun.csv')
 #check_rules('ruleweights.csv', 'total_RulesJun.csv')
+#update_rules_lookup_table('ruleweights.csv', 'simulations.csv', 'Simulation1')
