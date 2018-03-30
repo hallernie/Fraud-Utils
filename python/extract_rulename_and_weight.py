@@ -23,7 +23,11 @@ def get_rulename_and_weight(l_rules):
         if re_if_statement.search(val['id']):
             get_rulename_and_weight(val['rules'])
         else: 
-            print("{0},{1}".format(val['displayName'], val['riskWeight']))
+            try:
+                if val['displayName'] != 'Terminate':
+                    print("{0},{1}".format(val['displayName'], val['riskWeight']))
+            except KeyError:
+                pass
 
 
 ### MAIN ####
