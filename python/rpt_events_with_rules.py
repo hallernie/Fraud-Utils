@@ -21,12 +21,16 @@ def print_rule_and_weight(str_reasons,
                           l_event):
     str_event = ''
     for col in l_columns:
-        str_event += (l_event[h_header[col]] + ',')
+        str_event += ('"' + l_event[h_header[col]] + '",')
     l_reasons = str_reasons.strip('{').strip('}').split(',')
     cnt = 0
     for val in l_reasons:
         val = val.strip('"')
         if cnt == 0:
+            if val == '':
+                val = 'no_rules'
+            #print(l_event[h_header['Request ID']])
+            #print(('>' + val + '<'))
             print("{0}{1},{2}".format(str_event,val,h_rules[val]))
             cnt += 1
         else:
