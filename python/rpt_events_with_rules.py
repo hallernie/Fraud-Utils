@@ -2,6 +2,20 @@ import sys
 import csv
 import re
 
+def convert_it(val):
+    if len(val) == 3:
+        tmp_val = val.split('.')[0]
+        tmp_val = '0.0' + tmp_val
+    elif len(val) == 4:
+        tmp_val = val.split('.')[0]
+        tmp_val = '0.' + tmp_val
+    else:
+        tmp_val = val.split('.')[0]
+        tmp_val = (tmp_val[0:len(tmp_val)-2] + '.' +
+                tmp_val[len(tmp_val)-2:])
+        
+    return tmp_val
+
 #
 # Takes comma delimited "reasons":
 #
@@ -21,7 +35,12 @@ def print_rule_and_weight(str_reasons,
                           l_event):
     str_event = ''
     for col in l_columns:
-        str_event += ('"' + l_event[h_header[col]] + '",')
+        if col == 'Custom Attribute 9':
+            str_event += ('"' + l_event[h_header[col]].split(':')[1] + '",')
+        elif col == 'Transaction Amount':
+            str_event += ('"' + convert_it(l_event[h_header[col]]) + '",')
+        else:
+            str_event += ('"' + l_event[h_header[col]] + '",')
     l_reasons = str_reasons.strip('{').strip('}').split(',')
     cnt = 0
     for val in l_reasons:
@@ -39,8 +58,11 @@ def print_rule_and_weight(str_reasons,
 
 if len(sys.argv) != 4:
     print('usage:')
-    print(('    $ python program.py "event_file" "column_list"'
-            ' "rule_weights"'))
+    print(('    $ python rpt_events_with_rules.py "unclean_event_file.csv" "column_list_file.txt"'
+            ' "rule_weights_lookup_file.csv"'))
+    print()
+    print("Note: The unclean event file must contain the 'Reasons' column.")
+    print("      But do not include 'Reasons' column in the column_list file.")
     exit()
 
 try:
