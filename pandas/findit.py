@@ -5,11 +5,11 @@
 def findit(seq,s_tofind):
     """def findit(seq,s_tofind):
     for val in seq:
-        if s_tofind in str(val).lower():
+        if s_tofind.lower() in str(val).lower():
             print(val)
     """
     for val in seq:
-        if s_tofind in str(val).lower():
+        if s_tofind.lower() in str(val).lower():
             print(val)
 
 
