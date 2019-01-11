@@ -2,6 +2,19 @@ import sys
 import csv
 import re
 
+#
+#   Takes a TMX formatted transaction amount, and formats it into normal currency format.
+#
+#   Example event file values before:
+#   10783.0
+#   10789.0
+#   10797.0
+#
+#   Example event file values after:
+#   107.83
+#   107.89
+#   107.97
+#
 def convert_it(val):
     if len(val) == 3:
         tmp_val = val.split('.')[0]
@@ -57,6 +70,9 @@ def print_rule_and_weight(str_reasons,
             print("{0},{1},{2}".format(str_filler,val,h_rules[val]))
 ## END: print_rule_and_weight ##
 
+#
+#
+#
 def format_report():
     if len(sys.argv) != 4:
         print('usage:')
@@ -131,7 +147,11 @@ def format_report():
                                 l_columns,
                                 h_header,
                                 val)
+## END: format_report ##
 
+#
+#   Takes the output from format_report() and splits it into chunked files.
+#
 def split_file(str_input_file, n_number_of_files):
     re_utc = re.compile(r"UTC")
 
@@ -149,7 +169,7 @@ def split_file(str_input_file, n_number_of_files):
     str_header = next(f_infile)
 
     n_outfile = 0
-    f_out = open("out" + str(n_outfile) + ".csv", "w")
+    f_out = open("Proactiv" + str(n_outfile) + ".csv", "w")
 
     n_current_record_cnt = 0
     for val in f_infile:
@@ -164,17 +184,15 @@ def split_file(str_input_file, n_number_of_files):
         if n_current_record_cnt == n_records_per_file:
             f_out.close()
             n_outfile += 1
-            f_out = open("out" + str(n_outfile) + ".csv", "w")
+            f_out = open("Proactiv" + str(n_outfile) + ".csv", "w")
             f_out.write(str_header.strip() + "\n")
             #print(str_header.strip())
             f_out.write(val.strip() + "\n")
             #print(val.strip())
             n_current_record_cnt = 1
     f_out.close()
-
-
-
+## END: split_file ##
 
 ## MAIN ##
-#split_file('ProactivSample.csv', 3)
-format_report()
+split_file('final_report_full.csv', 40)
+#format_report()
