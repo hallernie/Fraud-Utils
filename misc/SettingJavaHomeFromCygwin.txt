@@ -1,0 +1,2 @@
+Setting JAVA_HOME from cygwin terminal:
+    $ export JAVA_HOME="/cygdrive/c/Program Files (x86)/java/jdk1.8.0_161"
