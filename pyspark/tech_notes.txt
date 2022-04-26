@@ -1,0 +1,173 @@
+**** (ThreatMetrix-Vim) search/replace events.csv file to correctly format the date field
+/[.][0-9]\{3,3} UTC
+
+**** (Vim) open window containing my command (:) history
+a. Be in command mode
+b. type q:
+
+**** (Vim) open window containing my search (/) history
+a. Be in command mode
+b. type q/
+
+**** (Vim) If you leave out the search term for :s, it will assume you want to use the last thing you searched for.
+
+So you can:
+
+/searchregex
+
+and then right after do:
+
+:%s//replaceregex/
+
+and it will use search regex to do the replace.
+
+**** (Vim) List lines that match the given regex
+:g/https
+
+
+**** (MacVim) Make it so startup font is not small
+a. In my home directory create or edit the .vimrc file. Add the following (or similar font):
+
+:set guifont=Menlo:h24
+
+When I update MacVim the .vimrc file is destroyed. So will need to recreate again.
+
+
+**** Make the entire display larger on a Mac
+a. Open System Preferences
+b. Accessibility
+c. Zoom
+d. Select "Use keyboard shortcuts to zoom"
+
+This will then enable:
+(a) Windows Keyboard
+Hold Windows and ALT keys together and select + or - keys to zoom
+
+(b) Mac Keyboard
+Hold Option and Command keys together and select + or - keys to zoom
+
+
+**** (Pandas) Apply a function utilizing two or more columns of Pandas dataframe
+df['col_3'] = df.apply(lambda x: f(x.col_1, x.col_2), axis=1)
+    OR
+df['col_3'] = df.apply(lambda x: f(x.col_1, x.col_2), axis='columns')
+
+##df is the name of the dataframe
+##f is the name of the function that takes two or more columns from the data frame
+
+## So with a dataframe called "my_frame" and a function doit(val1,val2)
+my_frame['col_3'] = my_frame.apply(lambda x: doit(x.col_1, x.col_2), axis='columns')
+    OR
+my_frame['col_3'] = my_frame.apply(lambda x: doit(x.col_1, str(x.col_2)), axis='columns')
+
+
+**** (Keyboard Shortcut - Mac) Delete in the opposite direction
+Hold 'F1' key and hit 'DEL' key
+
+
+**** (UNIX) Convert comma (,) delimited text row to columnns using the "tr" command
+## Useful to print out the columns names of a .csv file with header
+
+## Get input line from a file
+% head -n1 afterpay_events2.csv | tr ',' '\n'
+
+## Get input line from command line text
+% echo 'hello,mommy' | tr ',' '\n'
+
+
+**** (SQL) Logical order of operations
+  FROM - Chooses table to get the base data records
+  JOIN - Optains matching data records from other tables
+  WHERE - Filters the base data
+  GROUP BY - Aggregates the base data
+  HAVING - Filters the aggregated data
+  SELECT - Returns the final data
+  ORDER BY - Sorts the final data
+
+
+
+**** (PySpark) Starting PySpark
+a. PySpark requires java 8. Set the JAVA_HOME environment variable
+
+% export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
+
+b. Run pysparkOpen Unix command shell and activate the pyspark environment
+
+% pyspark
+
+c. Enter the following in the REPL
+
+>>> from pyspark.sql import SparkSession
+
+e. Instantiate a SparkSession
+
+>>> spark = SparkSession.builder.getOrCreate()
+
+
+
+**** (PySpark) Starting PySpark via iPython (Recommended)
+a. PySpark requires java 8. Set the JAVA_HOME environment variable
+
+% export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
+
+b. Start ipython
+
+% ipython
+
+c. Enter the following in the iPython REPL
+
+In [1]: from pyspark.sql import SparkSession
+
+e. Instantiate a SparkSession
+
+In [2]: spark = SparkSession.builder.getOrCreate()
+
+
+
+**** (PySpark) Misc
+
+a. Read .csv file, keeping header row
+
+In [1]: dataframe_from_csv_file = spark.read.option("header",True).csv("./events.csv")
+
+
+ 
+**** (Python) Some REPL utility commands
+
+1. Clear the screen
+>>> import os
+>>> os.system(‘clear’)
+
+2. List defined variables
+>>> locals()
+OR
+>>> globals()
+OR
+>>> dir()
+
+3. List the current directory
+>>> import os
+>>> os.getcwd()
+
+4. Change directory
+>>> os.chdir("/tmp/")
+
+5. List contents of current directory
+>>> os.listdir()
+
+6. Bring a python file contents into the local REPL
+>>> exec(open("filename.py").read())
+
+7. Function to list history in the REPL
+
+import readline
+def history(numLines=-1):
+    total = readline.get_current_history_length()
+    if numLines == -1:
+        # default value prints everything
+        numLines = total
+    if numLines > 0:
+        # range from n->end in order to incl. recent line
+        for i in range(total - numLines, total):
+            print(readline.get_history_item(i + 1))
+
