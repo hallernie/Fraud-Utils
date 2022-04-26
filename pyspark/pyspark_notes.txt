@@ -1,0 +1,156 @@
+**** (SQL) Logical order of operations
+  FROM - Chooses table to get the base data records
+  JOIN - Optains matching data records from other tables
+  WHERE - Filters the base data
+  GROUP BY - Aggregates the base data
+  HAVING - Filters the aggregated data
+  SELECT - Returns the final data
+  ORDER BY - Sorts the final data
+
+
+
+**** (PySpark) Starting PySpark via iPython (Recommended)
+a. PySpark requires java 8. Set the JAVA_HOME environment variable
+
+% export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
+
+b. Start ipython
+
+% ipython
+
+c. Enter the following in the iPython REPL
+
+In [1]: from pyspark.sql import SparkSession
+
+e. Instantiate a SparkSession
+
+In [2]: spark = SparkSession.builder.getOrCreate()
+
+
+
+**** (PySpark) Misc
+
+a. Read .csv file, keeping header row
+
+In [1]: dataframe_from_csv_file = spark.read.option("header",True).csv("./events.csv")
+
+
+**** (PySpark) Get data frame information
+
+*** *** Assume the sample pyspark data frame below and the import statement
+
+import pyspark.sql.functions as F
+
+In [122]: f1.printSchema()
+root
+ |-- Event Time: string (nullable = true)
+ |-- Request ID: string (nullable = true)
+ |-- Event Type: string (nullable = true)
+ |-- Request Result: string (nullable = true)
+ |-- Error Detail: string (nullable = true)
+ |-- Policy: string (nullable = true)
+ |-- Unknown Session: string (nullable = true)
+ |-- Agent Type: string (nullable = true)
+ |-- API Type: string (nullable = true)
+ |-- Exact ID: string (nullable = true)
+ |-- Session ID: string (nullable = true)
+ |-- Review Status: string (nullable = true)
+ |-- Policy Score: string (nullable = true)
+ |-- Browser: string (nullable = true)
+ |-- Browser Language: string (nullable = true)
+ |-- Browser String: string (nullable = true)
+ |-- Browser Version: string (nullable = true)
+ |-- Cookies Enabled: string (nullable = true)
+ |-- Javascript Enabled: string (nullable = true)
+ |-- UA Browser: string (nullable = true)
+ |-- UA Browser Alternative: string (nullable = true)
+ |-- UA Browser Version Alternative: string (nullable = true)
+
+
+*** *** Info as a list of tuples
+print(f1.dtypes)
+
+*** *** Column names as a list
+f1.columns
+
+*** *** Info on data contained in the data frame
+f1.show()
+f1.show(10)
+f1.show(n=10, truncate=False)
+
+*** *** Select some columns
+f1.select("Review Status","Policy Score")
+f1.select(F.col("Event Time"))
+f1.select(F.col("Event Time"),F.col("Policy Score"))
+f1.select(*[F.col("Review Status"),F.col("Policy Score")])
+f1.select(*["Review Status","Policy Score"])
+
+*** *** Getting rid of columns
+f1.drop("Review Status","Policy Score")
+f1.drop(F.col("Review Status"),F.col("Policy Score"))
+f1.drop(*["Review Status","Policy Score"])
+
+*** *** Execute a pyspark function on a column
+f1.select(F.split(F.col("Event Time")," "))
+--and then rename the resultant column
+f1.select(F.split(F.col("Event Time")," ").alias("line"))
+
+*** *** Rename a column
+f1.withColumnRenamed("Event Time","bubba")
+
+*** *** Filtering rows
+f1.where(F.col("Policy Score") == -35)
+or
+f1.filter(F.col("Policy Score") == -35)
+
+*** *** Count #rows in a dataframe
+f1.count()
+
+*** *** Group data (returns pyspark.sql.group.GroupedData)
+f1.groupBy(F.col("Review Status"))
+
+--Count the elements in each group (returns a pyspark data frame)
+f1.groupBy(F.col("Review Status")).count().show()
+
+*** *** Order the data frame
+f1.groupBy(F.col("Review Status")).count().orderBy(F.col("count").desc()).show()
+or
+f1.groupBy(F.col("Review Status")).count().orderBy(F.col("count"),ascending=False).show()
+
+*** *** Write data frame to just one .csv file
+f1.coalesce(1).write.csv("name.csv")
+
+*** *** Add column to an existing data frame
+f1.withColumn("date",F.col("Event Time").substr(1,10)).printSchema()
+
+root
+ |-- Event Time: string (nullable = true)
+ |-- Request ID: string (nullable = true)
+ |-- Event Type: string (nullable = true)
+ |-- Request Result: string (nullable = true)
+ |-- Error Detail: string (nullable = true)
+ |-- Policy: string (nullable = true)
+ |-- Unknown Session: string (nullable = true)
+ |-- Agent Type: string (nullable = true)
+ |-- API Type: string (nullable = true)
+ |-- Exact ID: string (nullable = true)
+ |-- Session ID: string (nullable = true)
+ |-- Review Status: string (nullable = true)
+ |-- Policy Score: string (nullable = true)
+ |-- Browser: string (nullable = true)
+ |-- Browser Language: string (nullable = true)
+ |-- Browser String: string (nullable = true)
+ |-- Browser Version: string (nullable = true)
+ |-- Cookies Enabled: string (nullable = true)
+ |-- Javascript Enabled: string (nullable = true)
+ |-- UA Browser: string (nullable = true)
+ |-- UA Browser Alternative: string (nullable = true)
+ |-- UA Browser Version Alternative: string (nullable = true)
+ |-- date: string (nullable = true)
+
+
+*** *** Rename a column
+f1.withColumnRenamed("Event Time", "Time")
+
+*** *** Sort the columns
+f1.select(sorted(f1.columns))
