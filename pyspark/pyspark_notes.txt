@@ -70,7 +70,7 @@ root
 *** *** Info as a list of tuples
 print(f1.dtypes)
 
-*** *** Column names as a list
+*** *** Get data frame column names as a list
 f1.columns
 
 *** *** Info on data contained in the data frame
@@ -78,22 +78,36 @@ f1.show()
 f1.show(10)
 f1.show(n=10, truncate=False)
 
-*** *** Select some columns
+*** *** Select some columns into a new data frame
 f1.select("Review Status","Policy Score")
 f1.select(F.col("Event Time"))
 f1.select(F.col("Event Time"),F.col("Policy Score"))
 f1.select(*[F.col("Review Status"),F.col("Policy Score")])
+f1.select(["Review Status","Policy Score"])
 f1.select(*["Review Status","Policy Score"])
+f1.select(f1["Review Status"],f1["Policy Score"])
+f1.select([f1["Review Status"],f1["Policy Score"]])
+f1["Review Status","Policy Score"]
+
+*** *** Select one column from a data frame into a Column object
+f1["Review Status"]
 
 *** *** Getting rid of columns
 f1.drop("Review Status","Policy Score")
 f1.drop(F.col("Review Status"),F.col("Policy Score"))
 f1.drop(*["Review Status","Policy Score"])
 
-*** *** Execute a pyspark function on a column
+*** *** Execute a pyspark function on a column and return the column as a data frame
 f1.select(F.split(F.col("Event Time")," "))
---and then rename the resultant column
+
+--Or do the same, but give the resultant column and better name
 f1.select(F.split(F.col("Event Time")," ").alias("line"))
+
+*** *** Execute a pyspark function on a column and return a column object
+F.split(f1["Event Time"]," ")
+
+--Or do the same, but give the column a better name
+F.split(f1["Event Time"]," ").alias("line")
 
 *** *** Rename a column
 f1.withColumnRenamed("Event Time","bubba")
@@ -154,3 +168,36 @@ f1.withColumnRenamed("Event Time", "Time")
 
 *** *** Sort the columns
 f1.select(sorted(f1.columns))
+
+*** *** Alias my the name of my data frame
+f1.alias("bob")
+
+--Do the same thing, but then select a column using my aliased data frame name
+f1.alias("bob").select(F.col("bob.Event Time"))
+
+
+*** *** Joining tables
+f1.join(f2, on="Request ID")
+f1.join(f2, "Request ID")
+f1.join(f2,on="Request ID", how="right")
+f1.join(f2, f1["Request ID"] == f2["Request ID"])   # column "Request ID" appears twice in resultant data frame
+
+# column "Request ID" appears twice in resultant data frame, but I can select the "left" table column
+# using its column alias name
+f1.alias("left").join(f2, f1["Request ID"] == f2["Request ID"]).select(F.col("left.Request ID"))
+
+
+*** *** Creating a UDF (User Defined Function)
+
+--Create a function
+
+def convertCase(str):
+	return str.upper()
+
+-- Convert the function to a Pyspark sql function
+
+convertUDF = F.udf(lambda z: convertCase(z))
+
+--Now I can use the function like a regular Pyspark sql function
+
+f2.select(convertUDF(F.col("Some Data")))
