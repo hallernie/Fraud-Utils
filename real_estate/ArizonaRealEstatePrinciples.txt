@@ -1,0 +1,1180 @@
+*****
+Note: Ignore this content
+*****
+
+*****
+Unit 4: Real Estate Ownership
+*****
+
+
+***
+Theorys of land financing
+***
+
+1. Title Theory
+-- The trustee holds the "naked title" and the "power of sale" for the beneficiary
+
+1. Lien Theory
+-- The loan is a lien against the property
+
+***
+Arizona's three financing instruments
+***
+
+1. Mortgage
+2. Deed of Trust
+3. Land Contract
+
+***
+A land contract is a form of owner financing. It is also called:
+***
+
+-- agreement for sale
+-- articles of agreement for warranty deed
+-- contract for deed
+-- contract for conveyance
+-- land sales contract
+-- bond for title
+-- installment contract
+-- installment loan
+
+***
+Mortgage foreclosure process
+***
+
+-- TBD
+
+***
+Deed of Trust foreclosure process
+***
+
+-- TBD
+
+***
+Land Contract foreclosure process
+***
+
+-- Late notice
+-- File notice of forfeiture
+-- Statutory grace period
+---- paid less than 20% of purchase price, 30 days
+---- paid 20% and less than 30% of purchase price, 60 days
+---- paid 30% and less than 50% of purchase price, 120 days
+---- paid greater than 50% of purchase price, 9 months
+-- Acceleration of the debt
+-- File the affidavit of completion of forfeiture.
+
+***
+Alternatives to foreclosure
+***
+
+1. Short Sale
+2. Loan Modification
+3. Forbearance Agreement
+
+***
+Ways to take ownership (title) to real estate
+***
+
+1.  severalty (sole owndership)
+2.  tenents in common
+3.  joint tenancy with right of survivorship
+4.  cooperatives
+5.  condominium
+6.  time-share
+7.  real estate investment trust (REIT)
+8.  joint venture
+9.  community property with right of survivorship
+10. community property
+11. adverse possession
+
+***
+Ways to take ownership: severalty
+***
+
+-- sole ownership
+
+***
+Ways to take ownership: tenents in common
+***
+
+-- is for anyone, with equal or unequal shares taken at any time. The shares may be sold, exchanged, encumbered, or leased. Should one of the parties die, the deceased's share goes to the party designated in the will.
+
+***
+Ways to take ownership: joint tenancy with right of survivorship
+***
+
+-- means any number of equal shares taken at the same time. Upon a death, the remainder of the parties share equally.
+
+***
+Ways to take ownership: cooperatives
+***
+
+-- TBD
+
+***
+Ways to take ownership: condominium
+***
+
+-- TBD
+
+***
+Ways to take ownership: time-share
+***
+
+-- TBD
+
+***
+Ways to take ownership: real estate investment trust (REIT)
+***
+
+-- TBD
+
+***
+Ways to take ownership: joint venture
+***
+
+-- TBD
+
+***
+Ways to take ownership: community property with right of survivorship
+***
+
+-- is for married persons only, with equal shares taken at the same time and the surviving spouse becoming 100% owner of the property.
+
+***
+Ways to take ownership: community property
+***
+
+-- is for married persons only, with equal shares taken at the same time. The death-departing spouse devises who will be heir to her share. The surviving spouse will co-own, as a tenant in common, with the heir(s) of the departed spouse.
+
+***
+Ways to take ownership: adverse possession
+***
+
+-- TBD
+
+***
+TPT: Transaction Privilege Tax
+***
+
+***
+Accerleration clause:
+***
+
+-- calling the entire loan balance due immedietely
+
+***
+Real estate can be classified into two categories
+***
+
+1. freehold
+---- fee simple absolute
+---- defeasible or conditional fee
+---- life estate
+---- pur autre vie estate
+
+2. Leasehold
+---- estate at will
+---- estate for years
+---- estate at sufferance
+---- periodic estate
+
+***
+Quiet title action
+***
+
+1. Action to clarify who owns title to a property. Required when:
+---- problem with chain of title
+---- issues of encroachment
+---- issues of access
+---- boundary disputes
+---- fraudulent conveyence
+
+***
+Chapter 13 bankrupcy
+***
+
+1. Allows borrowers to make up their overdue payments and to reinstate the original loan agreement
+
+***
+Chapter 7 bankrupcy
+***
+
+1. Debtor wipes out all debt and gets a "fresh start"
+2. Trustee collects all assets and sells any assets that are not exempt
+
+***
+Beneficiary deed
+***
+
+1. Frequently being used in Arizona instead of the life estate.
+2. It's less expensive.
+3. It's forgiving
+4. Easily revoked.
+
+***
+Mechanic's Lien
+***
+
+1. File preliminary 20-day notice
+2. File notice of claim of lien with recorder's office within 120 days after completion, but before the filing of the notice of completion
+3. If notice of completion has been filed, 60 days to file the notice of claim of lien
+4. Must foreclose on property within six months
+
+***
+Quiet Title
+***
+
+If ownership cannot be traced through an unbroken chain, a gap in the chain of title or cloud on the title is said to exist. In such a case, it is necessary to establish ownership by a court action.
+
+***
+Hypothecation
+***
+
+In mortgage lending practice, a borrower is required to make specific real property security (collateral) for the loan. In the process called hypothecation, the debtor retains the right of possession and control of the secured property, while the creditor receives an equitable right in the property.
+
+***
+Equitable redemption
+***
+
+Before the sale
+
+***
+Statutory redemption
+***
+
+After the sale
+
+***
+Deed of trust provides "ANSWER", the time before the sale for the borrower to bring the loan current
+***
+
+Period of reinstatement
+
+***
+Vendor/Vendee
+***
+
+The vendor holds the title until the vendee pays off the loan in full.
+
+***
+Arizona's homestead exemption
+***
+
+Any person the age of 18 or over, married or single, who resides within the state may hold as a homestead exempt from attachment, execution, and forced sale, not exceeding $150,000 in value, any one of the following:
+
+•	House and the land upon which it resides
+•	Condominium or cooperative
+•	Mobile home
+•	Mobile home and the land upon which it resides, if you own the land as well
+
+The exemption only applies to nonconsensual liens or judgments and the homestead exemption's cash proceeds continue for 18 months after the date of the sale of the property or until the person establishes a new homestead with the proceeds, whichever period is shorter. Only one exemption at a time is allowed.
+
+*****
+Unit 5: Contracts and Contract Law
+*****
+
+***
+Express Contract
+***
+
+-- principals express, in writing or verbally, and voluntarily agree to the terms and conditions of a contract
+
+***
+Implied Contract
+***
+
+-- not agreed to orally, written down, or signed
+-- create by the actions and conduct of the parties
+
+***
+Unilateral Contract
+***
+
+-- a promise exchanged for performance, only the promissor is bound
+-- an option is an example of a unilateral contract
+
+***
+Executory Period
+***
+
+-- contract is not yet completed. in progress
+-- the seller has legal title
+-- the buyer has equitable title
+
+***
+Valid contract
+***
+
+-- offer and acceptance
+-- consideration (in AZ, does not need to be monetary. just something of value
+-- consent
+-- competancy and capacity
+-- legal purpose
+
+***
+Voidable contract
+***
+
+-- enforceable contract which can be legally canceled by one of the parties without causing breach of contract
+
+***
+A contract is voidable if the contracted party is:
+***
+
+-- a minor
+-- guilty of fraud or deceit
+-- unduly influenced
+-- under the influence of drugs or alcohol
+-- otherwise incapacitated or not of sound mind
+
+
+***
+A contract must contain:
+***
+
+-- contract must be in writing
+-- identification of the parties
+-- a description of the subject matter of the contract
+-- purchase price
+-- time and conditions of payment
+-- clear, unambiguous language
+-- beginning and end dates
+
+***
+A valide offer contains
+***
+
+-- purchase price
+-- legal discription of the property
+-- consideration
+-- must be signed by be offeror
+
+***
+Legal description of a property
+***
+
+-- an address is not sufficient
+-- the legal address of the property
+
+***
+Contract negotiations must be conducted:
+***
+
+-- exclusively through the principlal's broker, or broker's representative
+-- unless the property is owner listed
+-- unless the principle waives the requirement in writing
+-- unless no licenced representative of the broker is available for 24 hours
+
+***
+Revocable Trust
+***
+
+-- trust in which provisions can be altered or canceled by the grantor
+
+***
+Broker review of a contract includes:
+***
+
+-- must be completed within 10 days of execution
+-- state the type of earnest deposit (check, wire funds, other thing of value)
+
+***
+Broker must keep the following contract documents for 5 years
+***
+
+-- sales contract
+-- earnest deposit receipts
+-- closing documents, including receipts, disbursals, and adjustments
+-- employment agreements
+
+***
+As-Is clause has two requirements
+***
+
+1. Seller discloses defects in the property
+2. Seller allows buyer a period of due diligence
+
+***
+Contract contingencies
+***
+
+-- conditions to be met in order to bind both parties to a contract
+
+***
+Contract contingency examples:
+***
+
+-- homeowners' association rules
+-- inspections
+-- loan approvals
+-- property appraisals
+
+***
+Principle of change (for property)
+***
+
+-- integration (development)
+-- equilibrium (stasis)
+-- disintegration (decline)
+
+***
+Marketable Tiles
+***
+
+-- can be readily marketed to a reasonably prudent purchases
+
+***
+Reasonably Prudent (for real property)
+***
+
+-- buyer is aware of the facts of the transaction, particularly as they concern liens and encumbrances
+
+***
+Seller disclosure requirements include:
+***
+
+-- property claims paid by the sellers insurance for past 5 years
+-- any solar lease agreements
+-- is property in flood or superfund zone
+
+***
+FIRPTA: Foreign Investment in Real Property Tax Act
+***
+
+-- Buyer purchasing U.S. property from a foreign person is required to withhold 15% of the gain
+
+***
+Novation
+***
+
+-- substitution of one party for another in a contract
+-- substituting one contract for another
+
+***
+Recission period (examples of):
+***
+
+-- There is no rescission period for the purchases of a resale, single-family, improved property
+-- a time-share contract has a 10 day recission period from time of exectution
+-- purchaser of raw, undeveloped lot or parcel, who has not physically seen the property, has 6-months to rescind the contract
+-- purchaser of land who completes the purchase before receiving the public disclosure report has 3-years to rescind the contract
+
+***
+Time is of the essence clause
+***
+
+-- purpose is to remind all parties that they have time contraints in the performance of their contractual duties.
+
+***
+A cure notice must contain:
+***
+
+1. written notice detailing the unresolved issue
+2. actions to complete to resolve the issue
+3. deadline
+
+***
+Specific performance:
+***
+
+-- court orders one side of a real estate transaction to complete the contract as agreed
+
+***
+Liquidated damages:
+***
+
+-- predetermined damages that are specified in a contract when one party fails to perform as agreed
+
+***
+Actual damages:
+***
+
+-- damages paid out based on proven harm
+
+***
+Mediation
+***
+
+-- parties settle the dispute themselves, with the help of a mediator
+
+***
+Arbitration
+***
+
+-- arbitrator decides the the case after hearing all of the evidence
+
+***
+Property managment record keeping requirements
+***
+
+-- keep residential leases and documentation for 1 year
+-- keep records of finders fees for 3 years
+-- keep financial records for 3 years
+-- only the property manager, broker, or a delegated real estate licensee with written authorization may sign nonresidential lease agreements.
+-- sales associates may sign residential lease agreements
+-- fully executed residential lease agreements are not required to be reviewed and initialed
+
+***
+Property managment finder's fee requirements
+***
+
+-- tenant is eligible for a finder's fee up to five times a year
+-- property manager must keep records of finder's fees for 3 years
+
+
+***
+Property managment agreements must include the following (not a complete list):
+***
+
+-- specify the type and frequency of status reports
+-- state who gets the interest monies
+-- be signed by the property owner or his agent and the property management firm's designated broker or the broker's authorized real estate licensee
+-- specify compensation terms to the PM
+
+***
+Property managment agreements MAY include the following (not a complete list):
+***
+
+-- automatic renewal provision so long as PM sends notice at least 30 days in advance of the renewal
+-- liquidation damages or cancellation fees for early termination
+
+***
+Property managment trust account requirements (other people's money, or how the property manager handles money of a property management client)
+***
+
+-- undisputed monies must be deposited within 3 business days
+-- rental agreements must indicate where the tenant deposits are being held
+-- the designated broker may delegate a licensed or unlicensed person to make deposits and withdrawals, or be a signatory on the account. If an unlicensed person, the person must be an employee of the broker, a W-2 employee
+-- all owners money must be kept in the broker's trust account or in the owner's bank
+
+***
+Property managment final accounting at termination
+***
+
+1. All tenant securities within 5 days of the end of the agreement
+2. reimbursement for all monies in accounts with 35 days
+3. final accounts receivable and payable lists within 75 days
+4. final bank reconciliation within 75 days
+
+***
+According to AZ law, three elements must be present for courts to view the contract as legally binding and enforceable:
+***
+
+1. offer
+2. acceptance
+3. consideration
+
+***
+An option is?
+***
+
+-- The right to purchase property at a set price for a fixed period of time
+
+***
+A right of first refusal is?
+***
+
+-- a PAID right to purchase property at a time in the future
+
+*****
+Unit 6: Arizona Residential Landlord-Tenant Act (ARLTA)
+*****
+
+
+***
+Who is responsible for landlord-tenant issues?
+***
+
+-- the courts
+
+***
+The ADRE will not handle any landlord-tenant issues unless:
+***
+
+-- there is a licensee involved
+-- the licensee has violated licensing law
+
+***
+ADRE stands for?
+***
+
+-- Arizona Department of Real Estate
+
+***
+Landlord-tenant statutes are reasonably equitable except for:
+***
+
+-- the landlord can evict a tenant in less than a month if landlord follows statutes exactly
+-- if a tenant abondons the property, the landlord must mitigate the lease by renting the propery as soon as possible
+
+***
+Positive leasehold
+***
+
+-- tenant whose lease rent is below market rents
+
+***
+Negative leasehold
+***
+
+-- tenant whose lease rent is above market rents
+
+***
+Excess rents
+***
+
+-- tenant sublets the property according to lease terms for more than the lease rent
+-- landlord may be entitled to some or all of the excess rents
+
+***
+A landlord has how many days to terminate a lease if material falsification occurs on the rental application
+***
+
+-- 10 days
+
+***
+Material falsification on a rental agreement includes falsification of?
+***
+
+-- name
+-- dob
+-- ssn
+-- who will occupy
+-- employer or wage
+-- presence of pet
+
+***
+How many days does a tenant have to vacate a propety for when a health and safety noncurable notice is issued?
+***
+
+-- 5 days
+-- example includes a tenant who lied about having a criminal record
+
+***
+How many days does a tenant have to vacate a propety for when a material falsification curable notice is issued?
+***
+
+-- 10 days
+-- examples include
+------ extra undisclosed tenant or pet
+------ Note: if the tenant breaches the rental contract for the second time, the notice becomes uncurable
+
+***
+How many days does a landlord have to remediate an issue when a health and safety noncurable notice is issued?
+***
+
+-- 5 days
+-- example includes tenant discovers mold that impact health of the tenant
+
+***
+How many days does a landlord have to remediate an issue when a material disclosure curable notice is issued?
+***
+
+-- 10 days
+-- example includes a tenant finds ants
+
+***
+Special detainer action (similar to forcible detainer)
+***
+
+-- occurs when the tenent has remained on the property after landlord has given written notice that the rental agreement has been terminated
+-- summons for tenant to appear in court in no more than 3 days for detainer issuance
+-- if landlord prevails restitution to landlord is effive 12 - 24 hours later
+-- Note: this is an example of how a landlord can legally expel a tenant in less than 3 weeks
+
+***
+Rental applications by persons with felonies must be...
+***
+
+1. considered on a case-by-case basis
+2. a blanket policy of not leasing to felons is not allowed
+
+***
+A seller is ????? from disclosing the existence of a neighborhood group home
+***
+
+-- prohibited
+
+***
+Under fair housing laws what types of animals are allowed to accompany their handlers?
+***
+
+1. service animals
+2. emotional support animals
+
+***
+Under fair housing laws what types of animals are not allowed to accompany their handlers?
+***
+
+1. working animals (example would be a police dog)
+
+***
+Landlords may request ????? from renters requesting reasonable accommodation their service or emotional support animals?
+***
+
+-- reliable documentation of disability, if the disability is not readily known
+-- documentation if disability related need
+-- Note: landlords may not request access to medical records, medical providers, or "detailed or extensive" information or documentation
+
+***
+Requirements for rental "possession" include:
+***
+
+-- provides for one month's rent and a security deposit of not more than 1.5 times rent
+-- a reasonable cleaning fee
+-- any fees that are not nonrefundable must be part of the maximum 1.5 monthly rent security deposit
+
+***
+The definition of rental abandonment:
+***
+
+1.
+---- rent outstanding for 10 days
+---- personal belongings still on the property
+---- tenent gone for at least 7 days with notice to landlord
+
+2.
+---- rent outstanding for 5 days
+---- personal belongings gone
+---- tenent gone for 5 days without notice to landlord
+
+***
+Landlord steps after rental abandonment has been confirmed:
+***
+
+1. post notice for 5 days
+2. mail notice via certified mail, return receipt requested
+3. security deposit forfeitedl and landlord shall apply to acrued rent and other demages
+4. reasonable care to store tenent belongings for 14 days unless provision in lease for disposal
+5. notify tenent via certified mail, return receipt requested, of where belongings are stored, and cost to recover
+6. remove any animals and release to a shelter
+7. provide reasonable care for animals for 14 days
+8. items exempt from having tenent pay for return are clothing, identification, books and tools of the trade, medical
+9. keep records for 12 months and hold excess proceeds.
+10. forward excess proceeds to the state after 12 months
+
+***
+Is a landlord required to rent the unit of a tenant abandons the property?
+***
+
+-- Yes. The landlord must mitigate the lease by making a reasonable effort to rent the property
+
+***
+When can a writ of restitution be issues?
+***
+
+-- 5 days after a landlord receives a judgement against a tenant
+
+***
+What happens after a writ of restitution is issued?
+***
+
+-- writ served to the tenant by a constable, who will direct the tenent to leave at that time
+-- landlord can cut off utility services
+
+***
+What can't a landlord do after writ of restitution is issued?
+***
+
+-- can't dispose of or sell any of the tenant's property for 14 days
+
+***
+How much notice must a landlord give a tenant before entering the unit?
+***
+
+-- 48 hours
+
+***
+What can a landlord do if access to the unit is not granted by the tenent after 48 hours notice?
+***
+
+-- obtain injunctive relief to compel access
+-- terminate the rental agreement
+-- recover actual damages
+
+***
+What can a tenant do if harassed by a landlord?
+***
+
+-- obtain injunctive relief to stop harassment
+-- terminate the rental agreement
+-- recover actual damages not less than the amount of 1 month's rent
+
+***
+When are rental agreement notices deemed received?
+***
+
+-- 5 calendar days if mailed certified or registered mail
+-- when actually signed for
+-- if proof provided that the other party received the communication (email, text, voicemail)
+
+***
+List the 4 generic rental terms
+***
+
+1. in absence of a rental agreement, the tenent shall pay fair rental value of the unit
+
+2. periodic rent is payable at the beginning of any term of one month or less, otherwise in equal monthly installments at the beginning of the month
+
+3. unless the agreement fixes a definite term, tenancy shall be week-to-week for weekly renters, and in all other cases month-to-month
+
+4. if municipality levies a transaction privileg tax, landlord must provide 30 days written notice to adjust the amount of rent due
+
+***
+A rental agreement may not state that a tenent do what four things? (prohibited provisions)
+***
+
+-- waive a right to forego a remedy
+-- pay landlord's attorney fees
+-- limit liability or indemnification of the landlord
+-- waive right of a tenant to call the police, or charge a tenant for doing so
+
+***
+If a landlord includes an prohibited provision in a rental agreement a tenant can...?
+***
+
+-- recover actual damages
+-- and not more than two month's rent
+
+***
+Estoppel certificate
+***
+
+-- signed statement by a party cerifying for another's benefit that ertain facts are correct. The party can not later state a different state of facts
+
+***
+Bedbug information is not required when leasing a ...
+***
+
+-- single family home
+
+
+*****
+Unit 7: Water, Wells, Wast, and Environmental issues
+*****
+
+***
+Blackwater (Arizona)
+***
+
+-- toilet and garbage disposal waste
+
+***
+Effluent (Arizona)
+***
+
+-- the wastewater a home produces
+-- two types. blackwater and greywater
+
+***
+Graywater (Arizona)
+***
+
+-- shower, sink, and laundry waste
+-- use must be less than 400 gallons/day
+-- can be used to water plants and trees, but not fruit trees
+
+***
+Potable water (Arizona)
+***
+
+-- drinking water
+
+***
+Arsenic remediation methods (Arizona)
+***
+
+-- distillation
+-- reverse osmosis
+-- ion exchange
+-- activated alumina
+
+***
+Arsenic details (Arizona)
+***
+
+-- found in air, water, and food sources
+-- naturally found in the earth's crust
+
+***
+Termite information (Arizona)
+***
+
+-- look like little cigars
+-- 17 species in AZ (subterranean is the worst)
+-- swarming is mating season
+
+***
+WQARF stands for? (Arizona)
+***
+
+-- Water Quality Assurance Revolving Fund
+
+***
+AMA stands for? (Arizona)
+***
+
+-- Active Management Area
+-- 5 areas (Phoenix, Pinal, Tucson, Prescott, Santa Cruz (Added last) )
+
+***
+ADWR stands for? (Arizona)
+***
+
+-- Arizona Department of Water Resources
+
+***
+ADEQ stands for? (Arizona)
+***
+
+-- Arizona Department of Environmental Quality
+-- enforces state environmental protection laws and some Federal laws
+
+***
+CAGRD stands for? (Arizona)
+***
+
+-- Central Arizona Groundwater Replenishment District
+
+***
+INA stands for? (Arizona)
+***
+
+-- Irrigation Non-Expansive Area
+-- areas where groundwater depletion is not as severe as AMAs
+-- no new irrigated land allowed
+-- Nonexempt wells must report annual water use
+-- there are three INAs in Arizona
+
+***
+Types of alternative waste disposal systems (Arizona)
+***
+
+1. aerobic system
+2. mound septic system
+
+***
+Septic system requirements (Arizona)
+***
+
+-- soil percolates within acceptable ranges
+-- must have a large area for a leach field
+-- tanks start at 700 gallons
+-- setback must be 100 feet between a well and the septic system
+-- must be 30 feet from the house
+
+***
+Arizona well regulations
+***
+
+-- must be reported to ADWR
+-- require notice of a change in ownership
+-- registry will number starts with "55"
+-- seller has 5 days to give buyer a well disclosure statement
+-- buyer has 5 days after reciept of well disclosure statement to have the well inspected
+-- within 30 days after change of ownership the new owner must notify ADWR in writing of any newly discovered wells
+-- after 30 days of change of ownership the new owner must report newly discovered well within 10 days
+
+***
+AAR stands for?
+***
+
+-- Arizona Association of Realtors
+
+***
+Nonexempt well (Arizona)
+***
+
+-- pumps over 35 gallons per minute
+
+***
+Exempt well (Arizona)
+***
+
+-- pumps 35 gallons per minute or less
+
+***
+Shared well (Arizona)
+***
+
+-- serves 15 or more service connections
+-- or serves 25 or more residents on a year-round basis (a community water system)
+
+***
+Water conservation programs, by water use type (Arizona)
+***
+
+-- municipal, 87% statewide
+-- industrial, 72% statewide
+-- agricultural, 34% statewide
+
+***
+Groundwater Management Act (1980) established? (Arizona)
+***
+
+-- ADWR
+-- AMAs
+-- 100-year assured water supply report requirement for developers
+
+***
+Uranium facts (Arizona)
+***
+
+-- radium comes from uranium. It is highly radioactive, and if inhaled or swallowed is highly dangerous
+-- radium paint glows green
+-- radon is a naturally occuring radioactive gas and comes from the breakdown of uranium. 2nd highest cause of lung cancer
+-- EPA considers 4.0 pCi/L safe. WHO considers 2.7 pCi/L safe
+
+***
+Fissure facts (Arizona)
+***
+
+-- land subsidence causes fissures
+-- over 3000 square miles of Arizona is impacted by fissures
+-- fissures occur when the withdrawal and the recharge of groundwater are out of balance
+
+*****
+Unit 8: Land-Use Controls & Property Development
+*****
+
+***
+United States Public Land Survey System (Township and Range)
+***
+
+-- Section: 1x1 mile, 640 acres
+
+-- Township: 36 sections, 6x6 mile
+---- Sections are numbered beginning with the northeast-most section (#1), proceeding west to 6, then south along the west edge of the township and to the east (#36 is in the SE corner).
+
+-- Quadrangle: 16 townships, 24x24 mile
+
+-- Range: Assigned to a township by measuring east or west of a Principal Meridian
+
+-- Range lines: The north to south lines which mark township boundaries.
+
+-- Township lines: The east to west lines which mark township boundaries.
+
+-- Standard parallel (correction) lines: Lines that run parallel to the base line. They are 30 miles apart
+
+-- Principal Meridian: The reference or beginning point for measuring east or west ranges.
+
+-- Base line: Reference or beginning point for measuring north or south townships.
+
+***
+Formulas and Fact
+***
+
+-- Area of a square or rectangle = Length * Width
+-- Area of triangle = 1/2 * Base * Height
+-- Perimeter of a square or rectangle = L + L + L + L
+-- 1 Acre = 43,560 ft
+-- 1 Mile = 5280 ft
+-- 1 Section = 640 acres
+
+***
+The Maricopa County Assessor's office defines legal description systems as?
+***
+
+-- written descriptions of the physical boundaries of property rights
+
+***
+United States Public Land Survey System is also known as:
+***
+
+-- Rectangular Survey System
+-- PLSS
+
+***
+Metes are?
+***
+
+-- lines marking the boundary of a parcel of land
+
+***
+Bounds are?
+***
+
+-- the area within the metes
+
+***
+Legal descriptions of properties contained in a deed of trust must use one of these three methods:
+***
+
+1. lot, block, tract or parcel as set forth in the recorded subdivision plat
+2. metes and bounds or course and distance survey
+3. governmental rectangular survey system with specific identification of the location within any section or sections, track or tracks, of a township and range
+
+***
+A subdivider is?
+***
+
+-- someone who offers for sale or lease six or more lots, parcels, or fractional interests
+
+***
+Subdivision or subdivided lands refer to?
+***
+
+-- unimproved or improved lands or property intended to be offered for sale or lease, and is or will be divided into six or more lots, parcels, or fractional interests. It includes cooperatives and residential condominiums
+
+***
+Excluded from the definition of subdivided lands are?
+***
+
+-- lots that will be divided into 36 acres or more
+-- commercial or agricultural lands that are leased
+
+***
+Rescission periods for unimproved lots:
+***
+
+1. 7 calendar days after execution of agreement. Must be in writing
+
+2. 6 months to inspect and rescind unilaterally, if buyer of unimproved lot has not inspected the lot prior to execution of purchase agreement
+
+3. for sale or lease of unimproved lands before issuance of public report, or failure to deliver public report to the buyer, then 3 years from purchase agreement to rescind
+
+4. if no permanent access to the unimproved land, unless waived by the commissioner, then 3 years to rescind from date of contract execution
+
+***
+Definition of improved lots
+***
+
+-- lot or parcel of subdivision with existing commercial or industrial building, or lot of parcel with agreement to build commercial of industrial building within 2 years of contract exectution.
+
+***
+What items a subdivider must include when notifying Commissioner of intent to subdivide?
+***
+
+-- assured water supply
+-- in AMA or INA or not
+-- CAGRD
+-- access
+-- expansive soil engineering studies
+-- flood studies
+-- financial documents
+-- sanitary facilities approval from ADEQ
+-- CC&Rs
+
+***
+CC&R stands for:
+***
+
+-- Covenants, conditions, and restrictions
+
+***
+What is a specific requirement regarding CAGRD?
+***
+
+-- Any subdivision built in 1995 or later in Phoenix, Pinal, or Tucson AMA, requires s subdivision property owner to pay a cost to replenish groudwater. It's a line item on their annual tax bill
+
+***
+What are some things that ADRE checks when it receives an intent to subdivide request?
+***
+
+-- owner with more than 10% interest has been convicted of fraud or dishonesty in real estate transaction
+-- inability to deliver title
+-- review deed restrictions
+-- attempt to ascertain parties are "not acting in concert"
+-- for for certificate of assured water supply
