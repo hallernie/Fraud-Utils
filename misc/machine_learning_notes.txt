@@ -1,0 +1,243 @@
+Types of machine learning:
+
+1. Supervised - learning input to output (given input x and output y)
+----We use the term "supervised" because this method is telling the algorith the correct answers. So we're supervising or directing the algorithm
+
+Two main types of supervised learning algorithms:
+----Regression: Trying to predict a number from an infinitely many possible numbers
+--------Linear Regression is the most common type of regression model. It involves fitting a straight line to the data set
+
+----Classification: Trying to predict only a limited (finite) number of output classes or categories from the given inputs.
+
+--The outputs do not need to be numeric.
+--There are only a small number of possible outputs.
+
+2. Unsupervised - find something interesting (patterns or structure) in unlabeled data (given input x, but not given output y)
+----We use the term "unsupervised" because this method does not tell the algorithm the answer. We don't supervise or direct the algorithm, the algorithm finds the "answers" on its own
+
+Three main types of unsupervised learning algorithms:
+----Clustering
+
+----Anomaly detection
+
+----Dimensionality reduction
+
+
+3. Some terminology
+
+a. training set (data used to train the model)
+--includes input variable or "features"
+--includes output variable or "target variable"
+
+a. What does it mean to "train" a model?
+--Training is the process of evaluating your model with updated values for your model's parameters, with the goal of decreasing the value of the cost function. Gradient descent is a method for choosing updated values for your model's parameters, so as to decrease the value of the cost function.
+
+c. Linear regression with one variable (feature)
+--Also called univariate regression
+
+d. Linear regression with more than one variable (feature)
+--Also called multiple linear regression
+----Note: This is NOT multivariate regression, which is another type of regression
+
+
+4. Dot Product
+
+a. arr1.dot(arr2)
+b. The number of columns in arr1 must equal the length of the individual column vectors in arr2
+
+
+5. Feature scaling
+
+The lectures discussed three different techniques:
+
+a. Feature scaling, essentially dividing each positive feature by its maximum value, or more generally, rescale each feature by both its minimum and maximum values using (x-min)/(max-min). Both ways normalizes features to the range of -1 and 1, where the former method works for positive features which is simple and serves well for the lecture's example, and the latter method works for any features.
+
+b. Mean normalization:  𝑥𝑖= (𝑥𝑖−𝜇𝑖) / (𝑚𝑎𝑥−𝑚𝑖𝑛) 
+-- ui is the mean
+
+c. Z-score normalization:
+--Calculate mean
+--Calculate standard deviation
+-- z-score = (value - mean) / standard_deviation
+
+***
+***
+
+
+6. Steps for performing simple linear regression
+
+    a. Start with a dataset, including the desired target
+
+    b. Calculate y_new = log(y+1)
+                 y_new = np.log1p(y)
+
+    c. z_score features with very large or very small values.
+
+    d. Deal with features that have missing values
+
+    e. Create training, validation, and test sets
+
+    f. Use normal equation to train the model
+    --remember to add "ones" column to the front of the feature metrix
+    --I now have w0 and W (the weights matrix)
+
+    g. generate predictions: y_pred
+                             y_pred = w0 + train.dot(W)
+
+    h. Calculate root mean squared error (RMSE) to determine how well the model is performing.
+
+
+***
+***
+
+7. Some code:
+
+# Method to z_score normalize the feature_matrix. Output is
+# copy of feature_matrix with values normalized
+def z_score_normalize(feature_matrix):
+    f_matrix = feature_matrix.copy()
+    metrics = f_matrix.describe()
+    
+    for i in range(f_matrix.shape[1]):
+        f_matrix.iloc[:,i] = f_matrix.iloc[:,i] - metrics.iloc[1,i]
+        f_matrix.iloc[:,i] = f_matrix.iloc[:,i] / metrics.iloc[2,i]
+    
+    return f_matrix
+
+
+
+# Implement the normal equation
+# X = ndarray feature metrix. First column of X is ones
+# Y = ndarray target vector
+# returns the trained model weights
+def normal_equation(X,Y):
+    X_tr = X.transpose()
+    tmp = X_tr.dot(X)
+    tmp2 = np.linalg.inv(tmp) #inverse
+    tmp3 = X_tr.dot(Y)
+    wts = tmp2.dot(tmp3)
+    
+    return wts[0], wts[1:]
+
+
+
+# Implement the normal equation with regularization
+# X = ndarray feature metrix. First column of X is ones
+# Y = ndarray target vector
+# r = Regularization parameter
+# returns the trained model weights
+def normal_equation_reg(X,Y,r):
+    X_tr = X.transpose()
+    tmp = X_tr.dot(X)
+    reg = r * np.eye(tmp.shape[0])
+    tmp = tmp + reg
+    tmp2 = np.linalg.inv(tmp) #inverse
+    tmp3 = X_tr.dot(Y)
+    wts = tmp2.dot(tmp3)
+    
+    return wts[0], wts[1:]
+
+
+
+# Create the validation, test, and training datasets
+# df: The entire dataframe, including the target column
+# val_size: Ex: =0.2 for 20% of the dataframe, =0.3 for 30%...
+#
+# Return tuple of df_train, df_val, df_test
+def create_train_val_test(df, val_size, seed):
+    n_val = int(val_size * len(df))
+    n_test = int(val_size * len(df))
+    n_train = len(df) - (n_val + n_test)
+
+    np.random.seed(seed)
+    idx = np.arange(len(df))
+    np.random.shuffle(idx)
+
+    # Shuffle the dataframe (copy)
+    df_shuffled = df.iloc[idx].copy()
+
+    df_train = df_shuffled.iloc[:n_train].copy()
+    df_val = df_shuffled.iloc[n_train:n_train+n_val].copy()
+    df_test = df_shuffled.iloc[n_train+n_val:].copy()
+    
+    return df_train, df_val, df_test
+
+
+
+# Calculate root mean squared error (RMSE)
+def rmse(pred_v, target_v):
+    m = len(pred_v)
+    tmp = (pred_v - target_v) **2
+    tmp = np.sum(tmp) / m
+    tmp = np.sqrt(tmp)
+    return tmp
+
+
+
+##
+# Some numpy and pandas stuff
+##
+
+
+# A few ways to create a numpy array
+
+DataFrame.to_numpy(dataframe)
+dataframe.values
+np.array([1,2,3])
+np.array([[1,2,3],[4,5,6]])
+np.array(dataframe.column)
+np.arange(n)
+
+
+
+# Check a dataframe for missing values
+
+df.isnull().sum()
+
+# Count the distinct values in a dataframe column
+
+df.column_name.value_counts()
+df[[column1,column2]].value_counts() # This one is almost like a group-by. Very useful!!!
+
+
+
+# Create numpy array with ones or zeroes
+
+np.ones(5)
+np.zeroes(5)
+
+
+
+# Add column of ones (as the first column) of a numpy array
+
+np.column_stack([np.ones(5),np.zeros(5)])
+
+
+# Fill in missing values
+
+df.fillna(some_value)
+df.column_name.fillna(some_value)
+
+
+# Convert values to numeric. Use "coerce" to skip values that can't be converted to numeric. The skipped values are replaced with NaN.
+
+import pandas as pd
+processed_column = pd.to_numeric(df.column_name, errors='coerce')
+# Now use isnull() to determine the rows that were skipped
+processed_column[processed_column.isnull()]
+
+
+
+# Standardize column names and data values.
+--Replace spaces with underscores
+--Lowercase all values
+
+-- columns --
+df.columns = df.columns.str.lower().str.replace(' ', '_')
+
+-- data values --
+string_columns = list(df.dtypes[df.dtypes == 'object'].index)
+for col in string_columns:
+    df[col] = df[col].str.lower().str.replace(' ', '_')
+
+
