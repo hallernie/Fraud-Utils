@@ -1,0 +1,349 @@
+**** (VIM) Insert the current date and time
+
+:r!date
+
+
+
+**** (VIM) Replace all occurrenses of str1 with str2 on current line only
+
+:s/str1/str2/g
+
+
+
+**** (ex-VIM) Show all lines that match the search string
+
+a. Be in command mode. Maybe set line numbering (:set number) so resultant lines are numbered
+
+:g/String to search for. Can be a regex
+
+
+
+**** (ThreatMetrix-Vim) search/replace events.csv file to correctly format the date field
+/[.][0-9]\{3,3} UTC
+
+**** (Vim) open window containing my command (:) history
+a. Be in command mode
+b. type q:
+
+**** (Vim) open window containing my search (/) history
+a. Be in command mode
+b. type q/
+
+**** (Vim) If you leave out the search term for :s, it will assume you want to use the last thing you searched for.
+
+So you can:
+
+/searchregex
+
+and then right after do:
+
+:%s//replaceregex/
+
+and it will use search regex to do the replace.
+
+**** (Vim) List lines that match the given regex
+:g/https
+
+
+**** (Vim) Search for string, but only on the current line
+
+--The example below will search for the string "bubba" on the current line
+
+a. Shift-V
+--This will turn on visual selection for the line
+
+b. /\%Vbubba
+
+c. Shift-V
+--This will turn off visual selection for the line
+
+
+**** (Vim) Search for string, but only in the visually selected portion
+
+a. Select visually the part of the document to be searched
+b. Hit ESC key. This will turn off the visually selected section
+c. /\%Vmy_search_text
+---The above will search for text in the last visually selected part of the document
+
+
+
+**** (Vim) Word movement commands
+
+a. Move to the end of the current word
+
+e
+
+b. Move to the end of the previous word
+
+ge
+
+
+
+**** (Vim) Move to the end of the current word
+
+e
+
+
+
+
+
+**** (MacVim) Make it so startup font is not small
+a. In my home directory create or edit the .vimrc file. Add the following (or similar font):
+
+:set guifont=Menlo:h24
+
+When I update MacVim the .vimrc file is destroyed. So will need to recreate again.
+
+
+**** (MacVim) Change the color of hlsearch (highlight search)
+
+:hi Search guibg=peru guifg=wheat
+guibg = background color
+guifg = foreground color
+
+
+**** Make the entire display larger on a Mac
+a. Open System Preferences
+b. Accessibility
+c. Zoom
+d. Select "Use keyboard shortcuts to zoom"
+
+This will then enable:
+(a) Windows Keyboard
+Hold Windows and ALT keys together and select + or - keys to zoom
+
+(b) Mac Keyboard
+Hold Option and Command keys together and select + or - keys to zoom
+
+
+**** (Pandas) Apply a function utilizing two or more columns of Pandas dataframe
+df['col_3'] = df.apply(lambda x: f(x.col_1, x.col_2), axis=1)
+    OR
+df['col_3'] = df.apply(lambda x: f(x.col_1, x.col_2), axis='columns')
+
+##df is the name of the dataframe
+##f is the name of the function that takes two or more columns from the data frame
+
+## So with a dataframe called "my_frame" and a function doit(val1,val2)
+my_frame['col_3'] = my_frame.apply(lambda x: doit(x.col_1, x.col_2), axis='columns')
+    OR
+my_frame['col_3'] = my_frame.apply(lambda x: doit(x.col_1, str(x.col_2)), axis='columns')
+
+
+**** (Pandas) Apply a function to the entire dataframe
+tmp = df.apply(lambda x: do_something(x), axis=1)
+
+within the function I can reference fields using dot notation
+
+def do_something(x):
+    if str(x.col_name) == 'value':
+        do_some_stuff_here
+
+
+
+**** (Keyboard Shortcut - Mac) Delete in the opposite direction
+Hold 'F1' key and hit 'DEL' key
+
+
+**** (UNIX) Convert comma (,) delimited text row to columnns using the "tr" command
+## Useful to print out the columns names of a .csv file with header
+
+## Get input line from a file
+% head -n1 afterpay_events2.csv | tr ',' '\n'
+
+## Get input line from command line text
+% echo 'hello,mommy' | tr ',' '\n'
+
+
+**** (UNIX) Seach and rerun a command from history
+## Pull a command to the top of history using:
+## Pulling the 24th command
+% !24:p
+
+## Now in escape mode (for me vi) hit "k" to view the last command in history. Which for this example will be the 24th command since
+## I pulled it to the top of history. Now I can just hit enter to execute the command.
+
+## I can also grep history for specific commands
+% history | grep alias
+
+
+**** (SQL) Logical order of operations
+  FROM - Chooses table to get the base data records
+  JOIN - Obtains matching data records from other tables
+  WHERE - Filters the base data
+  GROUP BY - Aggregates the base data
+  HAVING - Filters the aggregated data
+  SELECT - Returns the final data
+  ORDER BY - Sorts the final data
+
+
+
+**** (PySpark) Starting PySpark
+a. PySpark requires java 8. Set the JAVA_HOME environment variable
+
+% export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
+
+b. Run pysparkOpen Unix command shell and activate the pyspark environment
+
+% pyspark
+
+c. Enter the following in the REPL
+
+>>> from pyspark.sql import SparkSession
+
+e. Instantiate a SparkSession
+
+>>> spark = SparkSession.builder.getOrCreate()
+
+
+
+**** (PySpark) Starting PySpark via iPython (Recommended)
+a. PySpark requires java 8. Set the JAVA_HOME environment variable
+
+% export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_311.jdk/Contents/Home
+
+b. Start ipython
+
+% ipython
+
+c. Enter the following in the iPython REPL
+
+In [1]: from pyspark.sql import SparkSession
+
+e. Instantiate a SparkSession
+
+In [2]: spark = SparkSession.builder.getOrCreate()
+
+
+
+**** (PySpark) Misc
+
+a. Read .csv file, keeping header row
+
+In [1]: dataframe_from_csv_file = spark.read.option("header",True).csv("./events.csv")
+
+
+ 
+**** (Python) Some REPL utility commands
+
+1. Clear the screen
+>>> import os
+>>> os.system(‘clear’)
+
+2. List defined variables
+>>> locals()
+OR
+>>> globals()
+OR
+>>> dir()
+
+3. List the current directory
+>>> import os
+>>> os.getcwd()
+
+4. Change directory
+>>> os.chdir("/tmp/")
+
+5. List contents of current directory
+>>> os.listdir()
+
+6. Bring a python file contents into the local REPL
+>>> exec(open("filename.py").read())
+
+7. Function to list history in the REPL
+
+import readline
+def history(numLines=-1):
+    total = readline.get_current_history_length()
+    if numLines == -1:
+        # default value prints everything
+        numLines = total
+    if numLines > 0:
+        # range from n->end in order to incl. recent line
+        for i in range(total - numLines, total):
+            print(readline.get_history_item(i + 1))
+
+
+**** (IPython) Some REPL utility commands
+
+1. If I want to use vi as my editor in the IPython repl, then start IPython as follows:
+
+% ipython --TerminalInteractiveShell.editing_mode=vi
+
+
+**** (Pandas) Add one row to a DataFrame
+
+-- I like to have a DataFrame where I track the descriptions of the columns contained in a DataFrame. I call this tracking DataFrame "cds" (for column descriptions). The DataFrame has three columns (obj_name, col_name, col_desc). I create the DataFrame as follows:
+
+In [1]: cds = pd.DataFrame({'obj_name':[],'col_name':[],'col_desc':[]})
+
+-- I can add a column as follows:
+
+In [2]: cds.loc[len(cds.index)] = ['the_dataframe_name', 'the_col_name', 'This is my description']
+
+OR
+
+In [3]: tmp = {'obj_name': 'Amy', 'col_name': 'another_name', 'col_desc': 'another description'}
+        cds = cds.append(tmp, ignore_index = True)
+
+
+**** (Pandas) %history (%hist) magic command
+
+-- List history for current session, numbered
+
+In [2]: hist -n
+
+-- List history for current session, numbered, lines 4-7
+
+In [3]: hist -n 4-7
+
+
+
+
+**** (Pandas) Iterate over a DataFrame. Print using f-strings
+
+In [4]: tmp2 = tmp1[['Request ID', 'Reasons']]     # A 2-column DataFrame
+
+In [5]: for x,y in tmp2.values:
+            print(f'{x}     {y}')
+
+
+**** (Misc) The 7 most popular ways to plot data in Python
+
+1. Matplotlib
+2. Seaborn
+3. Plotly
+4. Bokeh
+5. Altair
+6. Pygal
+7. Pandas
+
+
+**** (Anvil) Build web apps with nothing but Python. A beautiful web-based experience for Python development.
+
+
+
+**** (VIM) show lines that match a regex search pattern in a sub window
+
+:vimgrep /pattern/ %
+:cwindow
+
+NOTE: Toggle between main and sub (split) window
+
+<CTRL-W>
+
+NOTE: Resize the current split window to a specified number of lines
+
+:res 20
+
+NOTE: Hit <Enter> in the sub split to goto the line in the main file
+
+NOTE: Quit the sub (split) window
+
+:q
+
+
+Ex:
+
+:vimgrep /<note/ %
+:cwindow
