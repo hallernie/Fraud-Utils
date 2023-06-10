@@ -457,7 +457,7 @@ Recission period (examples of):
 ***
 
 -- There is no rescission period for the purchases of a resale, single-family, improved property
--- a time-share contract has a 10 day recission period from time of exectution
+-- a time-share contract has a 10 day recission period from time of execution
 -- purchaser of raw, undeveloped lot or parcel, who has not physically seen the property, has 6-months to rescind the contract
 -- purchaser of land who completes the purchase before receiving the public disclosure report has 3-years to rescind the contract
 
@@ -943,10 +943,10 @@ INA stands for? (Arizona)
 ***
 
 -- Irrigation Non-Expansive Area
--- areas where groundwater depletion is not as severe as AMAs
--- no new irrigated land allowed
--- Nonexempt wells must report annual water use
--- there are three INAs in Arizona
+------ areas where groundwater depletion is not as severe as AMAs
+------ no new irrigated land allowed
+------ Nonexempt wells must report annual water use
+------ there are three INAs in Arizona
 
 ***
 Types of alternative waste disposal systems (Arizona)
@@ -1066,7 +1066,7 @@ United States Public Land Survey System (Township and Range)
 Formulas and Fact
 ***
 
--- Area of a square or rectangle = Length * Width
+-- Area of a square or rectangle (also the square feet) = Length * Width
 -- Area of triangle = 1/2 * Base * Height
 -- Perimeter of a square or rectangle = L + L + L + L
 -- 1 Acre = 43,560 ft
@@ -1083,7 +1083,7 @@ The Maricopa County Assessor's office defines legal description systems as?
 United States Public Land Survey System is also known as:
 ***
 
--- Rectangular Survey System
+-- Rectangular Survey System (established in 1785)
 -- PLSS
 
 ***
@@ -1116,14 +1116,15 @@ A subdivider is?
 Subdivision or subdivided lands refer to?
 ***
 
--- unimproved or improved lands or property intended to be offered for sale or lease, and is or will be divided into six or more lots, parcels, or fractional interests. It includes cooperatives and residential condominiums
+-- unimproved or improved (for example a new home) lands or property intended to be offered for sale or lease, and is or will be divided into six or more lots, parcels, or fractional interests.
 
-***
-Excluded from the definition of subdivided lands are?
-***
+-- lots are less than 36 acres each
 
--- lots that will be divided into 36 acres or more
--- commercial or agricultural lands that are leased
+-- require seller to provide a public disclosure report when sold
+
+-- commercial or agricultural lands that are leased are excluded from this definition
+
+-- includes cooperatives, residential condominiums, and timeshares
 
 ***
 Rescission periods for unimproved lots:
@@ -1141,10 +1142,12 @@ Rescission periods for unimproved lots:
 Definition of improved lots
 ***
 
--- lot or parcel of subdivision with existing commercial or industrial building, or lot of parcel with agreement to build commercial of industrial building within 2 years of contract exectution.
+-- lot or parcel of a subdivision with existing commercial or industrial building, or lot of parcel with agreement to build commercial of industrial building within 2 years of contract exectution.
+
+-- there is no rescission period for improved lots
 
 ***
-What items a subdivider must include when notifying Commissioner of intent to subdivide?
+What items a subdivider must include when notifying the Commissioner of intent to subdivide?
 ***
 
 -- assured water supply
@@ -1177,4 +1180,246 @@ What are some things that ADRE checks when it receives an intent to subdivide re
 -- inability to deliver title
 -- review deed restrictions
 -- attempt to ascertain parties are "not acting in concert"
--- for for certificate of assured water supply
+-- check for certificate of assured water supply
+-- failure to provide permanent access to lots
+-- situation where use of lots would present an unreasonable health risk
+
+***
+What sales or leases are exempt from the public disclosure report requirement?
+***
+
+-- sale or lease in bulk of six or more lots, parcels, or fractional interests to one buyer
+-- sale or lease of lots or parcels of 160 acres or more
+-- sale or lease of lots or percels that are zoned or restricted to commercial or industrial uses
+
+***
+Lot reservation specifics?
+***
+
+-- taken with no more than $5000 as a deposit
+
+-- deposit must be placed into an escrow account
+
+-- after issuance of public disclosure report (and delivery to the prospective buyer), 7 days for parties to enter into a contract
+
+-- if prospective buyer cancels the contract then subdivider has 5 days to return deposit
+
+-- prospective buyer can cancel the reservation at any time before issuance of the public disclosure report
+
+***
+Subdivider advertising must be?
+***
+
+-- truthful
+-- clearly represent the property
+-- consistent with the public disclosure report
+
+***
+What are the rules for a subdivider who holds a contest or drawing to induce a sale?
+***
+
+-- subdivision has a current public disclosure report
+
+-- subdivision is not under investigation
+
+-- details of contest or drawing submitted to Department before advertising
+
+-- limitation of time, scope, and location is specified
+
+-- all material terms have been disclosed
+
+-- no fee charged participants to participate
+
+-- participant not required to attend tour or sales presentation
+
+-- subdivider is in compiance with all applicable laws and is the responsible party
+
+***
+The timeframe for a timeshare subdivider to turn over advertising records, if requested, to the Department is?
+***
+
+-- 10 days
+
+***
+Developers and new home sales:
+***
+
+-- developers are new home builders that usually use their own contracts and forms
+
+-- developers put earnest deposits into their own operating accounts
+
+-- most purchasers work with sales agents of the developer and the agent represents the developer only
+
+-- if purchaser utilizes a buyers agent, the buyers agent must accompany the buyer on the first look at the property in order to receive a commission
+
+-- if buyer views development without a buyers agent, but later wants to utilize a buyer agent, the developer will allow this, but will not pay a commission
+
+***
+HOA/POA definition?
+***
+
+-- nonprofit association that owns and manages the common areas of a community
+-- members of the community are required to pay assessments to the association
+
+***
+HOA/POA unit sale notification requirements?
+***
+
+-- 49 or fewer units
+------ the member notifies buyer of HOA/POA terms within 10 days of receipt of notice of impending sale
+
+-- 50 or more units
+------ the HOA/POA notifies buyer of HOA/POA terms within 10 days of receipt of notice of impending sale
+------ the HOA/POA can charge the seller no more than $400 to perform notification
+
+***
+HOA/POA rules for dealing with rentals:
+***
+
+-- member may rent property unless prohibited
+
+-- member may designate in writing a third party agent
+
+-- association can only require a member to disclose the following about a renter:
+------ name and contact information of any adults occupying the property
+------ time period of the lease
+------ description and license plate numbers of tenants' vehicles
+------ NOTE: association can charge $25 for requesting this disclosure and the member has 15 days to pay the fee
+
+-- association cannot require the member to provide a copy of the renter's:
+------ rental application
+------ credit report
+------ lease agreement or rental contract
+
+-- association cannot require:
+------ tenant to sign waiver limiting the tenant's due process rights
+------ cannot restrict owning member from serving on the board
+------ assess any penalties or fees to member accept for a $15 late fee for renter disclosure information
+
+-- the association may lawfully restrict level two or level three registered renters (for example a sex offender)
+
+***
+HOA/POA and foreclosures:
+***
+
+-- association can file a "notice to lien" when a member is behind paying their assessments
+-- association can sue member for up to 6 years of past assessments, fines and fees
+-- collection proceedings must be brought within 3 years
+-- foreclosure process is a judicial procedure and can begin only after member is behind $1200 or 1 year past due in assessments
+-- effective 2019 the association must give member 30 days' notice before authorizing a collection agency or an attorney
+
+***
+PUD stands for?
+***
+
+-- Planned Unit Development
+
+***
+Cemetary definition
+***
+
+-- burial park, for earth interments
+-- mausoleum
+-- crematory
+-- cemetary plot
+
+***
+Requirements for a cemetary salesperson
+***
+
+-- must pass a test, but not required to take the 90 hour prelicensing course
+-- no continuing education requirements
+-- must renew license every 2 years
+-- Department my issue temporary license 90 days before exam is passed
+
+***
+Cemetary requirements
+***
+
+-- developer of a cemetary must give the Department a "notice of intent" to develop a cemetary
+-- Department issues a certificate of authority if cemetary developement is approved
+-- developer must show proof of an irrevocable set up for cemetary operation and maintenance
+-- must have a trustee of a financial institution appointed to oversee endowed care fund
+-- all records of cemetary broker must be kept for 5 years, and if requested, the broker must provide the records within 10 days
+
+***
+Membership Campgrounds
+***
+
+-- regulated by ADRE
+-- membership is similar to a timeshare
+-- Yes. Any mortgage or deed of trust filed prior to the lien will not be wiped out.
+-- not open to the public
+-- membership camping license is required by broker and any salespersons
+-- require public disclosure report issued by Department
+-- most post a bond to insure against indebtedness
+-- operators must use a licensed broker for all sales and contracts
+-- licensees exempted from any continuing education, but are required to renew their licenses every 2 years
+
+***
+Which of these four developers (subdividers, timeshare, membership campground, real estate salespersons) are NOT allowed to utilize drawings (contests) to attract buyers?
+***
+
+-- real estate salespersons
+
+***
+A developer contract must state these three things:
+***
+
+-- who holds the earnest deposit
+-- if earnest deposit is being put into escrow, or in the broker's general account
+-- it must tell the buyer to read the public report
+
+***
+What are unsubdivided lands?
+***
+
+-- lands divided or to be divided for purpose of sale or lease, into six or more lots, parcels or fractional interests
+
+-- lots are 36 acres or more each
+
+-- lots are less than 160 acres each
+
+-- agricultural leases are NOT included in this definition
+
+-- require seller to complete Affidavit of Disclosure when sold
+
+***
+What is an Affidavit of Disclosure? 
+***
+
+-- required when selling unsubdivided lands
+-- a seller disclosure document in lieu of a public disclosure report (which is required for subdivided lands)
+-- intended to inform a potential buyer about certain risks that may be known only to the seller
+-- after receipt, buyer has five days to rescind the sale
+
+***
+An Affidavit of Disclosure is required...?
+***
+
+-- to be recorded with the deed and the affidavit of value
+-- on all metes and bounds properties
+-- of all subsequent sellers
+
+***
+For new home sales, the developer/builder is required to give the buyer a "xxxx xxxx xxxx" statement?
+***
+
+-- public property disclosure (which is required for new home sales and subdivision sales)
+-- ** NOT ** a seller property disclosure report (which is for existing home sales)
+
+***
+The Department may deny a public disclosure report for these reasons
+***
+
+-- failure to provide permanent access to lots
+-- inability to deliver title
+-- owner with more than 10% interest has been convicted of fraud or dishonesty in a real estate transaction
+
+***
+After subdivider notifies the Department of the intent to subdivid, the Department will review what items on the application?
+***
+
+-- review any deed restrictions
+-- review disclosures within 1 mile redius of the subdivision
+-- check for assured water supply from ADWR
