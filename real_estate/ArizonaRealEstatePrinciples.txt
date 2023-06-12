@@ -3,9 +3,226 @@ Note: Ignore this content
 *****
 
 *****
-Unit 4: Real Estate Ownership
+Unit 1: Arizona Real Estate Law, Rules, and Licensing
 *****
 
+***
+The Arizona Real Estate Law Book is comprised of?
+***
+
+-- Arizona State Constitution
+-- Arizona Revised Statutes (Laws passed by the Arizona State Legislature)
+-- Arizona Administrative Code (The Rules! Specifies how to follow the laws)
+-- Substantive Policy Statements (further clarifications issued by the Real Estate Commissioner)
+
+***
+Definition of Common Law
+***
+
+-- court cases are decided based on the outcomes of previous cases
+
+***
+What gives licensees in Arizona the right to "draft and fill out and complete" real estate related documents?
+***
+
+-- Arizona State Constitution, Article 26, Section 1
+
+***
+Requirements to be the Real Estate Commissioner?
+***
+
+-- 5 years of experience in the real estate industry
+-- 3 year of administrative experience
+-- no financial interest in any real estate or brokerage firm
+
+***
+Real Estate Advisory Board details
+***
+
+-- 10 members
+-- 6 year staggered terms
+-- 2 members with five years of real estate broker experience
+-- 2 members whose primary business is subdividing real property
+-- 3 members doing residential real estate for five years, 1 with multifamily residential rentals
+-- 3 public members, not related to anyone holding a Arizona real estate license
+
+***
+If designated or employing broker license becomes inactive then...?
+***
+
+-- designated, employing, and salesperson licenses become inactive
+
+***
+Real estate license exemptions...
+***
+
+-- an attorney
+
+-- person holding power of attorney
+
+-- a person doing residential leasing at one building. Person can receive a bonus
+
+-- property manager for one nonresidential income property, or for two or more contiguous nonresidential income properties
+
+-- person performing bookeeping or clerical work
+
+-- person conducting telemarketing solicitations with a licensed person
+
+***
+Some requirements for obtaining a salesperson license
+***
+
+-- 90-hours real estate prelicensing course. including passing course exam
+-- 6-hour contract writing course
+-- pass Arizona's salesperson exam
+
+***
+Salesperson license fees
+***
+
+-- exam fee: $75
+-- license fee: $50
+-- recovery fund fee: $10
+
+***
+Some requirements for obtaining a brokers license
+***
+
+-- all salesperson requirements (except does not need to retake a contract writing course)
+-- 5 years of active salesperson experience
+-- 3 broker management clinics
+-- 90-hour broker prelicensing course. including passing course exam
+-- pass Arizona broker exam
+
+***
+Broker license fees
+***
+
+-- exam fee: $125
+-- license fee: $125
+-- recovery fund fee: $20
+
+***
+Salesperson license exam specifics
+***
+
+-- 180 questions + 15 unscored pretest questions
+-- 300 minutes
+-- if not passed first time must wait 24 hrs to retake
+-- if not passed second time then applicant may make apppointment to review missed questions
+
+***
+Some requirements for out-of-state licensees
+***
+
+-- moved to Arizona
+-- has established residency in Arizona
+-- has been licensed for 1 year in another state
+-- pass Arizona's salesperson exam
+-- Note: candidate licensed in another state for 3 of the past 5 years can apply for a salesperson or brokers license
+
+***
+License maintenance requirements include...?
+***
+
+-- notify Department of change in personal information with 10 calendar days
+-- notify Department of felony, misdemeanor, or bankrupcy within 10 calendar days
+
+***
+Salesperson license renewal requirements include...?
+***
+
+-- every two year during licensing month
+-- all renewals may be done within 90 days of renewal deadline
+-- one-year grace period for salespersons who do not renew
+-- Note: Department will notify both broker and salesperson at 90, 60, and 30 days of deadline
+
+-- completed renewal application
+-- renewal fee: $60 (timely), $125 (late)
+-- diciplinary disclosure form
+-- proof of legal presence
+
+***
+Salesperson continuing education requirements include...?
+***
+
+-- 24 hours over 2 year period in the following categories
+
+-------- agency (3)
+-------- Commissioner's standards (3)
+-------- contract (3)
+-------- disclosure (3)
+-------- fair housing (3)
+-------- legal issues (3)
+-------- electives (6)
+
+***
+Salesperson failure to renew requirements include...?
+***
+
+-- during grace period take all continuing education and pay all fees
+-- after grace period license is terminated, and licensee will need to take state exam again (if prelicensing courses were completed within the past 10 years)
+
+***
+Broker continuing education requirements include...?
+***
+
+-- 30 hours over 2 year period
+
+-------- agency (3)
+-------- Commissioner's standards (3)
+-------- contract (3)
+-------- disclosure (3)
+-------- fair housing (3)
+-------- legal issues (3)
+-------- electives (3)
+
+plus Broker Management Clinics Trilogy:
+
+-------- Statutes and Laws (3)
+-------- Office policies (3)
+-------- Supervision (3)
+
+***
+Broker license renewal requirements include...?
+***
+
+-- every two year during licensing month
+-- all renewals may be done within 90 days of renewal deadline
+
+-- completed renewal application
+-- renewal fee: $150 (timely), $250 (late)
+-- diciplinary disclosure form
+-- proof of legal presence
+
+***
+Denial of license renewal by the Department specifics include...?
+***
+
+-- there must first have been a complaint, action against, or an investigation by the Department
+-- convicted of a felony or currently incarcerated
+
+***
+Licensee investigations and administrative procedures include...?
+***
+
+-- licensee has 14 calendar days to respond to a complaint
+
+-- complaint can be closed without action if no violation determined
+
+-- letter of concern may be issued if violation is minor. stays on licensees record
+
+-- if violation sufficient to require discipline a consent order may be negotiated with the licensee
+
+-- negotiated consent order cannot be appealed
+
+-- of violation severe to require revocation of license then referred to Attorney General, who will schedule a hearing with an administrative law judge
+
+-- licensee can voluntarily surrender license 10 or more days prior to hearing. If surrendered licensee can never again practice real estate
+
+*****
+Unit 4: Real Estate Ownership
+*****
 
 ***
 Theorys of land financing
@@ -1423,3 +1640,4 @@ After subdivider notifies the Department of the intent to subdivid, the Departme
 -- review any deed restrictions
 -- review disclosures within 1 mile redius of the subdivision
 -- check for assured water supply from ADWR
+
