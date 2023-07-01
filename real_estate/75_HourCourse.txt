@@ -1,0 +1,570 @@
+*****
+Note: Ignore this content
+*****
+
+*****
+Unit 1: Introduction to the Real Estate Business
+*****
+
+***
+What are the factor affecting demand?
+***
+
+-- demographics
+-- economy
+-- wages
+-- population
+
+***
+What are the factor affecting supply?
+***
+
+-- demand
+-- construction costs (labor, materials, fees)
+-- interest rates
+-- governmental monetary policy
+
+***
+What two characteristics of real estate govern the way the market responds to supply and demand?
+***
+
+-- uniqueness
+-- immobility
+
+***
+What are the types of real property?
+***
+
+-- RESIDENTIAL: all property used for single-family or multifamily housing, whether in urban, suburban, or rural areas;
+
+-- COMMERCIAL: business property, including office space, shopping centers, stores, theaters, hotels, and parking facilities;
+
+-- MIXED-USE: property that allows for two or more commercial and residential uses in the same building;
+
+-- INDUSTRIAL: warehouses, factories, land in industrial districts, and power plants;
+
+-- AGRICULTURAL: farms, timberland, ranches, and orchards; or
+
+-- SPECIAL PURPOSE: privately owned properties, such as places of worship, schools, and cemeteries, as well as publicly held properties, such as schools, municipal service buildings, and parks.
+
+***
+A broker may charge a fee for all of the following services except?
+***
+
+-- appraising
+
+*****
+Unit 2: Real Property and the Law
+*****
+
+***
+What are the ownership "bundle of legal rights" of real property?
+***
+
+-- possession
+-- control the property within the framework of the law
+-- enjoyment: to use the property in any legal manner
+-- exclusion: to keep others from entering or using the property
+-- disposition: to sell, will, transfer, or otherwise dispose of or encumber the property
+
+***
+What is title to real property?
+***
+
+-- the right to or ownership of the property, including the owner's bundle of legal rights
+-- evidence of that ownership by a deed
+
+***
+What is a deed to real property?
+***
+
+-- The document by which the owner transfers title
+
+***
+What is an appurtenance?
+***
+
+-- something that is transferred with or "runs with" the land
+-- is a right or privilege associated with the property, although not necessarily a physical part of it
+-- normally transfers to the new owner when the property is sol
+-- Examples: parking spaces in multiunit buildings, easements, water rights, and other improvements 
+
+***
+What are the type of appurtenances?
+***
+
+-- improvements: items attached to the land with the intent of being permanent. (house, fence, road, lanscaping)
+
+-- rights (air, surface, subsurface)
+
+-- interests
+
+-- fixtures (house, fence, road, lanscaping)
+
+***
+What are the legal tests for "fixure"?
+***
+
+-- MARIA
+
+-- method of annexation
+
+-- adaptability of the item for the land's ordinary use
+-- Ex: generic refrigerator plugged into the outlet (personal property)
+-- Ex: refrigerator specifically purchased to match custom kitchen (fixture, goes with the land)
+
+-- relationship of the parties
+-- intention of the person in placing the item on the land
+-- agreement of parties
+
+***
+What is a trade fixture?
+***
+
+-- article owned by tenent, attached to the rented property, used for conducting business
+-- trade fixtures are personal property, and must be removed by the tennet when the lease ends
+-- if trade fixure is not removed, then becomes real property of the landlord (call accession)
+
+***
+What is real estate?
+***
+
+-- the land plus appurtenances that are attached to the land
+-- real estate is immovable.
+-- Note: anything that is "movable" is personal property.
+
+***
+What is riparian land?
+***
+
+-- land abutting flowing water (river)
+
+***
+What is littoral land?
+***
+
+-- land abutting standing water (lake)
+
+***
+Where do ownership rights end for riparian and littoral land?
+***
+
+-- at the average high-water mark
+
+***
+What is an easement?
+***
+
+-- the right to use the land of another for a specific purpose
+
+***
+What is accretion?
+***
+
+-- addition to land by natural causes
+
+***
+What is erosion?
+***
+
+-- gradual wearing away of the land by natural forces
+
+***
+What is avulsion?
+***
+
+-- sudden loss of land by an act of nature
+
+***
+What are the economic characteristics of real property?
+***
+
+-- scarcity
+-- improvements
+-- permanence of investment (drainage, electricity, water, and sewerage)
+-- area preference (location, location, location)
+
+***
+How is real property transferred?
+***
+
+-- by deed
+
+***
+How is personal property (personalty) transferred?
+***
+
+-- by bill of sale or receipt
+
+***
+What are items of personal property called?
+***
+
+-- chattels
+
+***
+What are emblements?
+***
+
+-- annually cultivated crops such as fruit, vegetables, and grain
+-- emblements are personal property
+
+***
+What are three methods for real property to become personal property, or vice versa?
+***
+
+-- severance: apples picked from tree and sold at market (real to personal)
+-- accession: trade fixture left behind after a lease (personal to real)
+-- annexation: cement poured to create a driveway (personal to real)
+
+*****
+Unit 3: Interests (financial) in Real Estate
+*****
+
+***
+Estate (financial interest) in land?
+***
+
+-- an interest or right in real property that allows or will allow possession
+
+***
+What is a freehold estate?
+***
+
+-- ownership for an indefinite duration
+-- last for a lifetime or forever
+
+***
+Types of freehold estates?
+***
+
+1) fee simple absolute:
+------ maximum ownership estate in real property
+------ may be passed along to heirs
+------ last indefintely
+------ you can sell it
+
+2) fee simple defeasible or qualified fee (their is a condition)
+------ you own this real property as long as you do or don't do something
+------ created by a "deed condition"
+------ often is a gift
+------ if deed condition is violated, reverts back to grantor, or their heirs
+------ can be transfered or inherited, but the next owner must abide by the original conditions
+
+3) life estate (sometimes called "life tenant"):
+------ grantor deeds grantee the real property. grantee has ownership until death
+
+------ grantor has a "reversionary interest" in the property. meaning property will someday "revert" back to the grantor, or revert back to a third party called a "remainderman". the remainderman has a "remainder interest" in the real property.
+
+------ pur autre vie (for the life of another). the "other life" is not the holder of the life estate
+
+***
+What is leasehold estate?
+***
+
+-- possession (NOT OWNERSHIP) of real property for a fixed term
+-- the "tenant" or "lesser" holds a leasehold estate
+-- the landlord of the property holds a "lease fee estate"
+-- if I purchase the leased property, my ownership is subject to the lease terms. the lease does not end just because I bought the property
+
+***
+Types of leasehold estates?
+***
+
+1) estate for years:
+------ has specific termination date
+------ no termination notice required
+------ death of landlord or tenant does not terminate the lease
+------ sale of property does not terminate the lease
+
+2) periodic estate (month-to-month)
+------ renews automatically (ex: month-to-month lease)
+
+3) estate at will
+------ no agreement specifying term or payment of rent
+------ terminated by notice, death, or sale of the property
+
+4) estate at sufferance
+------ lease has expired, but I haven't given back the property yet
+------ owner may  evict tenent, or except rent
+------ if rent is accepted at sufferance, then estate at sufferance becomes a periodic estate
+
+***
+What are some examples of future interest?
+***
+
+-- possibility of reverter (no court action required)
+-- right of reentry (court action required)
+
+***
+What is a homestead?
+***
+
+-- a statutory right that a family has in its residence
+-- reserves a portion of the real property value for the owner, in the case of a court sale
+-- a type of life estate created by the state
+
+***
+What is an encumbrance?
+***
+
+-- a claim, charge, or liability that attaches to real estate
+-- an encumbrance is not an estate, so it does not allow possession
+
+***
+Types of encumbrances?
+***
+
+1) easements and licenses: permit limited use the land of another, for a specific purpose
+2) private restrictions: Covenents, conditions, and restrictions (CC&Rs)
+3) liens: charge against property that provides security for a debt or obligation
+4) encroachments, which can result if a neighbor extends over a property boundary
+
+***
+Types of liens?
+***
+
+-- real estate taxes
+-- mortgages
+-- judgements
+-- mechanics's liens
+
+***
+Types of private restrictions?
+***
+
+-- covenants, conditions, and restrictions (CC&Rs)
+
+***
+Types of easements?
+***
+
+-- easement appurtenant: runs with the property (ex: right to use neighbors property to reach a public road)
+
+-- party wall
+
+-- easement in gross (ex: utility company easements)
+
+-- easement by necessity: land has no acces to street or public way
+
+-- easement by prescription: claiment has used another's land for a period required by law. must be notorious. can be terminated by nonuse
+
+-- Note: an easement can't be cancelled by the owner of the property
+-- Note: an easement can exist only if two adjacent parcels of land are owned by separate owners
+
+***
+What is a license (as opposed to an easement)?
+***
+
+-- similar to an easement, but can be cancelled by the owner of the property
+-- ends with the death of either party, or the sale of the land
+
+***
+What is a lis pendens?
+***
+
+-- Latin for litigation pending. a notice filed in the public record of a pending legal action affecting the title to or possession of property.
+
+***
+What is the acronym for goverment powers over real property?
+***
+
+-- PETE
+------ police power: (ex: zoning, building codes)
+
+------ eminent domain: acquire private property for public use. done by "condemnation"
+
+------ taxation
+
+------ escheat: transfer of ownership to the state (ex: owner dies and leaves no heirs)
+
+*****
+Unit 4: Forms of Real Estate Ownership
+*****
+
+***
+What are the 3 basic forms that real estate can be held?
+***
+
+-- ownership in severalty (one owner)
+-- co-ownership (more than one owner)
+-- ownership by a trust (property held for the benefit of another).
+
+***
+What are the four ways that property can be co-owned?
+***
+
+-- tenancy in common: Each tenant holds a fractional undivided interest with unity of possession only.
+
+-- joint tenants: Unity (equality) of ownership. Created by intentional act; possession, interest, time, title (PITT).
+
+-- tenants by the entirety: Spouses each have equal undivided interest in property.
+
+-- community property: Spouses are equal partners in marriage. Real or personal property acquired during marriage is community property.
+
+***
+What are the rights of survivorship of the four co-owner types?
+***
+
+-- tenancy in common:       no right of survivorship
+-- joint tenants:           right of survivorship
+-- tenants by the entirety: right of survivorship
+-- community property:      no right of survivorship
+
+***
+What determines what happens to property upon the death of a co-owner?
+***
+
+-- the form of co-ownership
+
+***
+What are the characteristics of tenancy in common?
+***
+
+-- each owner owns a fractional interest in the property
+-- no right of survivorship
+-- each owner entitled to possession and use of the entire property
+-- each owner can sell, convey, or mortgage their fractional interest, without consent of other owners
+
+***
+What are the characteristics of joint tenancy?
+***
+
+-- must be specified in the deed
+-- must be equal shares
+-- right of survivorship, the deceased interest transfers directly to the surviving tenants
+-- cannot be conveyed to heirs (so overrides a will)
+-- once only one tenant remains, the final tenant takes title in severalty
+
+***
+What are the four elements (unities) needed to form a joint tenancy (PITT)?
+***
+
+-- Unity of possession: tenants hold an undivided right to possession.
+-- Unity of interest:   tenants hold an equal ownership interest.
+-- Unity of time:       tenants acquire their interests at the same time.
+-- Unity of title:      tenants acquire their interests by the same document.
+
+***
+If any of the four elements (unities) of a joint tenancy is broken, what does the tenancy become?
+***
+
+-- a tenancy in common
+
+***
+What is a partition suit?
+***
+
+-- court sells co-owned property and divides the proceeds among the co-owners
+
+***
+What is tenancy by the entirety co-ownership?
+***
+
+-- spouses each have equal undivided interest in property.
+-- right of survivorship
+-- one party can't convey one-half interest
+
+***
+What are the characteristics of community propery?
+***
+
+-- property acquired during marriage is community property
+-- no right of survivorship
+-- either spouser can will their share however they like
+
+***
+What is the right of survivorship?
+***
+
+-- upon my death I can will my interest to whomever I choose
+
+***
+What is a partnership?
+***
+
+-- association of two or more persons who carry on a business for profit as co-owners
+
+***
+What is a general partnership?
+***
+
+-- all partners have equal say and liability
+-- dissolved and must be reorganized if one owner dies
+
+***
+What is a limited partnership?
+***
+
+-- partner liability is limited to their investment
+-- death of an owner may not affect title if provided in the agreement
+-- popular method of organizing investors with small investments and limited personal risk
+
+***
+What is "undivided interest" mean for co-owned property?
+***
+
+-- each owner owner possesses the entire property
+-- the property can't be divided
+
+***
+What is a trust?
+***
+
+-- device where a person transfers ownership of property to someone else, to hold or manage for the benefit of another
+
+***
+Who are the three principals in a trust?
+***
+
+-- trustor: creates the trust
+-- trustee: manages (carries out the duties ) the trust
+-- beneficiary: benefits from the trust
+
+***
+What is a living trust?
+***
+
+-- trust established while the trustor is still alive
+
+***
+What is a testamentary trust?
+***
+
+-- trust exstablished by will after the trustors death
+
+***
+What are the characteristics of a land trust?
+***
+
+-- trust asset is real property
+-- trustor is usually the beneficiary
+-- continue for a definite term
+
+***
+What are the characteristics of a corporation?
+***
+
+-- a legal entity / artificial person
+-- managed and operated by its board of directors, who are selected by the owners of the corporation
+-- day-to-day operations managed by officers, who are selected by the board of directors
+-- can own real property in severalty or as tenants in common
+-- death of owner never affects title to real property
+-- exists until formally disolved
+
+***
+What are the characteristics of an LLC?
+***
+
+-- combines the most attractive features for limited partnerships and corporations
+-- members enjoy limited liability
+-- offers tax advantages since income flows directly to the members of the LLC
+-- offers a flexible management structure, without the complicated requirements of a corporation, or the restrictions of a limited partnership
+
+***
+What are the 3 main common-interest property types?
+***
+
+-- condominiums
+-- cooperatives
+-- time-shares
