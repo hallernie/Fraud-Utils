@@ -1,0 +1,271 @@
+*****
+Note: Ignore this content
+*****
+
+*****
+Unit 5: Land Description
+*****
+
+1. Real estate is bought and sold on the basis of
+
+A)
+plat size only.
+B)
+a street address.
+C)
+plat and parcel.
+D) X
+a legal description.
+
+2. Which of the following are NOT basic components of a metes-and-bounds description?
+
+A)
+Degrees, minutes, and seconds
+B) X
+Base lines, principal meridians, and townships
+C)
+Tangible and intangible monuments
+D)
+Points of beginning
+
+3. How big is an acre?
+
+A)
+4,356 sq. yd.
+B)
+43,560 sq. yd.
+C)
+4,356 sq. ft.
+D) X
+43,560 sq. ft.
+
+4. The N½ of the SW¼ of a section contains how many acres?
+
+A)
+20
+B)
+40
+C) X
+80
+D)
+60
+
+5. A buyer purchases 4.5 acres of land for $78,400. An adjoining owner wants to purchase a strip of this land measuring 150 feet by 100 feet. What should this strip cost the adjoining owner if it is sold for the same price per square foot originally paid?
+
+A)
+$7,800
+B)
+$3,000
+C)
+$9,400
+D) X
+$6,000
+
+6. A legal description is a detailed way of describing a parcel of land and is based on information collected through
+
+A)
+an area analysis.
+B)
+a land study.
+C) X
+a survey.
+D)
+a land analysis.
+
+7. Which township section number is directly north of Section 7?
+
+A)
+Section 1
+B) X
+Section 6
+C)
+Section 8
+D)
+Section 5
+
+8. A metes-and-bounds description is required in a rectangular survey system description when
+
+A)
+a tract follows the lot or block lines of a recorded subdivision.
+B)
+a tract is too large to be described by quarter-sections.
+C)
+describing a regular tract.
+D) X
+a tract is too small to be described by quarter-sections.
+
+9. A legal description stating "start at the street sign at the corner of Ash and 11th, go 100' south to the tree, then 50' west …" is MOST likely what type of legal description?
+
+A) X
+Metes and bounds
+B)
+Government survey
+C)
+Urban
+D)
+Lot and block
+
+10. The oldest method of land description in the United States is
+
+A) X
+the metes-and-bounds method.
+B)
+the rectangular survey method.
+C)
+the Torrens system.
+D)
+the lot and block method.
+
+11. What is a detailed way of describing a parcel of land?
+
+A) X
+Legal description
+B)
+Appraisal
+C)
+Inspection
+D)
+None of these
+
+12. A parcel of land is two acres. It sells for $1.18 per square foot. What is the total selling price for the parcel?
+
+A) X
+$102,801.60
+B)
+$51,400.80
+C)
+$87,120.00
+D)
+$23,600.00
+
+13. A chain is 66 feet long or four rods; a rod is
+
+A)
+6.6 feet.
+B)
+66 feet.
+C) X
+16.5 feet.
+D)
+26.5 feet.
+
+14. A point, line, or surface from which elevations are measured or indicated is
+
+A)
+a data point.
+B) X
+a datum.
+C)
+a date down.
+D)
+a data line.
+
+15. Which is the process by which boundaries are measured by calculating the dimensions and area to determine the exact location of a piece of land?
+
+A) X
+Survey
+B)
+Metes and bounds
+C)
+Square foot analysis
+D)
+Appraisal
+
+16. What is the length of a mile and number of square feet in an acre?
+
+A)
+6,400 feet and 22,000 square feet
+B) X
+5,280 feet and 43,560 square feet
+C)
+220 yards and 5,280 square feet
+D)
+7,500 feet and 50,000 square feet
+
+17. How many acres are contained in the tract described as "beginning at the NW corner of the SW¼, then south along the west line to the SW corner of the section, then east along the south line of the section 2,640 feet, more or less, to the SE corner of the said SW¼, then in a straight line to the POB"?
+
+A)
+90 acres
+B) X
+80 acres
+C)
+100 acres
+D)
+160 acres
+
+18. A property contains 10 acres. How many lots of not less than 50 feet by 100 feet can be subdivided from the property if 26,000 square feet were dedicated for roads?
+
+A)
+83
+B)
+82
+C) X
+81
+D)
+80
+
+19. Monuments are the turning points in which method of property description?
+
+A)
+Government survey
+B) X
+Metes and bounds
+C)
+Lot and block
+D)
+Rectangular survey
+
+20. Another name for the lot-and-block method of describing a parcel of land is
+
+A)
+the Torrens system.
+B)
+the government survey system.
+C)
+the metes-and-bounds method.
+D) X
+the recorded plat method.
+
+21. A farm that is a quarter-section is
+
+A)
+80 acres.
+B)
+320 acres.
+C)
+20 acres.
+D) X
+160 acres.
+
+22. A survey that provides only the location of the structures and improvements as related to property boundaries is
+
+A)
+an Improvement Area Certificate (IAC).
+B) X
+an Improvement Location Certificate (ILC).
+C)
+an Intermediate Location Survey (ILS).
+D)
+an Intermediate Area Survey (IAS).
+
+23. Which of the following identifiers is NOT used to describe a lot from a recorded subdivision plat?
+
+A)
+Name or number of the subdivision plat
+B)
+Lot and block number
+C) X
+City and ZIP code
+D)
+Name of the county and state
+
+24. In the rectangular survey system, a section is further divided into
+
+A)
+tenths and sixteenths.
+B)
+quarters and eighths.
+C)
+halves and quarters.
+D)
+eighths and sixteenths.
