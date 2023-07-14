@@ -126,14 +126,16 @@ def present_question(l_question):
     answer = input('Your answer: ')
 
     if str(answer).lower() == str(l_question[5]).lower():
-        print('Correct!')
+        print('*********** Correct! ***********')
     else:
         print(f"The correct answer is: {l_question[5]}")
 
     print()
-    print()
+##### end: present_question(l_question)
 
-questions = get_questions_and_answers('unit_7.txt')
+
+filename = input("Enter the test file name: ")
+questions = get_questions_and_answers(filename)
 for x in questions:
     present_question(x)
 
