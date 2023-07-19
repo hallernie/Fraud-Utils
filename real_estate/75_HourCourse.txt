@@ -3,7 +3,7 @@ Note: Ignore this content
 *****
 
 *****
-Unit 1: Introduction to the Real Estate Business
+Unit 1: Introduction to the Real Estate Business (4%)
 *****
 
 ***
@@ -54,7 +54,7 @@ A broker may charge a fee for all of the following services except?
 -- appraising
 
 *****
-Unit 2: Real Property and the Law
+Unit 2: Real Property and the Law (4%)
 *****
 
 ***
@@ -78,7 +78,7 @@ What is title to real property?
 What is a deed to real property?
 ***
 
--- The document by which the owner transfers title
+-- The document by which the owner conveys the right, title, or interest owned in real property
 
 ***
 What is an appurtenance?
@@ -121,7 +121,7 @@ What are the legal tests for "fixure"?
 What is a trade fixture?
 ***
 
--- article owned by tenent, attached to the rented property, used for conducting business
+-- article owned by tenant, attached to the rented property, used for conducting business
 -- trade fixtures are personal property, and must be removed by the tennet when the lease ends
 -- if trade fixure is not removed, then becomes real property of the landlord (call accession)
 
@@ -218,7 +218,7 @@ What are three methods for real property to become personal property, or vice ve
 -- annexation: cement poured to create a driveway (personal to real)
 
 *****
-Unit 3: Interests (financial) in Real Estate
+Unit 3: Interests (financial) in Real Estate (2%)
 *****
 
 ***
@@ -286,7 +286,7 @@ Types of leasehold estates?
 
 4) estate at sufferance
 ------ lease has expired, but I haven't given back the property yet
------- owner may  evict tenent, or except rent
+------ owner may  evict tenant, or except rent
 ------ if rent is accepted at sufferance, then estate at sufferance becomes a periodic estate
 
 ***
@@ -345,9 +345,12 @@ Types of easements?
 
 -- easement in gross (ex: utility company easements)
 
--- easement by necessity: land has no acces to street or public way
+-- easement by necessity:
+------ seller has contiguous property, subdivides property, and sells part of the property
+------ sold land has no access to street or public way
+------ court would issue easement by necessity across SELLER's part of the subdivided property
 
--- easement by prescription: claiment has used another's land for a period required by law. must be notorious. can be terminated by nonuse
+-- easement by prescription: claiment has used another's land for a period required by law. must be notorious. can be terminated by non use
 
 -- Note: an easement can't be cancelled by the owner of the property
 -- Note: an easement can exist only if two adjacent parcels of land are owned by separate owners
@@ -379,7 +382,7 @@ What is the acronym for goverment powers over real property?
 ------ escheat: transfer of ownership to the state (ex: owner dies and leaves no heirs)
 
 *****
-Unit 4: Forms of Real Estate Ownership
+Unit 4: Forms of Real Estate Ownership (6%)
 *****
 
 ***
@@ -423,7 +426,7 @@ What are the characteristics of tenancy in common?
 
 -- each owner owns a fractional interest in the property
 -- no right of survivorship
--- each owner entitled to possession and use of the entire property
+-- each owner entitled to possession and use of the entire property (this is called undivided interest)
 -- each owner can sell, convey, or mortgage their fractional interest, without consent of other owners
 
 ***
@@ -433,7 +436,11 @@ What are the characteristics of joint tenancy?
 -- must be specified in the deed
 -- must be equal shares
 -- right of survivorship, the deceased interest transfers directly to the surviving tenants
--- cannot be conveyed to heirs (so overrides a will)
+-- cannot be conveyed to heirs upon death (so overrides a will)
+
+-- can be conveyed while tenant is alive, but doing so converts the tenancy FOR THAT INTEREST to tenants in common with the remaining joint interests.
+------ ex: there are three joint tenants. one joint tenant sells their interest. this interest is not tenant in common with the two joint tenants. the two owners who did not sell their interest still have joint tenancy for their interests
+
 -- once only one tenant remains, the final tenant takes title in severalty
 
 ***
@@ -463,15 +470,15 @@ What is tenancy by the entirety co-ownership?
 
 -- spouses each have equal undivided interest in property.
 -- right of survivorship
--- one party can't convey one-half interest
+-- conveyed only if both parties agree
 
 ***
 What are the characteristics of community propery?
 ***
 
--- property acquired during marriage is community property
--- no right of survivorship
--- either spouser can will their share however they like
+-- property acquired during marriage that is not separate property
+-- conveyed while both spouses are alive only if both parties agree
+-- no right of survivorship, either spouser can will their share however they like
 
 ***
 What is the right of survivorship?
@@ -499,6 +506,7 @@ What is a limited partnership?
 -- partner liability is limited to their investment
 -- death of an owner may not affect title if provided in the agreement
 -- popular method of organizing investors with small investments and limited personal risk
+-- a limited partnership has both general and limited partners. the general partners run the business
 
 ***
 What is "undivided interest" mean for co-owned property?
@@ -518,7 +526,7 @@ Who are the three principals in a trust?
 ***
 
 -- trustor: creates the trust
--- trustee: manages (carries out the duties ) the trust
+-- trustee: manages (carries out the duties ) the trust. acts as a fiduciary
 -- beneficiary: benefits from the trust
 
 ***
@@ -526,6 +534,8 @@ What is a living trust?
 ***
 
 -- trust established while the trustor is still alive
+-- trustor is also the trustee
+-- upon death of the trustor, the real property passes to the beneficiary
 
 ***
 What is a testamentary trust?
@@ -539,6 +549,7 @@ What are the characteristics of a land trust?
 
 -- trust asset is real property
 -- trustor is usually the beneficiary
+-- public record does not identify the beneficiary
 -- continue for a definite term
 
 ***
@@ -550,6 +561,7 @@ What are the characteristics of a corporation?
 -- day-to-day operations managed by officers, who are selected by the board of directors
 -- can own real property in severalty or as tenants in common
 -- death of owner never affects title to real property
+-- subject to double taxation, first by the corporation, then by its shareholders
 -- exists until formally disolved
 
 ***
@@ -568,3 +580,1206 @@ What are the 3 main common-interest property types?
 -- condominiums
 -- cooperatives
 -- time-shares
+
+***
+What are the characteristics of condominiums?
+***
+
+-- fee simple ownership of your unit's airspace
+-- units are transferred by deed, will, or living trust
+-- ownership includes a percentage of the building's common elements as tenants in common (hallways, elevator, pool)
+-- limited interest ownership (your balcony, parking space)
+-- laws governing condominium are called horizontal property acts
+
+***
+What are the characteristics of cooperatives?
+***
+
+-- corporation holds title to the land and the building
+-- tenants own shares of stock in the corporation and receives proprietary lease to the apartment
+-- shares are personal property, not ownership interest in real estate
+-- ownership interest is in the corporation
+-- bylaws may restrict transfer of shares
+-- each owner responsible for the financial stability of the other owners
+
+***
+What are the characteristics of time-shares?
+***
+
+-- time-share estate is a small interest in real property
+-- right to occupy facilities for the designated period
+-- right to transfer/change period of use
+
+*****
+Unit 5: Land Description (4%)
+*****
+
+***
+What are three methods used to describe real estate?
+***
+
+-- metes and bounds
+------ measure distances (metes), starting from a POB, and following compass directions or angles (bounds) to arrive back at the POB
+
+-- rectangular (government) survey (established in 1785)
+
+-- lot and block (recorded plat)
+------ divides a subdivision into block and lot (individual parcel) numbers, and filed in public records of county where the land is located
+
+***
+What are characteristics of metes and bounds system?
+***
+
+-- start at permanent monument (reference point) then find the POB (POB)
+-- always end at the POB in clockwise fashion
+
+***
+What are characteristics of the rectangular survey system?
+***
+
+-- based on two sets of lines called principle meridians and their corresponding baselines
+-- meridians run N-S, base lines run E-W
+-- there are 37 principle meridians in the US
+-- each principle meridian has a name or number, and is crossed by a base line
+
+***
+What are characteristics of township lines
+***
+
+-- township lines are 6 miles apart running E-W, parallel to the base line.
+-- the strips of land between township lines are called tiers (like a cake)
+
+***
+What are characteristics of range lines
+***
+
+-- range lines are 6 miles apart running N-S, parallel to principle meridian line
+-- the strips of land between range lines are called ranges
+
+***
+What is a township?
+***
+
+-- 6x6 mile
+
+-- located by the following 3 attributes
+------ tier #
+------ range #
+------ principle meridian #
+
+-- contains 36 sections
+-- (history) section 16 of a township is called the school section
+
+***
+Some measurements
+***
+
+-- 1 section, 1x1 mile (square mile), 640 acres
+-- 1 acres, 43,560 square feet
+-- 1 township, 6x6 mile, contains 36 sections
+-- 1 mile, 5280 feet
+
+***
+Breaking up a section
+***
+
+-- remember that ";" means "and"
+
+***
+What is a datum?
+***
+
+-- point, line, or surface from which elevations are measured or indicated
+
+***
+What is a monument?
+***
+
+-- fixed objects or markers. usually identify the POB and corners or places where the boundary line changes direction
+-- may not be accurate
+
+***
+What is a benchmark?
+***
+
+-- monuments that have been established as permanent reference points throughout the US
+
+***
+What is a spot survey?
+***
+
+-- a survey that shows the location, size, and shape of buildings on the lot
+
+*****
+Unit 6: Transfer of Title (6%)
+*****
+
+***
+Who is the OR?
+***
+
+-- The grantOR (giveth) or the OWner
+
+-- a tricky one is mortgagor (borrower) and mortgagee (lender)
+------ the borrower is giving the bank a promissory note and a mortgage
+
+***
+Who is the EE?
+***
+
+-- The grantEE (receiveth)
+
+***
+What is a note for real property?
+***
+
+-- the promise to pay back a loan
+
+***
+What is a mortgage for real property?
+***
+
+-- lien on the property to secure a loan
+
+***
+What are the requirements for a valid deed?
+***
+
+-- Grantor who has the legal competency to execute the deed
+-- Grantee named with reasonable certainty to be identified
+-- Statement of consideration (payment, usually required for recording of the deed)
+-- Granting clause (words of conveyance)
+-- Habendum clause, which defines the ownership right received by the grantee
+-- Accurate legal description of the property conveyed
+-- Any relevant exceptions or reservations to conveyance of full title
+-- Acknowledgment (notarization) of the signature of the grantor
+-- Delivery of the deed and acceptance by the grantee to pass title
+
+***
+What are the requirements for a valid grantor?
+***
+
+-- legal age
+-- sound mind
+
+***
+What are the requirements for a valid grantee?
+***
+
+-- specific names, with no ambiquity on the deed
+
+***
+What a special power of attorney?
+***
+
+-- created for a specific act
+
+***
+What a general power of attorney?
+***
+
+-- gives authority to carry out all business dealings of the person giving it
+
+***
+What two rules must be followed for the execution of corporate deeds?
+***
+
+-- conveyed based on bylaws or resolution of board of directors
+-- deed of conveyance signed by authorized officer
+
+***
+What are the most common deed types?
+***
+
+-- General warranty deed (provides greatest protection to the grantee)
+------ covenant of seisin: grantor owns the property and has the right to convey
+------ covenant against encumbrances:
+------ covenant of further assurances: grantor promises to do whatever necessary to make the title good
+------ covenant of quiet enjoyment: title is good against any third party
+------ covenant of warranty forever: grantor will compensate the grantee any loss sustained in the future
+
+-- Special warranty deed
+------ grantor will defend the title against the grantor's actions, not any past grantors of the property
+------ grantee should get title insurance to protect against any title issues
+
+-- Bargain and sale deed
+------ no protection against encumbrances
+------ but does imply that grantor holds title and has possession
+------ grantee should get title insurance to protect against any title issues
+
+-- Quitclaim deed (provides that least protection to the grantee)
+------ grants whatever interest the grantor possesses in the property
+------ usually used to cure a title defect (ex: misspelled name)
+------ used in divorce to transfer title from one spouse to another
+
+-- Deed of trust
+------ trustor conveys real estate to a trustee for the benefit of a beneficiary
+
+-- Reconveyance deed (satisfaction of mortgage)
+------ used by trustee to return title to the trustor
+
+-- Trustee's deed
+------ used when trustee conveys real estate held in trust to anyone other than the trustor
+------ must state that trustee is executing the interest granted by the trust
+
+-- Deed executed pursuant to a court order
+------ sheriffs' deeds, masters' deeds
+------ usually the "consideration" is stated in the deed, for example the sale price
+
+***
+What is a "lien theory" state?
+***
+
+-- states where deed of trust is treated as a lien on the property, rather than transfering title
+
+***
+What is a transfer tax?
+***
+
+-- tax paid by grantor with property is conveyed
+-- can be paid by seller, buyer, or both
+
+***
+What are some deeds that are exempt from a transfer tax?
+***
+
+-- gifts of real estate
+-- deeds pursuant to mergers of corporations
+-- deeds by charitable, religious, or educational institutions
+
+***
+What is voluntary alienation?
+***
+
+-- legal term for the transfer of title during the property owner's lifetime using some form of deed
+
+***
+What is involuntary alienation?
+***
+
+-- title to property transferred without the owner's consent
+
+***
+What are some types of involuntary alienation?
+***
+
+-- person dies intestate
+------ (dies intestate, and no heirs) -> (escheat) -> (State or county)
+
+-- land needed for public use
+------ (needed by public) -> (condemnation) -> (governmental body)
+
+-- nonpayment of dept
+------ (debt) -> (foreclosure) -> (creditor)
+
+-- open (obvious to anyone who looks), notorious (known by others) and hostile (owner did not know or give consent), continuous (uninterrupted use), adverse use of anothers property for a length of time.
+------ (notorious use) -> (adverse possession) -> (adverse possessor)
+------ Note: Similar to easement by prescription
+
+***
+What does it mean when a person dies "intestate"?
+***
+
+-- dies without leaving a proper will
+-- real property passes to heirs based on the state's "statute of descent and distribution" (state makes a will)
+
+***
+What does it mean when a person dies "testate"?
+***
+
+-- dead person (testator) has prepared a will
+
+***
+What is the heirarchy of real property transfer when the owner dies?
+***
+
+-- co-owner by virue of joint tenancy, or tenancy by the entirety (no court action needed)
+-- the party named in a valid will
+-- statutory heirs determined by the state's law of decet and distibution
+
+***
+What is probate?
+***
+
+-- judicial process when a title passes by will or state's descent where the successor to the title is recognized
+-- judicial process for verifying the validity of a will and accounting for the decedent's assets
+-- Note: claims against the property must be satisfied first
+
+***
+What is a devise, as it pertains to a testator?
+***
+
+-- gift of real property by will
+-- Note: person who receives the property is known as the devisee
+
+***
+What is a bequest of a legacy, as it pertains to a testator?
+***
+
+-- the gift of personal property by a will
+
+***
+What is a codicil?
+***
+
+-- document containing the modifications or addtion to a previously executed will
+
+***
+Who approves the commission of a real estate broker who sells a property that is in probate?
+***
+
+-- the probate court
+
+***
+What is another namne of an oral will?
+***
+
+-- a nuncupative will
+
+***
+What is another name for handwritten will?
+***
+
+-- a holographic will
+
+*****
+Unit 7: Title Records (4%)
+*****
+
+***
+What is giving "notice" as pertains to interest in real property?
+***
+
+-- ensure that the existence of the interest is made available to the public
+
+***
+What is "constructive notice" as pertains to interest in real property?
+***
+
+-- constructive notice of a document is assumed when due diligence (such as a search of public records and inspection of the property) would reveal its existence
+
+-- the legal presumption that information has been obtained by an individual through due diligence
+
+-- a prospective purchaser or lender is responsible for discovering the interest and is presumed to have done so
+
+***
+What are some examples of "constructive notice" as pertains to interest in real property?
+***
+
+-- took physical possession of the property
+-- recorded documents
+
+***
+What is "actual notice" as pertains to interest in real property?
+***
+
+-- an individual has direct knowledge of documents in the public records and facts revealed by an inspection of the property
+
+-- NOTE: If it can be proved that an individual has had actual notice of a property right, that person cannot use a lack of constructive notice (such as an unrecorded deed) to justify a claim
+
+***
+What are some examples of "actual notice" as pertains to interest in real property?
+***
+
+-- searched public records
+-- gave information personally
+-- inspected the property
+
+***
+What is "recording" as pertains to records?
+***
+
+-- the act of placing documents in the public record (constructive notice)
+-- NOTE: usually done at the county level
+-- NOTE: recording acts generally give legal priority to those interests recorded first
+
+***
+What is "priority" as pertains to record recording?
+***
+
+-- recording acts give legal priority to interests recorded first
+
+***
+What are some types of unrecorded documents? (these documents are exceptions to priority in record recording)
+***
+
+-- liens on property taxes
+-- special assessments
+-- delinquent amounts owed to the IRS
+
+***
+Many times liens on property taxes and special assessments are not recorded until after the end of the period for which the taxes are assessments will be due. How will a title search get notice of these items?
+***
+
+-- the tax collector's office
+-- paid tax receipts
+-- letters from the municipality
+
+***
+What is the chain of title?
+***
+
+-- record of property ownership
+-- does not include liens and other encumbrances
+
+***
+What is an action to quiet title?
+***
+
+-- a court action required if their is a gap in the chain of title, or a cloud (ex: forgery) on the title
+-- also used for adverse possession
+-- once court records its judgement, the cloud on title is cleared
+
+***
+What is lis pendens?
+***
+
+-- recorded notice of a pending lawsuit affecting title to property
+
+***
+What is a title search?
+***
+
+-- examination of the public records to determine whether any defects exist in the chain of title
+
+-- NOTE: when an offer is accepted a preliminary title search is performed. the preliminary title search includes contingencies and gives the buyer the right to review and the seller the right to cure defects in title
+
+***
+What is a abstract of title?
+***
+
+-- summary report of what the title seach found in the public record
+-- prepared by an abstractor or an attorney
+
+***
+What does an abstract of title contain?
+***
+
+-- all recorded liens and encumbrances, along with their current status
+-- list of all public records examined as evidence of the scope of the search
+
+***
+What does an abstract of NOT title contain?
+***
+
+-- forgeries
+-- interests that our unrecorded
+-- interests that could be discovered by inpecting the property
+
+***
+What is marketable title?
+***
+
+-- title that will not subject the buyer to litigation
+
+***
+What are the properties of marketable title?
+***
+
+-- all serious defects disclosed
+-- will not subject the buyer to litagation later or threaten quiet enjoyment
+-- will convince a reasonable buyer that the property could be sold or mortgaged in the future
+
+***
+What are the methods to assure proof of ownership (evidence that title is marketable)?
+***
+
+-- certificate of title
+------ statement of opinion of the title's marketability based on examination of the public records
+------ not a guarantee of ownership
+
+-- title insurance
+
+-- torrens certificate
+------ legal registration system used to verify ownership of real estate
+------ provides evidence of title without need of a public records search
+------ relies on the physical title document itself. a person acquires title only when it is registered
+
+***
+What is title insurance?
+***
+
+------ constract under which the policyholder is protected from losses arising from defects in title
+------ protects the insured from an event that occurred before the policy was issued
+
+***
+What is subrogation?
+***
+
+-- right the title company receives to any remedy or damages available to the insured if title company pays to settle a claim
+
+***
+What does ALTA (American Land Title Association) title insurance cover?
+***
+
+-- unrecorded liens
+-- rights of parties in possession of the property
+-- results of a survey
+
+***
+What does standard title insurance cover?
+***
+
+-- information in public records
+-- incompetent grantor
+-- incorrect marital statements
+-- forged docuements
+-- improperly delivered deeds
+
+***
+What does neither ALTA or standard title insurance cover?
+***
+
+-- zoning
+-- easements
+-- defects known to the buyer
+
+*****
+Unit 8: Real Estate Brokerage (6%)
+*****
+
+***
+What is a real estate broker?
+***
+
+-- a person licensed to buy, sell, exchange, or lease real property for others and to charge a fee for those services
+
+***
+What are some common forms of brokerage businesses?
+***
+
+-- sole proprietorship
+-- corporation
+-- limited liability company (LLC)
+-- partnership with another real estate broker
+-- partnership with an unlicensed person, as long as there is a licensed supervising broker
+
+***
+What are some business details that a broker must handle day-to-day?
+***
+
+-- maintaining space and equipment
+-- hiring licensed real estate professionals, as well as unlicensed support staff
+-- determining compensation
+-- directing staff
+-- implementing procedures for licensees to follow in carrying out activities permitted by the state's real estate license laws and regulations
+
+***
+What is the relationship of the sales associate to the broker?
+***
+
+-- can carry out only those responsibilities delegated by the employing broker
+-- can receive compensation only from that broker.
+-- no authority to make contracts with or receive compensation from any other party
+
+***
+What is the relationship of the broker to the sales associate?
+***
+
+-- liable for the acts of a sales associate that fall within the scope of the employment agreement
+
+-- broker can be held responsible for the conduct while performing brokerage activities of every sales associate employed by the broker (vicarious liability)
+
+-- managing broker cannot delegate the office supervision of sales associates to an unlicensed person
+
+***
+What is a manager (or supervising) broker?
+***
+
+-- real person responsible for supervision of the real estate professionals who act on behalf of the brokerage
+
+***
+What are the IRS requirements for a sales associate to establish a nonemployee status with the employing broker?
+***
+
+-- the sales associate must have a current real estate license.
+
+-- the sales associate must have a written contract with the broker that specifies that the sales associate will not be treated as an employee for federal tax purposes.
+
+-- the sales associate's income as a real estate professional must be based on sales production or other output and not on the number of hours worked.
+
+***
+What is independent contractor status for a sales associate?
+***
+
+-- the broker isn't your boss; the broker is your business partner
+
+***
+What is an independent contractor?
+***
+
+-- employee who usually receives a commission, with no withholding for Social Security, income tax
+-- has the freedom to set hours and accomplish goals
+
+***
+What activities can a unlicensed assistant perform?
+***
+
+-- clerical tasks
+-- office management
+-- website development and maintenance
+-- production of marketing
+-- Note: little or no contact with consumers
+-- Note: paid by the sales associate
+
+***
+What activities can a licensed assistant perform?
+***
+
+-- set up and host open houses
+-- assist in all aspects of the real estate transaction
+-- Note: a lot of consumer contact
+-- Note: paid by the employing broker
+
+***
+What is an MLS
+***
+
+-- multiple listing service
+-- the MLS specifies the terms which brokers agree to cooperate in a transaction
+
+***
+What three things are required to recieve compensation from a real estate transaction?
+***
+
+-- licensed real estate broker
+-- employed by the buyer or seller under a valid contract
+-- be the procuring cause of the sale.
+
+***
+What is procuring cause?
+***
+
+-- broker must have started or caused an uninterrupted chain of events that resulted in the sale
+
+***
+Under what circumstances could a broker still be compensated if a deal is not consummated?
+***
+
+-- seller has a change of mind and refuses to sell,
+-- seller has a spouse who refuses to sign the deed,
+-- seller has a title with uncorrected defects,
+-- seller committed fraud with respect to the transaction,
+-- seller is unable to deliver possession within a reasonable time,
+-- seller insists on terms not in the listing (e.g., the right to restrict the use of the property), or
+-- seller has a mutual agreement with the buyer to cancel the transaction.
+
+***
+What are antitrust laws (Shermabn Antitrust Act)?
+***
+
+-- laws against behaviors that interfere with the free flow of goods and services
+
+***
+What are the most common antitrust violations?
+***
+
+-- price-fixing
+-- group boycott
+-- allocation of customers or markets
+-- tie-in agreements
+
+***
+What is price-fixing?
+***
+
+-- COMPETITORS setting prices for services rather than letting competition determine those prices
+-- Note: in real estate, price-fixing occurs when competing brokers agree to set sales commissions, fees, or management rates
+
+***
+What is group boycott?
+***
+
+-- when two or more businesses conspire against another business, or agree to withhold patronage
+
+***
+What is allocation of markets?
+***
+
+-- agreement between two or more companies to divide their markets and refrain from competing against each other
+-- Ex: based on geography, markets, price range, or category
+
+***
+What are tie-in agreements?
+***
+
+-- agreement to sell one product only if the buyer purchases another product
+-- Ex: I will sell your house, if you agree to purchase a new home from me
+
+***
+What are the penalties for violating antitrust laws?
+***
+
+-- individual: $1 million and 10 years in prison
+-- corporation: $100 million
+-- individual who suffer loss can sue for treble (3 times) damages, may also recover attorney fees
+
+***
+What is the NAR organization?
+***
+
+-- National Association of Realtors
+-- Note: members of NAR are entitled to be known as REALTORS or REALTOR-ASSOCIATES
+
+***
+What are ethics?
+***
+
+-- system of moral principles, rules, and standards of conduct
+
+***
+What do moral principles do?
+***
+
+-- establish standards for integrity and competence in dealing with consumers of an industry's services.
+-- define a code of conduct for relations within the industry among its professionals.
+
+***
+What is a code of ethics?
+***
+
+-- written system of standards for moral conduct
+-- sanctions for violators makes a code of ethics more effective
+
+***
+What are some realty organizations and designations?
+***
+
+-- CRS: affiliate organization of NAR specializing in residential property (Council of Residential Specialists)
+-- REALTOR® : member of NAR
+-- GRI: person who has completed the requirements of the REALTOR Institute (Graduate, REALTOR® Institute)
+-- NAR: organization that has established a code of ethics that REALTORS must follow
+-- Realtist: member of the National Association of Real Estate Brokers
+
+***
+What is the MLS blanket opt-out provision?
+***
+
+-- MLS participant who chose to keep their listings from competitors websites cannot display another brokers' listings on their website
+
+-- brokers who opt-out of displaying their listings on competitors' websites can, with the permission of the seller, make an exception and display the seller's property on the MLS website
+
+***
+What are NAR's requirements for internet advertising?
+***
+
+-- electronic communication by a real estate professional must include:
+------ the professional's name
+------ office address
+------ broker affiliation.
+
+-- real estate professionals must disclose their license status on each page of a website that contains an advertisement.
+
+-- the listing of only a sales associate's name without the sponsoring broker's name in an advertisement is prohibited.
+
+-- an advertisement must be a true, current representation of the information it contains and not be misleading.
+
+***
+What are the two laws that govern electonic contracting?
+***
+
+-- Uniform Electronic Transactions Act (UETA)
+-- Electronic Signatures in Global and National Commerce Act (E-Sign).
+
+***
+What are the 4 key provisions of UETA?
+***
+
+-- A contract cannot be denied its legal effect just because an electronic record was used.
+-- A record or signature cannot be denied its legal effect just because it is in an electronic format.
+-- If a state's law requires a signature on a contract, an electronic signature is sufficient.
+-- If a state's law requires a written record, an electronic record is sufficient.
+
+-- Note: UETA has not been adopted by Illinois, New York, and Washington
+
+***
+What is the Electronic Signatures in Global and National Commerce Act (E-Sign)?
+***
+
+-- the electronic transactions law in states that have not enacted UETA
+
+-- make contracts (including signatures) and records legally enforceable, regardless of the medium in which they are created
+
+***
+Does the national do not call registry apply to political organizations, charities, collection agencies, and telephone serveyors?
+***
+
+-- No
+
+***
+Does the national do not call registry apply to for-profit telemarketers working for nonprofit organizations?
+***
+
+-- Yes
+
+***
+What are some facts about the national do not call registry?
+***
+
+-- telemarketers and sellers are required to search the registry at least once every 31 days and drop registered consumer phone numbers from their call lists
+
+-- real estate professionals may call consumers with whom they have an established business relationship for up to 18 months after the consumer's last purchase, delivery, or payment
+
+-- a real estate professional may call a consumer for up to three months after the consumer makes an inquiry or submits an application.
+
+-- if a consumer asks a company not to call, despite the presence of an established business relationship, the company must abide by the consumer's request
+
+***
+What is an important feature of the CAN-SPAM Act?
+***
+
+-- commercial electronic mail messages, is that email solicitations must include a means by which the recipient can "unsubscribe" from future messages
+
+***
+What is fee for services?
+***
+
+-- a broker's compensation is based on charges for separate activities that the client desires (unbundling of services)
+
+***
+What is COPPA?
+***
+
+-- Children's Online Privacy Protection Act
+-- Restrictions on collection of information from children younger than 13 by means of the internet, including mobile apps
+
+*****
+Unit 9: Real Estate Agency (8%)
+*****
+
+***
+What is common law?
+***
+
+-- the rules established by tradition and court decisions
+
+***
+What is statutory law?
+***
+
+-- the laws enacted by the legislature
+
+***
+What is administrative law?
+***
+
+-- the rules and regulations created by real estate commissions and departments
+
+***
+What is an agent?
+***
+
+-- individual who is authorized and consents to represent the interest of another person
+
+***
+What is agency?
+***
+
+-- relationship where the agent is authorized to represent the principal in a transaction
+
+***
+What is fiduciary?
+***
+
+-- agent is held in a position of special trust and confidence by the principal
+
+***
+What is a client?
+***
+
+-- principle for whom the real estate broker acts as an agent
+
+***
+What are an agents fiduciary duties? (OLD CAR)
+***
+
+-- obedience
+------ must obey legal directions of the principal
+
+-- loyalty
+------ agent must place the interest of the principal above all others, even the agent's
+
+-- disclosure
+------ of all material facts about the property
+------ plus any other pertinent details
+------ ex1: I represent the seller and I find out buyer can't afford the mortgage, I must tell the seller
+------ ex2: I respresent the buyer, and I find out about hidden house condition, I must disclose to buyer
+
+-- confidentiality
+------ must keep PTM (price, terms, and motivation) confidential forever unless released in writing
+------ ex: I represent seller who says she will take $150K below asking price. The seller listing expires and I now represent a buyer who wants to buy the property (now listed with another brokerage firm). I can't tell my buyer that the seller is willing to take $150K below the asking price.
+
+-- accounting
+------ account for any money or personal property entrusted to you
+
+-- reasonable care
+------ must provide competent representation
+
+***
+What is PTM?
+***
+
+-- price, terms, motivation
+
+***
+What is a facilitator (transaction broker)?
+***
+
+-- provides services but not representation
+-- Ex: For sale by owner hires brokerage to list their property on the MLS but does not hire the brokerage to represent them
+
+***
+What are an agent's duties to third parties (DAH)?
+***
+
+-- disclosure:
+------ on the first substantive contact with the third party, inform them of who you represent
+------ ex: I work for the sell Mr Third Pary, so please don't disclose confidential information with me because is is my fiduciary duty to inform my principal of this information
+
+------ must disclose all material facts about the property, even if my principal tell me not to
+------ must disclose all material facts about the property, even if property is being sold as-is
+
+-- accounting:
+
+-- honesty and fair dealing:
+
+***
+What is special agency (limited agency)?
+***
+
+-- authorization to perform a particular act without the ability to bind the principal contractually
+-- ex1: listing brokerage and seller
+-- ex1: buyer brokerage and buyer
+
+***
+What is general agency?
+***
+
+-- authorization to perform acts associated with the continued operation of a particular business
+-- limited authority to bind the principle (ex: salesperson can sign a listing contract)
+-- ex1: salesperson and brokerage
+-- ex2: property manager to property owner
+
+***
+What is universal agency?
+***
+
+-- authorized to represent in place of the principal
+-- 100% authority to bind the principal
+-- ex: power of attorney
+
+***
+What is gratuitous agency?
+***
+
+-- agency exists, but no compensation is involved
+
+***
+What is express agency?
+***
+
+-- created by oral or written agreement
+
+***
+What is implied agency?
+***
+
+-- created by the behaviour of the parties
+
+***
+What is a listing agreement?
+***
+
+-- agency relationship between a brokerage and a seller
+-- must be in writing in order to be enforced in court
+
+***
+What is a buyer representation agreement?
+***
+
+-- agency relationship between a brokerage and a buyer
+
+***
+What is single agency?
+***
+
+-- agent represents only one party to a transaction
+
+***
+What is dual agency?
+***
+
+-- agent represents two principals in the same transaction
+-- Note: allowed in some states, but must be disclosed in writing
+
+***
+What is designated agency?
+***
+
+-- used for in-house sales of the same property. one agent assigned to buyer, another assigned to seller
+-- Note: must be diclosed and consented to in writing
+
+***
+What is nonagency (transaction broker, transaction coordinator, contract broker)?
+***
+
+-- individual is not an agent of either party
+-- helps the buyer and seller with paperwork involved in transferring ownership of real property (ministerial acts)
+-- buyer and seller negotiate the sale without the assistance of real estate agents
+
+***
+What does an agent owe a third party (customer)?
+***
+
+-- reasonable care and skill in performance
+-- honest and fair dealing
+-- disclosure of all material facts about the property
+
+***
+What is puffing?
+***
+
+-- exaggeration
+-- Note: for REALTORS, puffing is considered unethical
+
+***
+What is negligent misrepresentation?
+***
+
+-- when the real estate professional should have known that a material fact was false
+-- the real estate professional's lack of awareness, or carelessness is not an excuse
+
+***
+What is a latent defect?
+***
+
+-- a hidden structural defect that would not be discovered by ordinary inspection
+
+***
+What is the number one reason real estate professionals are taken to court?
+***
+
+-- for the belief that the real estate professional did not disclose material facts about the property
+
+***
+What is a subagent
+***
+
+-- someone authorized to work with the agent on behalf of the client
+
+***
+What is Megan's Law?
+***
+
+-- states must make available a means for determining the location of local sex offenders
+
+*****
+Unit 10: Client Representation Agreements (2%)
+*****
+
+
+***
+What is a listing agreement?
+***
+
+-- contract between the broker and the seller
+-- Note: must be in writing to be enforceable in court
+-- Note: in this arrangement the sales associate is the agent of the broker, and the subagent of the seller
+
+***
+What are the 4 types of listing agreements
+***
+
+-- exclusive right to sell: best for seller and broker
+------ seller employs one broker
+------ broker gets paid regardless of who sells the property
+
+-- exclusive agency: good for seller, not good for broker
+------ seller employs one broker
+------ listing broker paid only if procuring cause of the sale
+------ seller retains the right to sell without obilgation to the broker
+
+-- open listing (also known as a nonexclusive listing:
+------ seller employs multiple brokers
+------ only successful listing broker is paid
+------ seller retains the right to sell without obilgation to the broker
+
+-- net listing:
+------ seller will receive a net amount for the sale. the broker keeps any excess
+------ illegal in many states, and discouraged in others
+
+***
+What are the advantages of placing the listing on the MLS (multiple listing clause)?
+***
+
+-- seller's property gets more exposure
+-- brokers get a large inventory of properties that can provide a potential commission
+-- instant access to information about MLS listed properties (taxes, schools, comparitive analysis, filtered property searches)
+
+***
+What is a participation broker in regards to the MLS?
+***
+
+-- broker with the exclusive right to sell, who chooses to list the property on the MLS
+
+***
+What is a cooperating broker in regards to the MLS?
+***
+
+-- broker, working as subagent of the seller, or working as representative of a buyer, who brings a buyer to the MLS listing
+
+***
+What are some ways that a listing agreement can be terminated?
+***
+
+-- property sells
+-- agreement term expires
+-- broker or seller breaches contract
+-- broker or seller dies. (if sales associated dies, the agreement is still valid)
+
+***
+What is a broker protection clause in a listing agreement
+***
+
+-- seller will pay the listing broker a commission if the property sells within a specified period after the listing agreement expires
+-- Note: the clause does not apply if the seller lists the property with another brokerage
+
+***
+What are some important things that must be in a listing agreement?
+***
+
+-- commissions
+-- no auto-renew clause
+-- broker protection clause (you give the seller a list of potential buyers. also specify a time frame)
+-- identify all owners of the property
+-- describe any property improvements
+-- list any loans and current status
+-- provide details of a short sale if required
+-- identify any personal property to be included in the sale
+
+***
+What is a buyer representation agreement?
+***
+
+-- employment agreement where the brokerage represents the buyer
+
+***
+What is an exclusive buyer representation agreement?
+***
+
+-- buyer works with only one broker
+-- broker is free to represent other buyers
+-- the buyer broker is compensated by the buyer or (through the listing broker) the seller
+
+***
+What is a listing presentation?
+***
+
+-- sales associates job interview with a prospective client (the property owner)
+-- sales associate presents information about the firm, the marketk, and how the firm can provide the best service to the owner
+-- sales associate also makes a comparative market analysis (CMA) to help trhe seller have a realistic idea of price range for property
+
+*****
+Unit 11: Real Estate Constracts (8%)
+*****
+
