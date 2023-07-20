@@ -168,7 +168,7 @@ def process_questions(l_question_bank, units, int_num_questions, int_random_seed
         np.random.shuffle(idx)
 
         if int_num_questions > len(l_question_bank):
-            int_num_question = len(l_question_bank)
+            int_num_questions = len(l_question_bank)
 
         for i in range(int_num_questions):
             present_question(l_question_bank[idx[i]])
