@@ -1,0 +1,733 @@
+*****
+Note: Ignore this content
+*****
+
+*****
+Unit 11: Real Estate Contracts
+*****
+
+1. A void contract is one that was
+
+A)
+voidable by only one of the parties.
+B)
+rescindable by agreement.
+C)
+not in writing.
+D) X
+never legally enforceable.
+
+2. A seller accepted money from a buyer in exchange for the buyer's unrestricted right to cancel the purchase transaction (option to terminate) within 10 days of the executed date of the sales contract. This agreement is
+
+A)
+a bilateral contract.
+B) X
+a unilateral contract.
+C)
+a covenant clause in the sales contract.
+D)
+an executory agreement
+
+3. What is minimum consideration in a valid contract?
+
+A)
+One dollar
+B)
+Specified goods or services
+C) X
+Anything the parties agree is good and valuable
+D)
+Any item that can be appraised to determine its likely market value
+
+4. The buyer of real estate takes possession but not legal title to property under
+
+A)
+a counteroffer.
+B)
+an option.
+C)
+a purchase money mortgage.
+D) X
+a land contract.
+
+5. A contract that has no legal force or effect is
+
+A) X
+void.
+B)
+enforceable if no one objects.
+C)
+voidable.
+D)
+valid if the parties agree to its terms.
+
+6. A buyer asks a court to enforce the provisions of a contract by bringing
+
+A)
+a bill of attainment.
+B) X
+a suit for specific performance.
+C)
+a request for injunctive relief.
+D)
+a quiet title action.
+
+7. The statute of limitations
+
+A)
+does not apply to real estate contracts.
+B)
+is the same in every state.
+C) X
+is the time during which parties to a contract may bring a legal action to enforce their rights.
+D)
+ensures rights can be enforced after the applicable time period has expired.
+
+8. An inspection contingency in a real estate sales contract provides that
+
+A)
+the buyer has the option of having the specified inspection(s) performed or cancelling the contract.
+B) X
+the buyer may obtain certain inspections of the property, at the buyer’s expense.
+C)
+the seller must have the property inspected and a report issued to the buyer, at the seller’s expense.
+D)
+the seller must obtain a property inspection report before an offer to purchase is made.
+
+9. Which of the following is FALSE about assignments?
+
+A)
+The original party remains primarily liable.
+B) X
+All contracts must allow assignments.
+C)
+Generally, rights and obligations may be assigned to a third party.
+D)
+Obligations may be delegated.
+
+10. A buyer and a seller sign a contract to purchase. The seller backs out, and the buyer sues for specific performance. What is the buyer seeking in this lawsuit?
+
+A)
+New contract
+B)
+Money damages
+C)
+Deficiency judgment
+D) X
+Transfer of the property
+
+11. A broker accepted a listing and later discovered that the client had been declared incompetent by a court. What is the current status of the listing?
+
+A)
+The listing is unaffected because the broker acted in good faith as the owner’s agent.
+B) X
+The listing is of no value to the broker because the contract is void.
+C)
+The listing must be renegotiated between the broker and the client, based on the new information.
+D)
+The listing entitles the broker to collect a commission from the client’s guardian or trustee if the broker produces a buyer.
+
+12. The property owner has given a potential buyer the right to buy the property at a set price for a set period of time; this is
+
+A)
+a right of first refusal.
+B)
+a listing agreement.
+C) X
+an option.
+D)
+a purchase contract.
+
+13. A buyer and a seller enter into a sales contract for the sale of a home. The seller backs out of the contract at the last minute, and the buyer suffers a financial loss of $1,500 and must rent a home in which to live. Unless the contract provides otherwise, all of these are legal actions that are likely to succeed EXCEPT
+
+A)
+the buyer may sue the seller for the rent he paid.
+B)
+the buyer may sue the seller for specific performance, forcing the sale of the home to the buyer.
+C) X
+the seller is not liable because the buyer should not have incurred the $1,500 cost before the sale.
+D)
+the buyer may sue the seller for damages to recover the $1,500 loss.
+
+14. A buyer makes an offer to purchase certain property listed with a real estate professional and leaves an escrow deposit with the real estate professional to show good faith. The real estate professional should
+
+A) X
+put the deposit in an account, as provided by state law.
+B)
+give the deposit to the seller when the offer is presented.
+C)
+immediately apply the deposit to the listing expenses.
+D)
+put the deposit in the real estate professional's personal checking account.
+
+15. During the period after a real estate sales contract is signed, but before title actually passes, the status of the contract is
+
+A)
+implied.
+B) X
+executory.
+C)
+unilateral.
+D)
+voidable.
+
+16. A contract that has been fully performed is
+
+A) X
+executed.
+B)
+executory.
+C)
+unenforceable.
+D)
+voidable.
+
+17. A clause in a purchase agreement that would allow the buyer to cancel the contract if the buyer cannot secure financing from a lender is
+
+A) X
+a contingency clause.
+B)
+an acceleration clause.
+C)
+a release clause.
+D)
+a due-on-sale clause.
+
+18. If a buyer defaults on a purchase agreement and the seller keeps the buyer's earnest money, which of the following remedies has the seller elected?
+
+A)
+Partial performance
+B)
+Rescission
+C) X
+Liquidated damages
+D)
+Money damages
+
+19. Earnest money
+
+A)
+will be a credit to the seller and a debit to the buyer at closing.
+B) X
+may become the seller’s if the buyer defaults.
+C)
+is considered to be consideration and is required in a purchase offer.
+D)
+is required as part of all purchase agreements.
+
+20. A contract is said to be bilateral if
+
+A)
+one of the parties is a minor.
+B)
+only one party to the agreement is bound to act.
+C) X
+both parties to the contract exchange binding promises.
+D)
+the contract has yet to be fully performed.
+
+21. A real estate buyer takes over the seller's loan that originated in 2005. The lender releases the seller of liability and substitutes the buyer as the party primarily liable for the mortgage debt. This type of transaction is
+
+A)
+never allowed.
+B) X
+a novation.
+C)
+a non-qualifying assumption.
+D)
+a subordination of loan.
+
+22. A buyer and a seller enter a contract for the sale of a three-bedroom residential property. Shortly after the contract is in place, the buyer has an inspection done. As a result of the inspection, the buyer wants the seller to fix the fence and replace the garage door opener. The seller agrees. How should the parties proceed?
+
+A)
+The parties must document this agreement in the special provisions paragraph of the contract.
+B)
+They have to proceed under the terms of the current contract; because the parties are already under contract, no further negotiations are allowed.
+C) X
+The parties should amend the contract.
+D)
+The broker must contact an attorney to get advice.
+
+23. A land contract provides for
+
+A)
+the immediate transfer of reversionary rights.
+B) X
+the conveyance of legal title at a future date.
+C)
+the sale of unimproved land only.
+D)
+the sale of real property under an option agreement.
+
+24. When a seller deliberately deceives a buyer about the condition of real property, their contract of sale would be considered
+
+A)
+illegal.
+B)
+a novation.
+C)
+void.
+D) X
+voidable.
+
+25. When the parties agree to terms and show their intentions in words, whether orally or written, the agreement is said to be
+
+A)
+a voidable contract.
+B)
+a unilateral contract.
+C) X
+an express contract.
+D)
+an executed contract.
+
+26. An option to purchase binds which of the following parties?
+
+A)
+Buyer only
+B) X
+Seller only
+C)
+Neither buyer nor seller
+D)
+Both buyer and seller
+
+27. A contract for the sale of real estate that does not state the consideration and provides no basis on which the consideration could be determined is considered
+
+A)
+voidable.
+B) X
+void.
+C)
+executory.
+D)
+enforceable.
+
+28. The purchaser of real estate under an installment contract
+
+A)
+receives title immediately.
+B)
+is not required to pay property taxes for the duration of the contract.
+C) X
+has only an equitable interest in the property's title.
+D)
+generally pays no interest charge.
+
+29. A contract is said to be executed when it includes
+
+A)
+the consideration.
+B)
+the offer and acceptance.
+C)
+the competent parties.
+D) X
+the signatures of the parties.
+
+30. A deposit provided when making an offer to purchase real estate is known as
+
+A)
+acceptance.
+B)
+equitable title.
+C) X
+earnest money.
+D)
+binder.
+
+31. If the parties change their original promises by executing an amendment and then decide they want to make a change to the closing date
+
+A)
+they should write this change in Paragraph 11, Special Provisions.
+B) X
+they can do so as long as both parties agree to the change.
+C)
+the broker must rewrite the contract form after all the changes so that there is a neat and clearly understood contract form.
+D)
+there is nothing they can do; the amendment has already been filled out.
+
+32. A real estate licensee may assist consumers with contract preparation using preprinted forms as long as
+
+A)
+the fee for completing the forms is kept separate from the sales commission.
+B) X
+no separate fee is charged for completing the forms.
+C)
+an attorney is present when the forms are completed.
+D)
+an attorney reviews the forms after signing.
+
+33. The buyer has defaulted on a purchase contract, and the seller's only remedy is to keep the buyer's earnest money. In this case, the seller's remedy is known as
+
+A)
+suit to quiet title.
+B)
+actual damages.
+C)
+specific performance.
+D) X
+liquidated damages.
+
+34. All of the following are essential elements of a contract EXCEPT
+
+A)
+consideration.
+B) X
+words of conveyance.
+C)
+mutual agreement.
+D)
+lawful objective.
+
+35. The buyer and seller agreed to a closing date of September 7 and that time is of the essence. Which of these is the closest meaning of the phrase?
+
+A)
+If closing is not held on September 7, there is an automatic extension built in.
+B) X
+Closing must be on or before September 7.
+C)
+If either party gives notice, the date can be moved back.
+D)
+The date of closing may only be delayed by one day at a time.
+
+36. In a preprinted sales contract, several words were crossed out or inserted by the parties. To eliminate future controversy as to whether the changes were made before or after the contract was signed, the usual procedure is to
+
+A)
+have each party write a letter to the other approving the changes.
+B) X
+have both parties initial or sign in the margin near each change.
+C)
+write a letter to each party listing the changes.
+D)
+redraw the entire contract.
+
+37. A contract that exchanges a promise for a promise is said to be
+
+A)
+omnilateral.
+B)
+unilateral.
+C) X
+bilateral.
+D)
+relateral.
+
+38. What action returns a contract's parties to their positions before the contract, including return of any deposit?
+
+A)
+Subordination
+B) X
+Rescission
+C)
+Substitution
+D)
+Cancellation
+
+39. A minor signed a sales contract to purchase a home. Which of the following describes this contract?
+
+A) X
+Voidable by the minor
+B)
+Valid and binding
+C)
+Void
+D)
+Voidable by the seller
+
+40. A buyer and a seller sign a contract for the sale of real property. A few days later, they decide to change many terms of the contract, while retaining the basic intent to buy and sell. The process by which the new contract replaces the old one is called
+
+A)
+rescission.
+B) X
+novation.
+C)
+assemblage
+D)
+assignment.
+
+41. A contract that appears valid, but neither party can sue the other to force performance
+
+A)
+voidable contract
+B) X
+unenforceable contract
+C)
+void contract
+D)
+enforceable contract
+
+42. A contract that appears valid, but may be rescinded by one or both parties based on some legal principle.
+
+A) X
+voidable contract
+B)
+unenforceable contract
+C)
+void contract
+D)
+enforceable contract
+
+43. A contract with no legal force or effect, that was never a legal contract
+
+A)
+voidable contract
+B)
+unenforceable contract
+C) X
+void contract
+D)
+enforceable contract
+
+44. Jason, a minor, signs a listing agreement with a broker to sell a house he inherited. What is the status of the contract?
+
+A)
+joint
+B)
+valid
+C) X
+voidable
+D)
+enforceable
+
+45. What is another reason a contract may be voidable?
+
+A)
+The contract was made with intent to fraud.
+B)
+One party was threatened or coerced into signing against that party's will.
+C)
+A party is suffering from a mental illness.
+D) X
+All of these may be reasons a contract is voidable.
+
+46. A contract executed by someone who was mentally impaired at the time
+
+A)
+joint
+B)
+valid
+C) X
+voidable
+D)
+enforceable
+
+47. A contract executed with a forged name
+
+A)
+joint
+B)
+valid
+C)
+voidable
+D) X
+void
+
+48. Transfer of rights or duties under a contract
+
+A) X
+assignment
+B)
+specific performance
+C)
+novation
+D)
+rescission
+
+49. Substitution of a new contract for an existing contract
+
+A)
+assignment
+B)
+specific performance
+C) X
+novation
+D) 
+rescission
+
+50. The right of a buyer to sue a seller who breaches a real estate sales contract
+
+A)
+assignment
+B) X
+specific performance
+C)
+novation
+D) 
+rescission
+
+51. Returns the parties to their original positions before the contract
+
+A)
+assignment
+B)
+specific performance
+C)
+novation
+D) X 
+rescission
+
+52. In the event that one party breaches a contract, the parties may agree on a certain amount of money that will compensate the nonbreaching party. Such money is called?
+
+A) X
+liquidated damages
+B)
+specific performance
+C)
+partial performance
+D) 
+discharge
+
+53. A contingency that protects the buyer's earnest money in the event that the buyer is unable to secure a mortgage on the property
+
+A) X
+mortgage contingency
+B)
+inspection contingency
+C)
+property sale contingency
+D) 
+lienholder approval
+
+54. A contingency that the buyer may obtain certain inspections of the property and may cancel the contract if the inspections indicate an unsatisfactory or unsafe property condition
+
+A)
+mortgage contingency
+B) X
+inspection contingency
+C)
+property sale contingency
+D) 
+lienholder approval
+
+55. A contingency that protects a buyer who has to sell a home in order to buy the seller's property
+
+A)
+mortgage contingency
+B)
+inspection contingency
+C) X
+property sale contingency
+D) 
+lienholder approval
+
+56. A contingency required if the contract is a short sale
+
+A)
+mortgage contingency
+B)
+inspection contingency
+C)
+property sale contingency
+D) X
+lienholder approval
+
+57. A contingency permits the seller to continue to market the property until all the buyer's contingencies have been satisfied or removed
+
+A)
+mortgage contingency
+B)
+inspection contingency
+C)
+property sale contingency
+D) X
+escape clause
+
+58. A contract with contingencies is what type of contract?
+
+A)
+joint
+B)
+valid
+C) X
+voidable
+D)
+void
+
+59. A change or modification to the existing content of a contract
+
+A)
+addendum
+B) X
+amendment
+C)
+disclosure
+D)
+rescission
+
+60. Any provision added to an existing contract that may change or be an addition to the content of the original
+
+A) X
+addendum
+B)
+amendment
+C)
+disclosure
+D)
+rescission
+
+61. Used to change the existing words or provisions in a preprinted contract form
+
+A)
+addendum
+B) X
+amendment
+C)
+disclosure
+D)
+rescission
+
+62. Includes the original contract's provisions by reference
+
+A) X
+addendum
+B)
+amendment
+C)
+disclosure
+D)
+rescission
+
+63. which is a form of owner financing?
+
+A)
+options
+B)
+leases
+C) X
+land contract
+D)
+rescission
+
+64. which is a form of owner financing?
+
+A)
+options
+B)
+leases
+C) X
+contract for deed
+D)
+rescission
+
+65. which is a form of owner financing?
+
+A) X
+purchase money mortgage
+B)
+leases
+C)
+options
+D)
+rescission
+
+66. In an executory contract
+
+A) X
+one or both parties still have an act to perform
+B)
+all parties have fulfilled their promises
+C)
+must have a legal act as its objective
+D)
+requires acts that can't be legally accomplished
