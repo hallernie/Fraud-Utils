@@ -1783,3 +1783,446 @@ What is a listing presentation?
 Unit 11: Real Estate Constracts (8%)
 *****
 
+***
+What is a contract?
+***
+
+-- voluntary: no one may be forced into a contract;
+-- agreement or a promise: a contract is essentially a promise or set of promises;
+-- made by legally competent parties: the parties must be viewed by the law as capable of making a legally binding promise;
+-- supported by lawful consideration: a contract must be supported by something of value that induces a party to enter into the contract; and
+-- for a legal act: a contract is invalid if it attempts to have an illegal objective.
+
+***
+What is an express contract?
+***
+
+-- contract is oral or written
+
+***
+What is an implied contract?
+***
+
+-- demonstrated by the parties actions
+
+***
+What is a statute of frauds
+***
+
+-- a legal doctrine requiring that certain types of contracts be in writing
+
+***
+What is a bilateral contract?
+***
+
+-- one promise is given in exchange for another
+-- Ex: exclusive right-to-sell listing
+
+***
+What is a unilateral contract?
+***
+
+-- one party makes a promise in order to entice another party to do something
+-- Ex: brokerage lists a property for sale with the multiple listing service with offer to share compensation with cooperating broker
+
+***
+What is an executed contract?
+***
+
+-- both parties have fulfilled their promise
+
+***
+What is an executory contract?
+***
+
+-- one or both parties still have an act to perform
+
+***
+What is mutual assent?
+***
+
+-- complete agreement between the parties about the purpose and terms of the contract
+
+***
+How can an offer be terminated?
+***
+
+-- by a counteroffer
+-- offeree fails to accept by the agreed upon time frame
+-- offeree reject offer
+-- Note: offeror my revoke the offer any time before acceptance
+
+***
+What is void contract?
+***
+
+-- contract that was never a legal contract
+-- ex: a rental agreement that was executed without the consent of the true owner is void
+-- ex: oral agreement for the sale of a PARCEL OF REAL ESTATE
+
+***
+What is voidable contract?
+***
+
+-- contract that appears valid, but that MAY (doesn't have to be) be rescinded based on some legal principle
+-- ex: contract made with a mentally ill person, or one made under a misrepresentation, or made with a minor
+
+***
+What is an unenforceable contract?
+***
+
+-- contract that a court would refuse to enforce because it is missing one of the essential elements
+-- A contract that appears valid, but neither party can sue the other to force performance
+-- ex: oral agreement for the sale of a parcel of real estate (because of statute of frauds)
+-- Note: an unenforceable contract can still be a valid contract
+
+***
+What are the 3 classifications of contracts?
+***
+
+-- void
+-- voidable
+-- valid
+
+***
+What is a valid contract?
+***
+
+-- meets all legal requirements
+-- contains all essential elements
+-- enforceable in court
+
+***
+What does is mean to discharge a contract?
+***
+
+-- the agreement is terminated (completed)
+
+***
+What is novation?
+***
+
+-- substitution of a new contract for an existing contract
+
+***
+What is assignment, as it pertains to contracts?
+***
+
+-- transfer of rights or duties under the contract
+
+***
+What is a suit for specific performance?
+***
+
+-- buyer asks court to force the seller to go through with the sale as previously agreed
+-- seller asks court to force the buyer to go through with the sale as previously agreed
+
+***
+What is a liquidated damages clause in a real estate purchase contract?
+***
+
+-- specifies the amount of money to which the seller is entitled if the buyer breaches the contract
+
+***
+What is substantial performance, as it pertains to contracts?
+***
+
+-- most of what was agreed to in the contract was performed
+-- parties could decide to continue regardless
+
+***
+What is partial performance, as it pertains to contracts?
+***
+
+-- a small detail of contract was not performed 
+-- parties could decide to continue regardless
+
+***
+What is rescission, as it pertains to contracts?
+***
+
+-- terminates the contract, and returns the parties to their original positions before the contract
+
+***
+Does a contract terminate if the seller dies before closing?
+***
+
+-- no. the seller's estate must still honor the contract
+
+***
+What is a sales contract?
+***
+
+-- complete agreement between a buyer and seller of a parcel of real estate
+
+***
+What is an offer?
+***
+
+-- sales agreement stating offer to purchase, signed by the buyer, and communicated to the seller
+-- if buyer and or seller have agents, then offer delivered through the agent
+-- once signed by the seller, the offer becomes a contract
+
+***
+What is a counteroffer?
+***
+
+-- changes proposed by the seller to the offer made by the buyer
+-- original offer ceases to exist
+-- Note: an offer or counter offer can be withdrawn at any time before it is accepted
+
+***
+What is acceptance of an offer?
+***
+
+-- seller agrees to current "offer" exactly as stated
+-- an offer is not considered accepted until the person making the offer has been notified of acceptance
+-- said another way, a binding agreement must have acceptance and conveyance of that acceptance for it to be valid
+
+***
+What is a binder?
+***
+
+-- a shorter document sometimes called a letter of intent
+-- communicates the essential details of the offer, instead of a complete sales contract
+-- acknowledges that the buyer's agent has received the buyer's deposit
+
+***
+What is the purpose of an earnest deposit?
+***
+
+-- discourage the buyer from defaulting,
+-- compensate the seller for taking the property off the market
+-- cover any expenses the seller might incur if the buyer defaults
+
+***
+What is equitable title?
+***
+
+-- interest that the buyer receives in the property after the contract has been executed, but before the acceptance of the deed
+
+***
+What are the 3 things that must be specified in a contingency?
+***
+
+-- The action necessary to satisfy the contingency
+-- The time frame within which the action must be performed
+-- The party who is responsible for paying any costs involved
+
+***
+What is an option?
+***
+
+-- contract where owner gives the right to buy or lease the owner's property at a fixed price within a certain period of time
+
+***
+What is a land contract, when purchasing real property?
+***
+
+-- think of this as rent to own
+-- buyer obtains equitable title to the land
+
+***
+What does it mean to "take back a second", as pertains to real estate purchase?
+***
+
+-- owner agrees to hold part of the debt as a second mortgage
+-- helps the buyer since they will not need to borrow as much money from a traditional lender
+-- Note: traditional lender must be aware of, and approve the arrangement
+
+***
+What is a purchase money mortgage?
+***
+
+-- buyer receives title to property but places a mortgage on property in favor of the seller
+
+***
+What are the written agreements most often used in real estate transactions?
+***
+
+-- client representation agreements
+-- sales contracts
+-- options
+-- escrow agreements
+-- property management agreements
+-- leases
+-- owner financing agreements (such as land contracts or contracts for deed)
+
+***
+Sales contracts include?
+***
+
+-- identify the parties and the property that is the subject of the transaction
+-- indicate the amount that the buyer is including with the offer to serve as earnest money
+-- how the buyer intends to finance the purchase
+-- who will serve as the closing agent for the transaction
+-- when the transaction is to close and possession of the property delivered to the buyer
+-- fixtures or other items on the property that are not part of the sale
+-- personal property of the seller that will be included in the sale
+-- inspections that will be made by the buyer
+-- seller disclosures that are required by law
+
+*****
+Unit 12: Real Estate Financing (4%)
+*****
+
+
+***
+What is a borrower's DTI?
+***
+
+-- debt to income percentage
+-- composed of two values
+------ PITI = (Gross Monthly Income) * (Income Ratio)
+------ total allowed housing and other debt = (Gross Monthly Income) * (Debt Ratio)
+
+***
+What is PITI?
+***
+
+-- principle, interest, taxes, insurance
+-- also defined as the total housing expense allowed (the loan amount a borrower can afford)
+-- (Gross Monthly Income) * (Income Ratio)
+-- so this is the monthly mortgage amount that a borrower can afford
+
+***
+What is a borrower's total allowed housing and other debt composed of?
+***
+
+-- car payments, student loans, other mortgages
+-- total allowed housing and debt = (Gross Income) * (Debt Ratio)
+-- so if a borrower's new mortgage and other debt in greater than this value then the lender will not lend
+
+***
+What is income ratio?
+***
+
+-- also called (1) housing expense ratio, (2) payment-to-income ration, and (3) front-end ratio
+-- relationship of a borrowers monthly gross income to his total monthly housing expense, expressed as a ratio
+-- usually 25-28%
+
+***
+What is debt ratio?
+***
+
+-- also called (1) debt-to-income ratio, (2) total debt service ratio, and (3) bank-end ratio
+-- relationship of a borrowers monthly gross income to his total monthly debt obligations
+-- usually 36-41%
+
+***
+What is the loan-to-value (LTV) ratio?
+***
+
+-- the amount of loan as a percentage of the purchase price.
+-- the lower the LTV (the greater the down payment), the less risk is assumed by the lender
+-- LTV = ( (Mortgage Amount) / (Purchase Price) ) * 100
+
+***
+Example of lender underwriting calculation
+***
+
+-- Applicants Gross Monthy Income = $5000
+-- Lender's Income Ratio requirement = 28%
+-- Lender's Debt Ratio requirement = 36%
+
+-- What is the total monthly amount this lender would give to this borrower?
+------ $5000 * .28 = $1400
+
+-- What is the borrower's total allowed housing and other debt?
+------ $5000 * .36 = $1800
+
+-- What is the borrower's total allowed other debt?
+------ $1800 - $1400 = $400
+OR
+------ 36%-28% = 8% of Monthly Gross Income = $5000 * .08 = $400
+
+-- Note: lowering other monthly debt would not increase what the bank will lend, but could help with loan approval
+
+***
+
+***
+What factors influence your credit score?
+***
+
+-- consumer's past history of credit use
+-- income
+-- outstanding loans
+-- number of credit accounts open
+-- outstanding credit lines
+-- number of accounts opened and closed
+-- payment history
+-- credit inquiries.
+
+***
+What are some other expenses with home ownership?
+***
+
+-- trash
+-- water
+-- sewer
+-- HOA fees
+-- deferred maintenance
+
+***
+What is a promissory note?
+***
+
+-- borrower's personal promise to repay a debt according to agreed terms
+
+***
+In respect to a promissory note, the borrower is?
+***
+
+-- maker or payor
+
+***
+In respect to a promissory note, the lender is?
+***
+
+-- payee
+
+***
+A promissory note is a negotiable instrument, which means?
+***
+
+-- the payee may transfer (assignment) the right to receive payment to a third party
+
+***
+What is paying interest on a debt at the end of the payment period?
+***
+
+-- payment in arrears
+
+***
+What is paying interest on a debt at the beginning of the payment period?
+***
+
+-- payment in advance
+
+***
+What is usury?
+***
+
+-- charging interest in excess of the maximum rate allowed
+
+***
+What is a loan originating fee?
+***
+
+-- charge from the lender for expenses involved in generating the loan
+-- Note: since most real estate loans are via private lenders, it is important to verify the fees changed in advance
+
+***
+What are discount points?
+***
+
+-- payments by borrower used to increase the lender's yield (rat of return)
+-- for borrowers, on discount point equals 1% of the loan amount (NOT the purchase price)
+-- (discount points) = (total $charge for points) % (loan amount)
+
+***
+What are the two parts of a mortgage loan?
+***
+
+-- the debt itself (promissory note)
+-- security for the debt (mortgage or deed of trust)
