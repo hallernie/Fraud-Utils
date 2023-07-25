@@ -1,0 +1,326 @@
+*****
+Note: Ignore this content
+*****
+
+*****
+Unit 12: Real Estate Financing
+*****
+
+40. Developed software to create credit scores
+
+A)
+FHA
+B)
+PITI
+C)
+LTV
+D) X
+FICO
+
+40. Government-sponsored loan program
+
+A) X
+FHA
+B)
+PITI
+C)
+LTV
+D)
+FICO
+
+40. Homeowner's expenses
+
+A)
+FHA
+B) X
+PITI
+C)
+LTV
+D)
+FICO
+
+40. Percentage of a homebuyer's income used to repay debt
+
+A) X
+DTI
+B)
+PITI
+C)
+LTV
+D)
+FICO
+
+40. Percentage of a property's value that the lender is willing to lend
+
+A)
+DTI
+B)
+PITI
+C) X
+LTV
+D)
+FICO
+
+40. A charge by the lender to cover the expenses involved in generating the loan
+
+A)
+discount point
+B)
+usury
+C) X
+loan origination fee
+D)
+prepayment penalty
+
+40. A fee assessed against the unearned portion of the interest for any payments made ahead of schedule
+
+A)
+discount point
+B)
+usury
+C)
+loan origination fee
+D) X
+prepayment penalty
+
+40. Charging interest in excess of the maximum rate allowed by law
+
+A)
+discount point
+B) X
+usury
+C)
+loan origination fee
+D)
+prepayment penalty
+
+40. A charge to increase the lender's yield (rate of return) on its investment
+
+A) X
+discount point
+B)
+usury
+C)
+loan origination fee
+D)
+prepayment penalty
+
+40. A borrower's written commitment to pay a debt
+
+A) X
+promissory note
+B)
+usury
+C)
+loan origination fee
+D)
+prepayment penalty
+
+40. The debtor retains the right of possession and control of the secured property, while the creditor receives an equitable right in the property
+
+A)
+promissory note
+B)
+usury
+C)
+loan origination fee
+D) X
+hypothecation
+
+40. Lien on the property to secure a loan
+
+A)
+promissory note
+B) X
+mortgage
+C)
+loan origination fee
+D)
+hypothecation
+
+40. In respect to a promissory note, the lender is?
+
+A)
+fiduciary
+B)
+payor
+C) X
+payee
+D)
+subagent
+
+40. In respect to a promissory note, the borrower is?
+
+A)
+fiduciary
+B) X
+maker or payor
+C)
+payee
+D)
+subagent
+
+40. What is paying interest on a debt at the end of the payment period?
+
+A)
+nonpayment of dept
+B) X
+payment in arrears
+C)
+usury
+D)
+hypothecation
+
+40. In a lien theory state, the borrower is the
+
+A) X
+mortgagor
+B)
+mortgagee
+C)
+trustor
+D)
+trustee
+
+40. In a title theory state, the borrower is the
+
+A)
+mortgagor
+B)
+mortgagee
+C) X
+trustor
+D)
+trustee
+
+40. In a lien theory state, the lender is the
+
+A)
+mortgagor
+B) X
+mortgagee
+C)
+trustor
+D)
+trustee
+
+40. In a title theory state, the lender is the
+
+A)
+mortgagor
+B)
+mortgagee
+C)
+trustor
+D) X
+beneficiary
+
+40. A mortgage must be recorded in the XXX in which the real estate is located
+
+A)
+state
+B)
+city
+C)
+township
+D) X
+county
+
+40. Financing instrument where if the borrower defaults, the lender must go through a formal foreclosure proceeding to obtain legal title
+
+A) X
+mortgage
+B)
+deed of trust
+C)
+na
+D)
+na
+
+40. Financing instrument where lender has the right to immediate possession of and rents from the property if the borrower defaults
+
+A)
+mortgage
+B) X
+deed of trust
+C)
+na
+D)
+na
+
+40. Financing instrument where the borrower gives legal title to a designated individual and retains equitable title
+
+A)
+mortgage
+B) X
+deed of trust
+C)
+na
+D)
+na
+
+40. Financing instrument where the borrower retains both legal and equitable title
+
+A) X
+mortgage
+B)
+deed of trust
+C)
+na
+D)
+na
+
+40. Statement that allows lender to declare the entire debt due and payable immediately
+
+A) X
+acceleration clause
+B)
+defeasance clause
+C)
+assignment of mortgage
+D)
+trustor
+
+40. Provision that requires lender to execute a satisfaction (release or discharge) when the note has been fully paid
+
+A)
+acceleration clause
+B) X
+defeasance clause
+C)
+assignment of mortgage
+D)
+trustor
+
+40. Clause that allows the note to be sold to a third party
+
+A)
+acceleration clause
+B)
+defeasance clause
+C) X
+assignment of mortgage
+D)
+trustor
+
+40. In a lien theory state, a mortgagor actually gives legal title to the mortgagee (or some other designated individual) and retains equitable title.
+
+A)
+true
+B) X
+false
+C)
+na
+D)
+na
+
+40. Under a deed of trust, the trustor retains equitable title.
+
+A) X
+true
+B)
+false
+C)
+na
+D)
+na
