@@ -2000,6 +2000,7 @@ What is equitable title?
 ***
 
 -- interest that the buyer receives in the property after the contract has been executed, but before the acceptance of the deed
+-- so, if the buyer fulfills the term of the contract, then the buyer will receive legal title
 
 ***
 What are the 3 things that must be specified in a contingency?
@@ -2097,7 +2098,7 @@ What is a borrower's total allowed housing and other debt composed of?
 What is income ratio?
 ***
 
--- also called (1) housing expense ratio, (2) payment-to-income ration, and (3) front-end ratio
+-- also called (1) housing expense ratio, (2) payment-to-income ratio, and (3) front-end ratio
 -- relationship of a borrowers monthly gross income to his total monthly housing expense, expressed as a ratio
 -- usually 25-28%
 
@@ -2168,6 +2169,9 @@ What is a promissory note?
 ***
 
 -- borrower's personal promise to repay a debt according to agreed terms
+-- it is the evidence of the debt
+-- borrower signs promissory note. the lender DOES NOT sign the promissor note
+-- Note: does not create a lien on the property. the mortgage creates the lien on the property
 
 ***
 In respect to a promissory note, the borrower is?
@@ -2186,6 +2190,7 @@ A promissory note is a negotiable instrument, which means?
 ***
 
 -- the payee may transfer (assignment) the right to receive payment to a third party
+-- meaning that the note can be sold
 
 ***
 What is paying interest on a debt at the end of the payment period?
@@ -2226,3 +2231,110 @@ What are the two parts of a mortgage loan?
 
 -- the debt itself (promissory note)
 -- security for the debt (mortgage or deed of trust)
+
+***
+What is the statutory right of redemption?
+***
+
+-- a defaulting mortgagor may redeem (buy back) the property during a certain period after sale due to foreclosure
+
+***
+What type of debt instrument is utilized in a lien theory state?
+***
+
+-- mortgage
+-- buyer holds both legal and equitable title
+-- the buyer gives the lender a mortgage, which allows the lender to place a lien on the property
+
+***
+What type of debt instrument is utilized in a title theory state?
+***
+
+-- deed of trust
+-- states using deeds of trust often use nonjudicial foreclosure (also known and power of sale)
+
+***
+What is the mortgage or deed of trust?
+***
+
+-- security for the promissory note
+
+***
+What is an acceleration clause?
+***
+
+-- If a borrower defaults the lender may declare the entire principal balance due and payable immediately
+-- this clause appears in the promissory note and the mortgage
+
+***
+What is a satisfaction of mortgage document?
+***
+
+-- returns to the borrower all interest in the real estate
+-- also known as a release or discharge
+
+***
+What clause in a mortgage requires the lender provide a satisfaction of mortgage document when the debt is paid?
+***
+
+-- defeasance clause
+
+***
+What is an alienation clause?
+***
+
+-- clause placed in mortgage by lender to prevent future purchaser of the property from assuming the loan
+-- also known as a resale clause, due-on-sale clause, or call clause)
+
+***
+A mortgage must be recorded in the XXX in which the real estate is located
+***
+
+-- county
+
+***
+What does hypothecate mean in real estate?
+***
+
+-- pledge property as security for a debt
+
+***
+What are the 6 main reasons a forclosure occurs?
+***
+
+-- nonpayment of principal and interest
+-- nonpayment of taxes
+-- removal of improvements without lender's permission
+-- insurance coverage lapse
+-- waste, meaning deferred maintenance that lowers the value below what is owed
+-- alienagtion without consent (if there is a due-on-sale clause)
+
+***
+What is amortization?
+***
+
+-- payment structure in which each payment includes interest and part of the principal, so that the entire principal is paid off by the end of the loan
+
+-- if a borrower pays additional extra payments on the principal, the monthly payment amounts remain the same, the loan will just be paid off more quickly
+
+-- with fully amortized loans (or level-payment loan) the lender credits each payment first to the interest due, then to the principal amount of the loan
+
+***
+What is a straight loan?
+***
+
+-- periodic payments of interest only, followed by final payment of principal in full
+
+***
+What is an adjustable-rate mortgage?
+***
+
+-- begins at one interest rate, then flucuates up or down during the loan term
+-- the interest is the current index rate plus a premium. the premium is the lender's cost for doing business
+
+***
+What is a growing-equity mortgage?
+***
+
+-- uses a fixed interest rate, but payments of principal are increased according to an index or schedule
+-- the total payment increases, but the loan is paid off more quickly
