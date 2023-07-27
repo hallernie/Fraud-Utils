@@ -6,321 +6,409 @@ Note: Ignore this content
 Unit 12: Real Estate Financing
 *****
 
-40. Developed software to create credit scores
+1. The database of consumer claims history available to insurance companies is the
 
 A)
-FHA
+Consumer Claims History Database.
 B)
-PITI
+Insurance Policy Information Exchange.
 C)
-LTV
+Policy Information Database.
 D) X
-FICO
+Comprehensive Loss Underwriting Exchange.
 
-40. Government-sponsored loan program
-
-A) X
-FHA
-B)
-PITI
-C)
-LTV
-D)
-FICO
-
-40. Homeowner's expenses
+2. Which clause would give a lender the right to have all future installments become due upon default?
 
 A)
-FHA
+Defeasance
+B)
+Alienation
+C) X
+Acceleration
+D)
+Escalation
+
+3. In a mortgage or lien theory state, the mortgagor retains
+
+A)
+legal title.
+B)
+vested title.
+C) X
+both legal and equitable title.
+D)
+equitable title.
+
+4. The two parts of a mortgage loan are
+
+A)
+identification of the borrower and the lender.
 B) X
-PITI
+the debt itself and the security for the debt.
 C)
-LTV
+signing documents at closing and recording those documents.
 D)
-FICO
+the amount borrowed and the interest rate.
 
-40. Percentage of a homebuyer's income used to repay debt
+5. A discount point is
+
+A)
+0.01% of the purchase price charged the first month of every year of the loan.
+B) X
+1% of the loan amount charged as prepaid interest at the closing.
+C)
+1% of the loan amount charged the first month of every year of the loan.
+D)
+0.01% of the purchase price charged at the time of closing.
+
+6. Which characteristic of a fixed-rate home loan that is amortized according to the original payment schedule is TRUE?
 
 A) X
-DTI
+The amount of interest to be paid is predetermined.
 B)
-PITI
+The loan cannot be sold in the secondary market.
 C)
-LTV
+The monthly payment amount will fluctuate each month.
 D)
-FICO
+The interest rate change may be based on an index.
 
-40. Percentage of a property's value that the lender is willing to lend
+7. When a property is mortgaged, the owner must sign which two separate instruments?
 
 A)
-DTI
-B)
-PITI
-C) X
-LTV
-D)
-FICO
-
-40. A charge by the lender to cover the expenses involved in generating the loan
-
-A)
-discount point
-B)
-usury
-C) X
-loan origination fee
-D)
-prepayment penalty
-
-40. A fee assessed against the unearned portion of the interest for any payments made ahead of schedule
-
-A)
-discount point
-B)
-usury
+Promissory note and tax document
+B) X
+Promissory note and mortgage/deed of trust
 C)
-loan origination fee
+Deed of trust and priority document
+D)
+Deed of trust and alienation clause
+
+8. In one type of financing, a third party holds legal title to real property offered as collateral for a loan, and the borrower retains the rights of possession and use. If the borrower defaults, the lender is entitled to ask that the third party sell the property. What type of security instrument has been used in this case?
+
+A)
+Mortgage with a power of sale
+B)
+Installment sales contract
+C) X
+Deed of trust
+D)
+Promissory note
+
+9. When a borrower defaults, a mortgage lender acquires full legal title to the property using
+
+A)
+sheriff’s sale.
+B) X
+strict foreclosure.
+C)
+nonjudicial foreclosure.
+D)
+public sale
+
+10. A mortgage company charges borrowers a 1.5% loan origination fee. What will the mortgage company charge as a fee if the asking price of a house was $235,000, the sales price is $210,000, and the buyer is making a down payment of $50,000?
+
+A) X
+$2,400
+B)
+$3,525
+C)
+$3,750
+D)
+$3,150
+
+11. A home is purchased using a fixed-rate, fully amortized mortgage loan. Which statement regarding this mortgage is TRUE?
+
+A)
+Each mortgage payment reduces the principal by the same amount.
+B)
+The principal amount in each payment is greater than the interest amount.
+C) X
+Each mortgage payment amount is the same.
+D)
+A balloon payment will be made at the end of the loan.
+
+12. A loan that provides for the full payment of the principal over the life of the loan is
+
+A)
+a reverse mortgage.
+B)
+an indexed loan.
+C) X
+an amortized loan.
+D)
+a balloon payment.
+
+13. Most adjustable-rate mortgages (ARMs) have two types of rate caps called
+
+A) X
+periodic and life of the loan.
+B)
+index and margin.
+C)
+monthly and annual.
+D)
+discount and index.
+
+14. A basic form homeowners insurance policy provides property coverage against
+
+A)
+floods.
+B) X
+fire, lightning, and smoke damage.
+C)
+falling objects.
+D)
+damage due to the weight of ice, snow, or sleet.
+
+15. Parties to lending agreements are referred to by different terms. Which of these refers to the same party?
+
+A)
+Trustee = borrower
+B)
+Borrower = beneficiary
+C)
+Trustor = mortgagee
 D) X
-prepayment penalty
+Borrower = mortgagor
 
-40. Charging interest in excess of the maximum rate allowed by law
+16. A mortgage document contains the clause: "In the event of Borrower's default under the terms of this Agreement, Lender may declare the entire unpaid balance of the debt due and payable immediately." This clause is called
 
 A)
-discount point
+a hypothecation clause.
 B) X
-usury
+an acceleration clause.
 C)
-loan origination fee
+a release clause.
 D)
-prepayment penalty
+a defeasance clause.
 
-40. A charge to increase the lender's yield (rate of return) on its investment
-
-A) X
-discount point
-B)
-usury
-C)
-loan origination fee
-D)
-prepayment penalty
-
-40. A borrower's written commitment to pay a debt
-
-A) X
-promissory note
-B)
-usury
-C)
-loan origination fee
-D)
-prepayment penalty
-
-40. The debtor retains the right of possession and control of the secured property, while the creditor receives an equitable right in the property
+17. The mortgagee foreclosed on a property after the borrower defaulted on the loan payments. The unpaid balance of the loan at the time of the foreclosure sale was $140,000, but at the foreclosure sale, the house sold for only $129,000. If permitted by state law, what must the lender do to recover the $11,000 the borrower still owes?
 
 A)
-promissory note
+Seek a judgment by default
 B)
-usury
+Sue for damages
 C)
-loan origination fee
+Sue for specific performance
 D) X
-hypothecation
+Seek a deficiency judgment
 
-40. Lien on the property to secure a loan
+18. In mortgage lending, a borrower is required to pledge specific real property as security (collateral) for the loan in a practice called
 
 A)
-promissory note
+debt-collateralization.
 B) X
-mortgage
+hypothecation.
 C)
-loan origination fee
+hypo-collateralization.
 D)
-hypothecation
+equitable collateralization.
 
-40. In respect to a promissory note, the lender is?
+19. Charging more interest than is legally allowed is called
 
 A)
-fiduciary
-B)
-payor
-C) X
-payee
-D)
-subagent
-
-40. In respect to a promissory note, the borrower is?
-
-A)
-fiduciary
+leveraging.
 B) X
-maker or payor
+usury.
 C)
-payee
+commingling.
 D)
-subagent
+steering.
 
-40. What is paying interest on a debt at the end of the payment period?
+20. When a property is mortgaged, the owner must execute (sign) which two separate instruments?
 
 A)
-nonpayment of dept
+A debtor's note and a security document, either a mortgage or deed of trust
 B) X
-payment in arrears
+A promissory note stating the amount owed and a security instrument
 C)
-usury
+A promise note and a security document, either a mortgage or deed of trust
 D)
-hypothecation
+A hypothecation note and a security instrument, either a mortgage or deed of trust
 
-40. In a lien theory state, the borrower is the
+21. At closing, the buyer paid discount points totaling $6,187.50 on a loan of $225,000. How many points did the buyer pay?
 
 A) X
-mortgagor
+2.75
 B)
-mortgagee
+3
 C)
-trustor
+1.75
 D)
-trustee
+2.25
 
-40. In a title theory state, the borrower is the
+22. A charge of three discount points on a $120,000 loan equals
+
+A) X
+$3,600.
+B)
+$450.
+C)
+$116,400.
+D)
+$4,500.
+
+23. A consumer's income, outstanding loans, and other financial factors, will be reflected in the consumer's
 
 A)
-mortgagor
+state of residence.
 B)
-mortgagee
-C) X
-trustor
-D)
-trustee
-
-40. In a lien theory state, the lender is the
-
-A)
-mortgagor
-B) X
-mortgagee
+interest paid on overdue real estate taxes.
 C)
-trustor
-D)
-trustee
-
-40. In a title theory state, the lender is the
-
-A)
-mortgagor
-B)
-mortgagee
-C)
-trustor
+withholding taxes.
 D) X
-beneficiary
+credit score.
 
-40. A mortgage must be recorded in the XXX in which the real estate is located
+24. Lenders usually look at a loan applicant's percentage of
 
 A)
-state
-B)
-city
+income to income potential.
+B) X
+debt to income.
 C)
-township
-D) X
-county
+principal, interest, taxes, and insurance.
+D)
+principal to interest.
 
-40. Financing instrument where if the borrower defaults, the lender must go through a formal foreclosure proceeding to obtain legal title
+25. The general types of foreclosure proceedings are
 
 A) X
-mortgage
+judicial, nonjudicial, and strict foreclosure.
 B)
-deed of trust
+judicial, nonjudicial, and strict repossession.
 C)
-na
+judicial and nonjudicial.
 D)
-na
+judgmental and nonjudgmental.
 
-40. Financing instrument where lender has the right to immediate possession of and rents from the property if the borrower defaults
-
-A)
-mortgage
-B) X
-deed of trust
-C)
-na
-D)
-na
-
-40. Financing instrument where the borrower gives legal title to a designated individual and retains equitable title
-
-A)
-mortgage
-B) X
-deed of trust
-C)
-na
-D)
-na
-
-40. Financing instrument where the borrower retains both legal and equitable title
+26. If a borrower on a home loan defaults, the lender typically has the right to
 
 A) X
-mortgage
+accelerate the maturity of the debt.
 B)
-deed of trust
+confiscate personal property of the debtor.
 C)
-na
+refuse any further payments.
 D)
-na
+immediately sell the encumbered property.
 
-40. Statement that allows lender to declare the entire debt due and payable immediately
-
-A) X
-acceleration clause
-B)
-defeasance clause
-C)
-assignment of mortgage
-D)
-trustor
-
-40. Provision that requires lender to execute a satisfaction (release or discharge) when the note has been fully paid
+27. A buyer purchases property from a seller for $45,000 in cash and assumes the seller's outstanding mortgage balance of $98,500. The lender executes a release for the seller. The buyer fails to make any mortgage payments, and the lender forecloses. At the foreclosure sale, the property is sold for $75,000. Based on these facts, who is liable, and for what amount?
 
 A)
-acceleration clause
-B) X
-defeasance clause
-C)
-assignment of mortgage
-D)
-trustor
-
-40. Clause that allows the note to be sold to a third party
-
-A)
-acceleration clause
+The buyer and the seller are equally liable for $23,500.
 B)
-defeasance clause
+The buyer is solely liable for $30,000.
 C) X
-assignment of mortgage
+The buyer is solely liable for $23,500.
 D)
-trustor
+The seller is solely liable for $23,500.
 
-40. In a lien theory state, a mortgagor actually gives legal title to the mortgagee (or some other designated individual) and retains equitable title.
+28. The mortgage disclosure rules issued by the Consumer Financial Protection Bureau, which took effect in 2014, require a mortgage lender to do all of the following EXCEPT
 
 A)
-true
-B) X
-false
-C)
-na
+give two months' warning if an adjustable-rate mortgage will have a rate change.
+B)
+quickly resolve complaints, generally within 30 to 45 days.
+C) X
+require maximum insurance coverage by the borrower.
 D)
-na
+respond quickly when a borrower asks about paying off the loan.
 
-40. Under a deed of trust, the trustor retains equitable title.
+29. In one state, a lender holds a lien on real property offered as collateral for a loan. The borrower retains both legal and equitable title to real property. If the borrower defaults on the loan, the lender must go through formal foreclosure proceedings to recover the debt. This state can be BEST characterized as what kind of state?
+
+A)
+Mortgage theory
+B)
+Title theory
+C)
+Intermediate theory
+D) X
+Lien theory
+
+30. Another name for a promissory note is
+
+A)
+obligatory instrument.
+B)
+capitalization.
+C) X
+financing instrument.
+D)
+hypothecation.
+
+31. A lender uses which of the following to make a lending decision for a mortgage loan?
 
 A) X
-true
+All of these
 B)
-false
+Borrower's credit report
 C)
-na
+Borrower's debt-to-income ratio
 D)
-na
+Borrower's credit score
+
+32. In which type of loan is the loan amount divided into two parts to be paid off separately by periodic interest payments followed by payment of the principal in full at the end of the term?
+
+A)
+Balloon
+B) X
+Straight
+C)
+ARM
+D)
+Amortized
+
+33. How does an acceleration clause help lenders?
+
+A)
+It sets out the provisions for the impound account.
+B)
+Lenders would rather foreclose on property than hold a long-term loan.
+C)
+It results in a deed in lieu of foreclosure rather than the default process.
+D) X
+Without the acceleration clause, lenders would have to sue the borrower for every overdue payment.
+
+34. What type of law limits the interest rate that is allowed to be charged?
+
+A) X
+A usury law
+B)
+The statute of frauds
+C)
+Trustee law
+D)
+Contract law
+
+35. The seller agrees to sell the house to the buyer for $100,000. The buyer is unable to qualify for a mortgage loan for this amount, so the seller and the buyer enter into a contract for deed. The interest the buyer has in the property under a contract for deed is
+
+A)
+mortgagee in possession.
+B)
+equitable title.
+C)
+joint title.
+D) X
+legal title.
+
+36. A deed of trust involves all of these terms EXCEPT
+
+A)
+lender.
+B)
+trustee.
+C)
+borrower.
+D) X
+mortgagor.
+
+37. A straight loan is
+
+A) X
+an interest-only loan.
+B)
+an accelerated loan.
+C)
+an interest-free loan.
+D)
+an amortized loan.
