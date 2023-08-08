@@ -1,0 +1,337 @@
+*****
+Note: Ignore this content
+*****
+
+*****
+Unit 14: Closing the Real Estate Transaction
+*****
+
+1. If a seller collected rent of $900 from the buyer, payable in advance, on August 1, which statement is TRUE at the closing on August 15, if the closing date is an expense to the seller? (Use a 30-day month)
+
+A)
+The seller owes the buyer $900.
+B)
+The buyer owes the seller $900.
+C)
+The buyer owes the seller $450.
+D) X
+The seller owes the buyer $450.
+
+2. The TILA-RESPA Integrated Disclosure rule (TRID) requires that
+
+A) X
+the borrower be given an estimate of the closing costs before the time of the closing.
+B)
+real estate advertisements include the annual percentage rate, including charges.
+C)
+all real estate purchasers apply for a mortgage loan.
+D)
+real estate syndicates comply with the disclosures required by blue-sky laws.
+
+3. How is earnest money treated if the buyer does not default and shows up for closing?
+
+A)
+Debit seller
+B)
+Credit seller
+C) X
+Credit buyer
+D)
+Debit buyer
+
+4. The principal balance on an assumed mortgage loan is entered on the closing statement as
+
+A)
+a credit to both the seller and the buyer.
+B)
+a debit to both the seller and the buyer.
+C) X
+a debit to the seller and a credit to the buyer.
+D)
+a credit to the seller and a debit to the buyer.
+
+5. Since 2002, a real estate broker has had an understanding with two of the five mortgage lenders in town. The broker recommends only those two lenders to clients and does not tell clients about any other lenders. In return, the recommended lenders pay for the vacations the broker offers sales associates as rewards for high performance. Based on these facts, which of these statements is TRUE?
+
+A)
+The broker is not doing anything illegal.
+B)
+Because this arrangement has been in existence for more than 10 years, it is exempt from RESPA.
+C)
+This is a permissible controlled business arrangement under RESPA because the broker is not paid a fee for the recommendations.
+D) X
+The broker's arrangement with the lenders is an illegal kickback under RESPA.
+
+6. Which regulatory body administers RESPA?
+
+A) X
+HUD
+B)
+FCC
+C)
+FDIC
+D)
+FTC
+
+7. A statement provided by the lender informing the borrower of its intention to service the loan or to transfer it to another lender is called
+
+A) X
+the Mortgage Servicing Transfer Statement.
+B)
+the Mortgage Loan Transfer Statement.
+C)
+the Mortgage Sale Statement.
+D)
+the Mortgage Servicers Statement.
+
+8. Which item would a lender generally require at the closing?
+
+A)
+Application
+B)
+Market value appraisal
+C) X
+Title insurance commitment
+D)
+Credit report
+
+9. At the closing of a real estate transaction, the person performing the settlement gave the buyer a credit for certain accrued items. These items were
+
+A)
+bills relating to the property that had already been paid by the seller.
+B) X
+bills relating to the property that the buyer must pay.
+C)
+all of the buyer's real estate bills.
+D)
+all of the seller's real estate bills.
+
+10. A lender is required to give the borrower the Loan Estimate
+
+A) X
+within three days after loan application.
+B)
+before the purchase agreement is signed.
+C)
+prior to delivery of the title work.
+D)
+within three days of closing.
+
+11. The closing agent will deduct the balance due on the seller's loan at closing plus any accrued interest. The unpaid balance is $115,400 with a rate of 4%. Based on a closing date of June 15, the amount deducted will be
+
+A) X
+$115,592.33.
+B)
+$123,478.00.
+C)
+$115,207.67.
+D)
+$115,952.33.
+
+12. Borrowers would know that their mortgage had been sold on the secondary market if they
+
+A)
+have any loan that falls under the requirements of RESPA.
+B) X
+receive a notice to send the payment to a new bank.
+C)
+used a mortgage broker.
+D)
+have an FHA loan.
+
+13. The process by which expenses are divided at settlement of a real estate transaction so that both the buyer and the seller pay their respective portions of property charges is called
+
+A)
+assessment.
+B)
+balancing.
+C) X
+proration.
+D)
+reconciliation.
+
+14. As part of the closing of a real estate transaction, a mortgage servicing transfer statement is required if
+
+A)
+the buyer takes out a home equity line of credit on the property.
+B)
+the seller has a loan that will be assumed by the buyer.
+C)
+the individual who prepares the paperwork for closing is an escrow agent.
+D) X
+the lender intends to sell the loan or assign the right to service the loan.
+
+15. The first title search shows the status of the seller's title on that date. The second search is made after closing and is called
+
+A)
+a close down.
+B)
+a take down.
+C) X
+a bring down.
+D)
+a wrap up.
+
+16. TRID requires that all charges normally paid by a borrower and a seller in connection with a real estate closing be
+
+A)
+made a part of the promissory note and security instrument.
+B)
+recorded along with the deed from seller to buyer.
+C) X
+itemized in the Closing Disclosure.
+D)
+paid in cash no later than 10 business days before the transaction closes.
+
+17. The Real Estate Settlement Procedures Act (RESPA) does NOT prohibit
+
+A)
+lenders from requiring excessive escrow account deposits, money set aside to insure the payment of taxes, hazard insurance, and other charges related to the property.
+B) X
+fees for settlement services performed.
+C)
+home sellers from requiring that home buyers buy title insurance from a particular company.
+D)
+fee-splitting for referrals of settlement services.
+
+18. The only fee that the lender may collect before the applicant receives the Loan Estimate is for
+
+A)
+the lender's processing services.
+B) X
+a credit report.
+C)
+an appraisal.
+D)
+the lender's underwriting fee.
+
+19. A real estate firm, title insurance company, mortgage broker, home inspection company, or even a moving company may agree to offer a package of services to consumers, a system known as
+
+A)
+a constructed business arrangement (CBA).
+B)
+an associate business agreement (ABA).
+C) X
+an affiliated business arrangement (ABA).
+D)
+a concentrated business agreement (CBA).
+
+20. Which statement is TRUE of real estate closings in most states?
+
+A) X
+The seller usually pays the expenses for the day of closing.
+B)
+Closings are generally conducted by real estate professionals.
+C)
+The buyer must reimburse the seller for any title evidence provided by the seller.
+D)
+The buyer usually receives the rent for the day of closing.
+
+21. Which charge noted on the Closing Disclosure must be the same or less than the charge noted on the Loan Estimate form?
+
+A)
+Cost of settlement services when the borrower selects the provider from the list provided by the lender
+B) X
+Lender charges for taking and underwriting the loan
+C)
+Cost of settlement services when the lender selects the provider
+D)
+Cost of homeowners insurance
+
+22. The Real Estate Settlement Procedures Act prohibits
+
+A) X
+lenders from requiring excessive escrow account deposits.
+B)
+redlining.
+C)
+escrow officers from failing to disclose the actual identity of the buyers or sellers in a real estate transaction.
+D)
+escrow officers from recording customers’ Social Security numbers without a valid purpose.
+
+23. A mortgage servicing transfer statement is executed by
+
+A)
+an attorney.
+B)
+an abstract company.
+C)
+a grantor.
+D) X
+a lending institution.
+
+24. Expenses to be prorated (such as water bills and unpaid property taxes) that are owed by the seller but will be paid late by the buyer are called
+
+A)
+prepaid items.
+B) X
+accrued items.
+C)
+allocated items.
+D)
+accelerated items.
+
+25. At closing, the principal amount of a purchaser's new mortgage loan is
+
+A)
+a credit to the seller.
+B)
+a debit to the seller.
+C)
+a debit to the buyer.
+D) X
+a credit to the buyer.
+
+26. Security deposits should be listed on a closing statement as a credit to
+
+A)
+the real estate professional.
+B)
+the seller.
+C) X
+the buyer.
+D)
+the lender.
+
+27. TRID requires that an informational booklet prepared by the CFPB be given to the borrower at the time of application or provided
+
+A)
+prior to closing.
+B)
+within seven days of loan application.
+C) X
+within three days of loan application.
+D)
+prior to signing loan documents.
+
+28. In some parts of the country, the closing process involves the parties in the transaction sitting around a table and exchanging copies of documents, a process called
+
+A)
+table papers.
+B)
+exchanging papers.
+C)
+closing the table.
+D) X
+passing papers.
+
+29. Section 9 of RESPA prohibits a seller from doing which of the following?
+
+A) X
+Requiring the buyer to purchase title insurance from a particular company
+B)
+All of these
+C)
+Misrepresenting the property
+D)
+Selling the property to a different buyer without terminating the first contract
+
+30. The Real Estate Settlement Procedures Act prohibits
+
+A) X
+sellers from requiring buyers to buy title insurance from a particular company.
+B)
+property flipping.
+C)
+buyers from disclosing information relating to race or color.
+D)
+escrow officers from failing to identify whether the seller is not a U.S. citizen.

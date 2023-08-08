@@ -1,0 +1,161 @@
+*****
+Note: Ignore this content
+*****
+
+*****
+Unit 16: Real Estate Appraisal
+*****
+
+1. Report based on sales, current listings, and expired listings. Used to derive a likely listing price
+
+A) X
+CMA
+B)
+appraisal
+C)
+BPO
+D)
+na
+
+2. Extensive report prepared by the real estate professional including information about the neighborhood and a listing of comparable properties. Often used by lenders for refinancing, short sales, and collections
+
+A)
+CMA
+B)
+appraisal
+C) X
+BPO
+D)
+na
+
+3. An opinion of value based on supportable evidence and approved methods
+
+A)
+CMA
+B) X
+appraisal
+C)
+BPO
+D)
+na
+
+4. The information used to perform an appraisal is divided into two basic classes: general data and specific data.
+
+A) X
+true
+B)
+false
+C)
+na
+D)
+na
+
+5. Ease in which ownership can be conveyed
+
+A)
+demand
+B)
+scarcity
+C) X
+transerability
+D)
+utility
+
+6. A finite supply
+
+A)
+demand
+B) X
+scarcity
+C)
+transerability
+D)
+utility
+
+7. Need or desire for possession or ownership backed by the financial means to satisfy it
+
+A) X
+demand
+B)
+scarcity
+C)
+transerability
+D)
+utility
+
+8. Property's usefulness for its intended purpose
+
+A)
+demand
+B)
+scarcity
+C)
+transerability
+D) X
+utility
+
+9. According to the principle of change, value is created by the expectation that certain events will occur
+
+A)
+true
+B) X
+false
+C)
+na
+D)
+na
+
+10. Maximum value is created when a property is in harmony with its surroundings under the principle of conformity.
+
+A) X
+true
+B)
+false
+C)
+na
+D)
+na
+
+11. Valuation method encorporating depreciated reproduction cost
+
+A) X
+cost
+B)
+income
+C)
+market
+D)
+na
+
+12. Valuation method based on investment potential
+
+A)
+cost
+B) X
+income
+C)
+market
+D)
+na
+
+13. Valuation method based on comparable properties used
+
+A)
+cost
+B)
+income
+C) X
+market
+D)
+na
+
+14. Valuation method encorporationg replacement cost
+
+A) X
+cost
+B)
+income
+C)
+market
+D)
+na
