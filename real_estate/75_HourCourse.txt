@@ -2017,11 +2017,12 @@ What is an option?
 -- contract where owner gives the right to buy or lease the owner's property at a fixed price within a certain period of time
 
 ***
-What is a land contract, when purchasing real property?
+What is a land contract (also called "agreement for sale" or "contract for deed"), when purchasing real property?
 ***
 
 -- think of this as rent to own
 -- buyer obtains equitable title to the land
+-- seller retains legal title
 
 ***
 What does it mean to "take back a second", as pertains to real estate purchase?
@@ -2114,7 +2115,7 @@ What is debt ratio?
 What is the loan-to-value (LTV) ratio?
 ***
 
--- the amount of loan as a percentage of the purchase price.
+-- the amount of loan as a percentage of the purchase price OR appraised value (whichever is less).
 -- the lower the LTV (the greater the down payment), the less risk is assumed by the lender
 -- LTV = ( (Mortgage Amount) / (Purchase Price) ) * 100
 
@@ -2221,9 +2222,9 @@ What is a loan originating fee?
 What are discount points?
 ***
 
--- payments by borrower used to increase the lender's yield (rat of return)
--- for borrowers, on discount point equals 1% of the loan amount (NOT the purchase price)
--- (discount points) = (total $charge for points) % (loan amount)
+-- payments by borrower used to increase the lender's yield (rate of return)
+-- charged as prepaid interest at closing
+-- discount point = 1% of the loan amount
 
 ***
 What are the two parts of a mortgage loan?
@@ -2236,7 +2237,8 @@ What are the two parts of a mortgage loan?
 What is the statutory right of redemption?
 ***
 
--- a defaulting mortgagor may redeem (buy back) the property during a certain period after sale due to foreclosure
+-- a defaulting mortgagor may redeem (buy back) the property during a certain period AFTER the sale due to foreclosure
+-- similar to the equitable right of redemption (right to pay off delinquent debt and get property back BEFORE foreclosure sale occurs
 
 ***
 What type of debt instrument is utilized in a lien theory state?
@@ -2299,7 +2301,7 @@ What does hypothecate mean in real estate?
 -- pledge property as security for a debt
 
 ***
-What are the 6 main reasons a forclosure occurs?
+What are the 6 main reasons a foreclosure occurs?
 ***
 
 -- nonpayment of principal and interest
@@ -2333,8 +2335,835 @@ What is an adjustable-rate mortgage?
 -- the interest is the current index rate plus a premium. the premium is the lender's cost for doing business
 
 ***
-What is a growing-equity mortgage?
+What is a growing-equity mortgage (GEM)?
 ***
 
 -- uses a fixed interest rate, but payments of principal are increased according to an index or schedule
 -- the total payment increases, but the loan is paid off more quickly
+
+***
+What is a reverse mortgage?
+***
+
+-- allows homeowner aged 62 or older to borrow money against the equity built up in the home
+-- lender charges a fixed rate of interest on the amounts paid to the borrower
+-- lender is not repaid until the borrower dies, moves, defaults, or property is sold 
+-- most popular is the FHA Home Equity Conversion Mortgage (HECM) program
+
+***
+What is a foreclosure?
+***
+
+-- legal procedure in which property pledged as security for a debt is sold to satisfy the debt when a borrower defaults
+
+-- foreclosure of a lien with highest priority brings the rights of the parties and all junior lienholders to a conclusion. the property is sold free of the foreclosing mortgage and all junior liens
+
+***
+What are the 3 main types of foreclosure?
+***
+
+-- judicial (mortage)
+-- nonjudicial (deed of trust)
+-- strict (personal property was used to secure the debt)
+
+***
+What is a deed in lieu of foreclosure?
+***
+
+-- borrower voluntarily surrenders the deed
+-- Note: does not eliminate junior liens
+-- Note: still goes on borrower's credit history
+
+***
+What is a deficiency judgement?
+***
+
+-- foreclosure sale does not produce enough to cover the debt, so lender may be entitled to a personal judgement
+
+***
+What is a short sale?
+***
+
+-- borrower sales property (with the lender's approval) for less than the debt
+
+***
+What is an impound (escrow) account?
+***
+
+-- required to create a reserve fund to ensure that future tax, property insurance, and other payments are made
+
+*****
+Unit 13: Government Involvement in Real Estate Financing (2%)
+*****
+
+***
+What are the three basic components of the real estate financing market?
+***
+
+-- Federal Reserve System
+-- Primary mortgage market
+-- Secondary mortgage market
+
+***
+What is the primary mortgage market?
+***
+
+-- lenders that originate mortgage loans
+
+***
+What is the secondary mortgage market?
+***
+
+-- market where loans are bought and sold
+
+-- the key players in the secondary market are government-sponsored enterprises (GSE's)
+------ Fannie Mae
+------ Freddie Mac
+------ Ginnie Mae
+------ Farmer Mac
+
+***
+How does the Fed regulate the flow of money
+***
+
+-- through the interest rate (discount rate) it charges to its member banks
+-- by buying Treasury securities (increases the amount of money in circulation)
+-- by selling Treasure securities (decreases the amount of money in circulation)
+-- by setting the reserve requirements for its member banks
+
+***
+What is Fannie Mae?
+***
+
+-- part of the secondary mortgage market
+-- creates mortgage-backed securities using pool of mortgages as collateral
+-- deals in conventional, FHA, and VA loans
+-- under the conservatorship of the Federal Housing Finance Agency (FHFA) and so is Freddie Mac
+
+***
+What is Freddie Mac?
+***
+
+-- part of the secondary mortgage market
+-- creates mortgage-backed securities using pool of mortgages as collateral (primarily conventional loans)
+
+***
+What are the 4 types of loans?
+***
+
+-- conventional loan
+------ conventional financing
+------ insured conventional financing
+
+-- FHA insured (does not make loans)
+
+-- VA insured (does not make loans)
+
+-- Agricultural loans
+
+***
+What are the properties of a conventional loan?
+***
+
+-- debt repayment is based solely on the borrower's ability to repay
+-- loans are not insured or guaranteed
+-- maximum LTV is 80%
+
+***
+What is PMI?
+***
+
+-- private mortgage insurance. protects the lender from loss due toa deficiency after foreclosure
+-- required on mortgages where the LTV is above 80%
+-- PMI does not insure the entire loan balance. just the amount of the loan above 80% LTV
+-- The Homeowner's Protection Act of 1998 (HPA) requires that the lender automatically terminate the PMI payment if the borrower has accrued at least 22% equity in the home and is current on mortgage payments.
+
+***
+What are the characteristics of an FHA loan?
+***
+
+-- refers to a loan that is insured by the Federal Housing Administration (FHA)
+-- Note: the FHA neither builds homes or lends money
+-- can be obtained with as little as 3.5% down payment
+-- borrower is charge a mortgage insurance premium (MIP), and must also pay annual premium that is charged monthly
+-- real estate must by appraised by an approved FHA appraiser
+
+***
+What are the characteristics of a VA loan?
+***
+
+-- for individuals with full eligibility, no down payment is required for a loan up to the maximum guarantee limit
+-- no dollar limit on the amount of loan, but the VA limits the amount of the loan it will guarantee
+-- currently the VA guarantees 25% of a loans value, with the max loan amount being $435,100
+-- no commissions, brokerage fees, or buyer broker fees may be charged to the veteran buyer
+-- VA-guaranteed loans made on or after March 1, 1988, are no longer assumable without prior consent from the lender.
+
+***
+What is a package loan?
+***
+
+-- includes real and personal property
+-- Ex: furniture, drapes, refrigerator, etc are all included in the price of the home
+
+***
+What is a blanket loan?
+***
+
+-- covers more than one parcel or lot
+-- usually used by developers to finance a subdivision
+-- "partial release clause" allows liens on specific parcels to be released as they are sold
+
+***
+What is an open-end loan?
+***
+
+-- secures original loan amount, but also future advances of funds to the borrower
+
+***
+What is a construction loan?
+***
+
+-- loan made to finance construction of homes
+-- funds are dispursed in "draws" to the borrower
+-- borrower pays interest only on the amount that has been dispursed
+
+***
+What is a sale-and-leaseback arrangement?
+***
+
+-- owner of property sells the property to an investor, and then leases back the property from the buyer
+-- enables a business to free up money tied up in real estate to be used as working capital
+
+***
+What is a buydown?
+***
+
+-- lump sum paid to lender at closing to reduce the interest rate for the first few years of the loan
+-- interest rate increases after a few years
+
+***
+What is a home equity loan?
+***
+
+-- loan secured by the equity built up in a home
+-- junior to the original loan, and will have a higher interest rate than the original loan
+-- interest paid on a loan of up to $100K is deductible from federal income taxes
+-- ex: HELOC-lender gives a line of credit
+
+***
+What are the 4 government regulations that the govern lending practices of mortgage lenders?
+***
+
+1. -- Truth in Lending Act (TILA, Regulation Z)
+------ (a) covers all consumer lending, not just real estate
+
+------ (b) purpose is to promote the informed use of consumer credit by requiring advanced disclosures of loan terms and costs
+
+------ (c) 4 primary disclosures required of lenders
+------------ APR (the true cost of credit. the effective rate)
+------------ total finance charges associated with the loan
+------------ total number and amount of all payments
+------------ total amount financed
+
+------ (d) enacted by the Federal Reserve Board to enforce the TILA
+------ (e) does not apply to business, commercial, or agricultural loans
+
+------ (f) includes a 3-business-day right of rescission
+------------ rescission does not apply to purchase-money, first mortgage (home purchase or construction loans), or deed of trust loans
+
+------------ but does apply to refinancing a home mortgage or taking out a home equity loan
+
+------ (g) contains advertising requirements
+------------ the asking price and APR can be advertised without full disclosure
+------------ general statements like low down payment, property taxed, HOA dues are allowed without full disclosure
+------------ mention of down payment, interest rate, monthly payment, or number of payments triggers full disclosure (the small print)
+
+2. -- Equal Credit Opportunity Act (ECOA)
+------ purpose is to make consumer credit available with fairness and impartiality
+
+------ prohibits discrimination in the lending process based on the credit applicant's race, color, religion, national origin, sex, marital status, age (provided the applicant is of legal age), or receipt of public assistance (last 3 have the acronym MAP)
+
+------ lenders are required to provide a written notice of why a borrower was denied a loan
+
+------ ECOA is enforced by the Federal Trade Commission (FTC) and the Department of Justice
+
+3. -- Community Reinvestment Act of 1977 (CRA)
+
+4. -- Real Estate Settlement Procedures Act (RESPA)
+------ (a) covers consumer lending for residential real estate financed by a federally regulated lender (FHA, VA, and conventional loans)
+
+------ (b) only applies to properties of 1-4 units
+
+------ (c) does not cover:
+----------- seller financing
+----------- refinancing an existing mortgage
+----------- loans for business or agricultural purposes
+----------- loans on large properties (more than 25 acres)
+
+------ (d) requires the disclosure of all closing costs from:
+----------- agents
+----------- lenders
+----------- title companies
+----------- closers
+
+------ (e) requires estimate of a loan cost at application and disclosure of loan costs at closing
+
+------ (f) prohibits kickbacks to real estate agents for referral of any service related to closing
+
+------ (g) restricts the amount of advance escrow payments (taxed and insurance) required by lenders
+
+***
+What is the definition of a creditor?
+***
+
+-- any person who extends consumer credit more than 25 times each year
+-- or more than 5 times each year if the transactions involve dwellings as security
+-- the credit must be subject to a finance charge or payable in more than four installments by written agreement
+
+***
+What are some penalties to a creditor for breaking lending regulations?
+***
+
+-- for understating APR $500K or 1% of creditor's net worth (plus attorney's fees and court costs)
+-- $5K and one year's imprisonment, or both
+
+***
+What is the Community Reinvestment Act of 1977 (CRA)?
+***
+
+-- regulation defining responsibility of financial institutions to help meet their communities' needs for low-income and moderate-income housing
+
+***
+What is the Real Estate Settlement Procedures Act?
+***
+
+-- designed to ensure that the buyer and the seller are both fully informed of all costs related to closing the transaction
+
+***
+What is underwriting?
+***
+
+-- the process through which an individual or institution takes on financial risk for a fee. This risk most typically involves loans, insurance, or investments
+
+***
+What are the two main automatted underwriting platforms used?
+***
+
+-- Freddie Mac uses a system called Loan Prospector
+-- Fannie Mae has a system called Desktop Underwriter
+
+***
+What is the annual percentage rate (APR)?
+***
+
+-- true cost of credit and lender charges
+-- also called the "effective rate"
+
+-- APR will always be higher than the interest rate (face value or nominal interest rate) of the loan because is includes all the costs associated with getting the loan
+
+***
+What does the term 100% financing mean?
+***
+
+-- no down payment
+-- so, an advertisment that mentions "100% financing" is saying "no down payment", so triggers full disclosure under the Truth In Lending Act (TILA)
+
+***
+What is TILA/RESPA Integrated Disclosure (TRID)?
+***
+
+-- combines the TILA and RESPA disclosure requirements and shows both APR/lender costs and all estimated loan costs
+-- also known as the "know before you owe" mortgage disclosure rule
+
+-- requires a loan estimate (LE), or good-faith estimate be provided to the borrower no later then 3 business days after loan application. the consumer must acknowledge receipt
+
+-- requires a closing disclosure (CD) be provided to the borrower no later than 3 business days before closing. the lender must have proof of receipt
+
+-- if certain changes are made to the loan, a 3-day review period is required. this will delay closing
+------ change in APR by a certain percentage
+------ addition of a prepayment penalty
+------ the basic loan product changes
+
+-- TRID applies to federally related loans
+-- applies to transactions originating on or after October 3, 2015
+
+***
+What is a mortage broker?
+***
+
+-- intermediaries who bring borrowers and lenders together
+
+***
+What is the FSA?
+***
+
+-- Farm Service Agency
+-- offers programs to help families purchase or operate family farms
+
+***
+What is the FCRA?
+***
+
+-- Fair Credit Reporting Act
+
+-- if a loan application is rejected, ECOA and the federal Fair Credit Reporting Act (FCRA) require that the lender detail the reasons for the rejection in a statement that must be provided to the loan applicant within 30 days.
+
+-- loan applicant also has the right under FCRA to a free copy of any credit report that was considered in the loan application process
+
+***
+Who are the lenders for home mortgage and commercial property loans?
+***
+
+-- Savings associations (also called thrifts) and commercial banks
+------ known as fiduciary lenders because of their fiduciary obligations to protect their depositors' funds
+------ mortgage loans are perceived as secure investments for generating income and enable these institutions to pay interest to their depositors
+------ subject to the standards and regulations established by the Office of the Comptroller of the Currency (OCC)
+
+-- insurance companies: make mortgage loans on large project. rarely on home purchases
+-- credit unions
+-- pension funds
+-- endowment funds
+-- investment group financing
+-- mortgage banking companies
+-- "mortgage brokers"
+
+*****
+Unit 14: Closing the Real Estate Transaction (4%)
+*****
+
+***
+What are typical buyer concerns at closing?
+***
+
+-- results of any inspections, such as termite, radon, water and septic systems, structural inspections, or required repairs
+
+-- the survey
+
+-- title evidence, including the seller's deed and any documents demonstrating the removal of undesired liens and encumbrances
+
+-- any lease, if a tenant resides on the premises.
+
+***
+What are typical seller concerns at closing?
+***
+
+-- assurance that the buyer has obtained the necessary financing and will have sufficient funds to complete the sale
+-- the seller may have a list of tasks required by the purchase agreement to complete
+-- payoff statement from the seller's lender(s), noting the amount owed that will be paid out of the sale proceeds
+-- both parties, along with their attorneys or real estate professionals, will want to inspect the disclosure statement made prior to closing to make sure that all monies involved in the transaction have been accounted for properly.
+
+***
+What are typical lender concerns at closing?
+***
+
+-- protect its security interest in the property and ensure that its mortgage lien has priority over other liens
+-- may require a survey, a pest control or another inspection report, or a certificate of occupancy
+-- generally require that the buyer obtain a mortgagee's title insurance policy.
+-- buyer must also provide a fire and hazard insurance policy
+-- request that a reserve account be established for tax and insurance payments
+
+***
+What is a bring down search?
+***
+
+-- a search of the title records after closing to determine if any new liens have been filed since the original title search
+
+***
+What is an affiliated business arrangement?
+***
+
+-- real estate firm, title insurance company, mortgage broker, home inspection company, or even a moving company may agree to offer a package of services to consumers
+
+***
+What is a mortgage servicing transfer statement?
+***
+
+-- statement required if the lender intends to sell or assign the right to service the loan to another loan servicer
+-- Note: the new loan servicer must notify the borrower 15 days before the effective date of the loan transfer
+-- Note: If the borrower makes a timely payment to the old servicer within 60 days of the loan transfer, the borrower cannot be penalized
+
+***
+What is the Mortgage Disclosure Improvement Act (MDIA)?
+***
+
+-- law to prevent the consumer from receiving an enticingly low interest rate at the initial loan application and then learning at settlement that the lender is charging more in fees
+
+-- if APR increases more than 0.125% from that stated in the closing disclosure, the creditor must provide a new disclosure with a revised APR and wait an additional three business days before closing the loan
+
+-- Note: Before closing, everyone involved in the real estate transaction should check and double-check that the Loan Estimate and Closing Disclosure forms are consistent with the original application.
+
+***
+What are accrued items at closing?
+***
+
+-- are expenses to be prorated (such as water bills and interest on an assumed mortgage) that are owed by the seller but will be paid after the sale by the buyer
+
+-- The seller pays for these items by giving the buyer credits for them at closing
+
+***
+What are prepaid items at closing?
+***
+
+-- expenses to be prorated (such as fuel oil in a tank) that have been prepaid by the seller but not fully used up
+-- the become credits to the seller
+
+***
+What are the two methods for calculating proration?
+***
+
+-- yearly charge is divided by a 360-day year (called a banking or statutory year), or 12 months of 30 days each.
+
+-- yearly charge is divided by 365 (a calendar year) to determine the daily charge, and the actual number of days in the proration period is determined, with this number multiplied by the daily charge.
+
+-- Note: proration calculations here are computed by carrying the division to three decimal places and then rounding to the nearest cent only after the final proration figure is determined
+
+-- Note: When buying rental property, rents prorate, but security deposits transfer 100% to the buyer
+
+***
+What is interim interest?
+***
+
+-- interest charged from the day of closing through the end of the closing month
+-- most real estate loan interest is paid in arrears, but interim interest is an example of interest paid in advance
+-- interim days = (number of days in month) - (closing day) + 1
+
+***
+What is the tax proration calculation?
+***
+
+-- end of year: Dec(month 12), assume 30 days per month
+-- minus:
+-- closing month: Sep (month 9), closing day (17)
+-- equals:
+-- period of tax to be paid: (12 - 9) months + (30 -17) days = 3 months and 13 days
+
+*****
+Unit 15: Real Estate Taxes and Other Liens (6%)
+*****
+
+***
+What are some types of liens?
+***
+
+-- statutory lien: created by statute (ex: real estate tax lien)
+
+-- equitable lien: arises out of common law (ex: court ordered judgement that requires debtor to pay a delinquent charge)
+
+-- general lien: affects all the property, both real and personal
+------ includes judgements, inheritance taxes, IRS taxes
+
+-- specific liens: secured by specific property and affects only that particular property
+
+-- involuntary lien: is not a matter of choice; it is created by law and may be either statutory or equitable
+
+***
+What are subordination agreements?
+***
+
+-- written agreements between lienholders to change the priority of mortgage, judgment, and other liens
+
+***
+What are the two types of real estate taxes?
+***
+
+-- general real estate taxes: specific, involuntary, statutory liens
+-- special assessments
+
+***
+What is the process for creating tax rates?
+***
+
+-- adoption of a budget
+-- appropriation: taxing body authorizes the expenditure of funds and provides for the sources of the funding
+-- tax levy: formal action taken to impose the tax, usually by a vote of the taxing district's governing body
+
+***
+What is a mill, in relation to tax rates?
+***
+
+-- 1/1000 of a dollar ($0.001)
+-- Ex: 32 mills = $0.032, or $3.20 per $100 of assessed value, or $32 per $1,000 of assessed value
+
+***
+What is an equalization factor
+***
+
+-- factor used to correct inequalities in statewide tax assessments
+
+***
+What does ad valorem mean?
+***
+
+-- according to value
+
+***
+What is a certificate of sale?
+***
+
+-- given to highest bidder of a tax sale
+-- gives holder the right to take possession of the property
+-- if original owner does not reclaim the property during the statutory right of redemption, the holder of the certificate of sale can apply for a tax deed (sheriff's deed).
+
+***
+What is a special assessment?
+***
+
+-- tax charged on real estate to fund public improvements to the property, and it creates a lien for the amount of the assessment on the property
+
+***
+What is a LID?
+***
+
+-- specific geographical area formed by a group of property owners working together to fund needed capital improvements
+
+***
+What is a mechanic's lien?
+***
+
+-- a specific, involuntary lien that gives security to persons or companies that perform labor or furnish material to improve real property
+
+***
+What is a writ of execution?
+***
+
+-- used by a creditor to enforce a judgement
+
+***
+What is a writ of attachment?
+***
+
+-- a court order against the property of another person that directs the sheriff or other officer of the court to seize or take control of a property
+
+
+-- used so a debtor does not sell the property before a court suit is decided
+
+***
+What is a bail bond lien?
+***
+
+-- real estate owner who is charged with a crime that will result in a trial may post bail in the form of real estate rather than cash
+
+-- a specific, statutory, voluntary lien against the owner's real estate
+
+***
+What is a corporation franchise tax lien?
+***
+
+-- a corporation franchise tax on corporations as a condition of allowing them to do business in the state
+-- a general, statutory, involuntary lien on all real and personal property owned by the corporation
+
+*****
+Unit 16: Real Estate Appraisal (6%)
+*****
+
+***
+What is an appraisal?
+***
+
+-- an opinion of value based on supportable evidence and approved methods
+-- an appraisal report is an opinion of market value on a property given to a lender or client with detailed market information
+
+***
+What are the appraisal requirements of FIRREA?
+***
+
+-- requires that any appraisal used in connection with a federally related transaction be performed by a competent individual who is licensed or certified by the state in which the appraiser practices
+
+-- an appraiser licensing agency, which is required by FIRREA to be separate from the agency that licenses real estate professionals
+
+-- residential property valued at $250,000 or less are exempt from appraisal by a licensed or certified appraiser
+
+-- nonresidential property valued at more than $250,000 (raised to $500,000 in 2018) require a certified appraiser
+
+***
+What properties are eligible for a Fannie Mae property inspection waiver (PIW)?
+***
+
+-- loans that are purchased by Fannie Mae where the property appraisal was previously entered into the Fannie Mae CU (Collateral Underwriter) database
+
+***
+What is the mission of the Appraisal Foundation?
+***
+
+-- a not-for-profit organization composed of representatives of the major appraisal and related groups
+-- an appraiser must follow the Uniform Standards of Professional Appraisal Practice (USPAP) established by the Appraisal Foundation
+-- created the Appraisal Practices Board (APB), which "offers voluntary guidance to appraisers, regulators and users of appraisal services
+
+***
+What is a comparative market analysis (CMA)?
+***
+
+-- focuses on properties similar to the subject property in size, location, and amenities for the purpose of deriving a likely listing price or offering price
+
+-- composed of the following:
+------ recently closed properties (solds)
+------ properties currently on the market (competition for the subject property)
+------ properties that did not sell (expired listings in the area)
+
+***
+What is an appraisal based on?
+***
+
+-- a detailed analysis of market conditions
+-- the features of the subject property and comparable properties in the neighborhood
+-- recent sales and listings
+-- land value
+-- current construction cost
+
+***
+What is a broker's price opinion (BPO)?
+***
+
+-- a less-expensive alternative for evaluating property that is often used by lenders working with:
+------ home equity lines
+------ refinancing
+------ portfolio management
+------ loss mitigation
+------ collections
+
+-- many BPO's are simply "drive bys" that verify the existence of the property
+
+***
+What are the two data needs of an appraisal?
+***
+
+-- general data:
+------ nation
+------ region
+------ city
+------ neighborhood
+------ physical, economic, social, and political influences that affect the value and potential of the subject property
+
+-- specific data:
+------ the type and features of improvements to the subject property as well as comparable properties that are similar to and competitive with the subject property
+
+-- Note: both general and specific data are composed of the following:
+------ sales data
+------ cost data
+------ income and expense data
+
+***
+What is value in the real estate market?
+***
+
+-- monetary worth based on desirability
+
+-- based on the following characteristics (DUST)
+------ demand: the need or desire for possession or ownership backed by the financial means to satisfy that need
+------ utility: the property's usefulness for its intended purposes
+------ scarcity: a finite supply
+------ transferability: the relative ease with which ownership rights are transferred from one person to another
+
+***
+What is market value?
+***
+
+-- opinion of value based on an analysis of data
+-- data may include not only an analysis of comparable sales but also an analysis of potential income, expenses, and replacement costs
+
+***
+What is market price?
+***
+
+-- a property's asking, offer, or sales price
+
+***
+What are the basic principles of value?
+***
+
+-- anticipation: new business moving into the area
+-- change: natural phenomena  and the behavior of the marketplace
+-- conformity: how similar to surrounding properties
+-- contribution: adding a swimming pool
+-- highest and best use:
+-- increasing and diminishing returns
+
+-- plottage: consolidation of two adjacent properties produces property with value greater than each property separately
+------ the process of merging two separate lots is called "assemblage"
+
+-- substitution: how much it would cost to purchase an equally desirable property
+-- supply and demand
+
+***
+What are the three approaches to valuation?
+***
+
+-- SALES COMPARISION: comparing the property being appraised—the subject property—with recently sold comparable properties
+
+------ also called the market data approach
+
+------ most reliable when appraising single-family homes
+
+------ a good example of the principle of substitution
+
+------ Note: comparision is both the similarities and differences
+--------- CBS: comp better, subtract (from the value of the comp)
+--------- CPA: comp poorer, add (to the value of the comp)
+
+------ Property rights
+------ Financing concessions
+------ Market conditions
+------ Conditions of sale
+------ Market conditions since the date of sale
+------ Location or area preference
+------ Physical features and amenities.
+
+
+-- COST: consist of the 5 steps below. another example of the principle of substitution
+
+------ usually used when appraising churches, libraries, museums, schools
+
+------ estimate the value of the land as though it were vacant and available to be put to its highest and best use.
+
+------ estimate the current cost of constructing buildings and improvements.
+
+------ estimate the amount of accrued depreciation (loss in value) resulting from the property's physical deterioration, external depreciation, and functional obsolescence.
+
+------ deduct the accrued depreciation estimated in Step 3 from the construction cost estimated in Step 2.
+
+------ add the estimated land value from Step 1 to the depreciated cost of the building and site improvements derived in Step 4 to arrive at the total property value.
+
+
+-- INCOME: the income generated by the property determines the property's value
+------ used to value apartment buildings, office buildings, retail stores, shopping centers
+
+------ Value = (Income) / (Capitalization Rate)
+
+-- for properties with 1 to 4 units, with no income from other sources
+------ Value = (Income) * (Gross Rent Multiplier)
+
+-- for properties with 5 or more units, and commercial properties with income
+------ Value = (Income) * (Gross Income Multiplier)
+
+***
+What are the three types of depreciation, in regard to appraisal?
+
+***
+What are the three types of depreciation, in regard to appraisal?
+***
+
+-- physical deterioration: curable
+
+-- functional obsolescence: mostly curable
+------ Ex: outdated plumbing is curable
+------ Ex: 4-bedrooms, but only one bathroom is not curable
+
+-- external obsolescence: caused by environmental, social, or economic forces, always incurable
+------ Ex: close proximity to a polluting factory
+
+***
+What is straight line depreciation?
+***
+
+-- (value) / (years of useful life)
+
+***
+What is reconcilation, in regard to appraisal?
+***
+
+-- analyzing and weighting the findings from the three approaches to valuation
+
+*****
+Unit 17: Leases (4%)
+*****
+
