@@ -147,9 +147,17 @@ def present_question(l_question):
     answer = input('Your answer: ')
 
     if str(answer).lower() == str(l_question[5]).lower():
-        print('*********** Correct! ***********')
+        print()
+        print()
+        print('                                             ***********CORRECT***********')
+        print()
+        print()
     else:
-        print(f"                    ***INCORRECT*** The correct answer is: {l_question[5]}")
+        print()
+        print()
+        print(f"***INCORRECT*** The correct answer is: {l_question[5]}")
+        print()
+        print()
 
     print()
 ##### end: present_question(l_question)
