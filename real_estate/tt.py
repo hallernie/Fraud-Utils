@@ -1,14 +1,14 @@
 import re
 import numpy as np
 
-# Open the question bank for reading
-#f_input = open('unit_2.txt')
-
 # Regex for line containing unit # and name
 unit_re = re.compile(r"^Unit [0-9]")
 
 # Regex for line containing a question
 question_re = re.compile(r"^[0-9]+[.]")
+
+# Regex for line containing a question
+az_question_re = re.compile(r"^[0-9]+")
 
 # Regex for line containing the correct answer
 correct_answer_re = re.compile(r"^[A-D][)] X")
@@ -21,6 +21,8 @@ blank_line_re = re.compile(r"^$")
 
 
 ##### method to store questions and answers
+#
+#     get_questions_and_answers(str_filename)
 #
 # Input is a file containing questions and answers:
 #
@@ -63,7 +65,7 @@ the record of a property's ownership.
 """
 [
 
- ['3. The person who prepares an abstract of title for a parcel of real estate', 'A) insures the condition of the title.', 'B) inspects the property.', 'C) issues title insurance.', 'D) searches the public records and then summarizes the events and proceedings that affect title.', 'D']
+ ['3. The person who prepares an abstract of title for a parcel of real estate', 'A) insures the condition of the title.', 'B) inspects the property.', 'C) issues title insurance.', 'D) searches the public records and then summarizes the events and proceedings that affect title.', 'D'],
  
  ['4. When A recorded the deed received from B, the legal consequence of the recording was to', 'A) give B assurance of holding a first lien.', 'B) protect B from existing adverse claims.', 'C) transfer title.', 'D) serve as constructive notice of A’s interest.', 'D']
 
@@ -123,11 +125,75 @@ def get_questions_and_answers(str_filename):
 ##### end: get_questions_and_answers(str_filename)
 
 
+
+##### method to store questions and answers
+#
+#     get_questions_and_answers2(str_filename)
+#
+# Input is a file containing questions and answers:
+#
+"""
+
+***
+Unit 6
+***
+
+1 B
+2 D
+3 B
+4 B
+5 A
+6 C
+7 C
+8 B
+9 D
+
+"""
+#
+#
+#
+# Output is a list of lists:
+#
+"""
+[
+
+["Unit 6", "1", "B"],
+["Unit 6", "2", "D"],
+["Unit 6", "3", "B"]
+
+]
+"""
+##### 
+def get_questions_and_answers2(str_filename):
+    f_input = open(str_filename)
+    total_list = []
+
+    for val in f_input:
+        # find the first question
+        if az_question_re.match(val):
+            tmp_list =[]
+            tmp_list.append(str_unit)
+            val = val.strip()
+            value = val.split(" ")
+            tmp_list.append(value[0])
+            tmp_list.append(value[1])
+            total_list.append(tmp_list)
+
+        # store the unit number and description
+        if unit_re.match(val):
+            str_unit = val.strip()
+
+    return total_list
+
+
+##### end: get_questions_and_answers2(str_filename)
+
+
 ##### method to present one question, prompt for answer, and display if answer was correct
 #
 # Input is a list in the form:
 #
-# 	[question, choice1, choice2, choice3, choice4, correct_answer]
+# 	[question, choice1, choice2, choice3, choice4, correct_answer, Unit#]
 #
 """
 ['3. The person who prepares an abstract of title for a parcel of real estate', 'A) insures the condition of the title.', 'B) inspects the property.', 'C) issues title insurance.', 'D) searches the public records and then summarizes the events and proceedings that affect title.', 'D']
@@ -163,6 +229,41 @@ def present_question(l_question):
 ##### end: present_question(l_question)
 
 
+
+##### method to present one question, prompt for answer, and display if answer was correct
+#
+# Input is a list in the form:
+#
+"""
+[['Unit 6', '1', 'B'], ['Unit 6', '2', 'D'], ['Unit 6', '3', 'B'], ['Unit 6', '4', 'B'], ['Unit 6', '5', 'A'], ['Unit 6', '6', 'C'], ['Unit 6', '7', 'C'], ['Unit 6', '8', 'B'], ['Unit 6', '9', 'D'], ['Unit 6', '10', 'A'], ['Unit 6', '11', 'C'], ['Unit 6', '12', 'C'], ['Unit 6', '13', 'A'], ['Unit 6', '14', 'D'], ['Unit 6', '15', 'B'], ['Unit 6', '16', 'A'], ['Unit 6', '17', 'A'], ['Unit 6', '18', 'B'], ['Unit 6', '19', 'D'], ['Unit 6', '20', 'C'], ['Unit 6', '21', 'D'], ['Unit 6', '22', 'B'], ['Unit 6', '23', 'B'], ['Unit 6', '24', 'C'], ['Unit 6', '25', 'B'], ['Unit 6', '26', 'A'], ['Unit 6', '27', 'A'], ['Unit 6', '28', 'B'], ['Unit 6', '29', 'D']]
+"""
+#
+def present_question2(l_question):
+    print(f"### {l_question[0]} ###")
+    print()
+    print(l_question[1])
+    print()
+
+    answer = input('Your answer: ')
+
+    if str(answer).lower() == str(l_question[2]).lower():
+        print()
+        print()
+        print('                                             ***********CORRECT***********')
+        print()
+        print()
+    else:
+        print()
+        print()
+        print(f"***INCORRECT*** The correct answer is: {l_question[2]}")
+        print()
+        print()
+
+    print()
+##### end: present_question2(l_question)
+
+
+
 ##### method to randomly deliver test questions
 #
 # units: "0" for all units, or an integer corresponding to the unit #
@@ -183,7 +284,46 @@ def process_questions(l_question_bank, units, int_num_questions, int_random_seed
 ##### end: process_questions()
 
 
+
+##### method to randomly deliver test questions
+#
+# units: "0" for all units, or an integer corresponding to the unit #
+# int_num_questions: the number of questions to ask
+# int_random_seed: an integer random seed, used to shuffle the questions
+#
+def process_questions2(l_question_bank, units, int_num_questions, int_random_seed):
+    if units == '0':
+        np.random.seed(int_random_seed)
+        idx = np.arange(len(l_question_bank))
+        np.random.shuffle(idx)
+
+        if int_num_questions > len(l_question_bank):
+            int_num_questions = len(l_question_bank)
+
+        for i in range(int_num_questions):
+            present_question2(l_question_bank[idx[i]])
+##### end: process_questions2()
+
+
 ## MAIN ##
+
+test_type = input("Enter 1 for national, 2 for Arizona: ")
+
+filename = input("Enter the test file name: ")
+num_questions = input("Enter length of test: ")
+unit_number = input("Enter unit number, or 0 for all units: ")
+random_seed = input("Enter a random integer: ")
+
+if test_type == "1":
+    questions = get_questions_and_answers(filename)
+    process_questions(questions, unit_number, int(num_questions), int(random_seed))
+
+elif test_type == "2":
+    questions = get_questions_and_answers2("az_unit_6.txt")
+    process_questions2(questions, unit_number, int(num_questions), int(random_seed))
+    
+
+"""
 filename = input("Enter the test file name: ")
 num_questions = input("Enter length of test: ")
 unit_number = input("Enter unit number, or 0 for all units: ")
@@ -191,6 +331,15 @@ random_seed = input("Enter a random integer: ")
 
 questions = get_questions_and_answers(filename)
 process_questions(questions, unit_number, int(num_questions), int(random_seed))
+"""
+
+#filename = input("Enter the test file name: ")
+#num_questions = input("Enter length of test: ")
+#unit_number = input("Enter unit number, or 0 for all units: ")
+#random_seed = input("Enter a random integer: ")
+
+#questions = get_questions_and_answers2("az_unit_6.txt")
+#process_questions2(questions, unit_number, int(num_questions), int(random_seed))
 
 ## TO DO ##
 #
