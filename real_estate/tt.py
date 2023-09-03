@@ -65,9 +65,9 @@ the record of a property's ownership.
 """
 [
 
- ['3. The person who prepares an abstract of title for a parcel of real estate', 'A) insures the condition of the title.', 'B) inspects the property.', 'C) issues title insurance.', 'D) searches the public records and then summarizes the events and proceedings that affect title.', 'D'],
+ ['3. The person who prepares an abstract of title for a parcel of real estate', 'A) insures the condition of the title.', 'B) inspects the property.', 'C) issues title insurance.', 'D) searches the public records and then summarizes the events and proceedings that affect title.', 'D', 'Unit # and title'],
  
- ['4. When A recorded the deed received from B, the legal consequence of the recording was to', 'A) give B assurance of holding a first lien.', 'B) protect B from existing adverse claims.', 'C) transfer title.', 'D) serve as constructive notice of A’s interest.', 'D']
+ ['4. When A recorded the deed received from B, the legal consequence of the recording was to', 'A) give B assurance of holding a first lien.', 'B) protect B from existing adverse claims.', 'C) transfer title.', 'D) serve as constructive notice of A’s interest.', 'D', 'Unit # and title']
 
 ]
 """
@@ -218,14 +218,17 @@ def present_question(l_question):
         print('                                             ***********CORRECT***********')
         print()
         print()
+        print()
+        return None
     else:
         print()
         print()
         print(f"***INCORRECT*** The correct answer is: {l_question[5]}")
         print()
         print()
+        print()
+        return(l_question)
 
-    print()
 ##### end: present_question(l_question)
 
 
@@ -252,14 +255,17 @@ def present_question2(l_question):
         print('                                             ***********CORRECT***********')
         print()
         print()
+        print()
+        return None
     else:
         print()
         print()
         print(f"***INCORRECT*** The correct answer is: {l_question[2]}")
         print()
         print()
+        print()
+        return(l_question)
 
-    print()
 ##### end: present_question2(l_question)
 
 
@@ -271,6 +277,8 @@ def present_question2(l_question):
 # int_random_seed: an integer random seed, used to shuffle the questions
 #
 def process_questions(l_question_bank, units, int_num_questions, int_random_seed):
+    l_incorrect = []
+
     if units == '0':
         np.random.seed(int_random_seed)
         idx = np.arange(len(l_question_bank))
@@ -280,7 +288,26 @@ def process_questions(l_question_bank, units, int_num_questions, int_random_seed
             int_num_questions = len(l_question_bank)
 
         for i in range(int_num_questions):
-            present_question(l_question_bank[idx[i]])
+            tmp_val = present_question(l_question_bank[idx[i]])
+            if tmp_val is not None:
+                l_incorrect.append(tmp_val)
+
+    # Replay the incorrect questions
+    if len(l_incorrect) > 0:
+        print(f"You missed {len(l_incorrect)} questions.")
+        print()
+
+        for val in l_incorrect:
+            tmp_val1 = val[6].strip().split(":")[0]
+            tmp_val2 = val[0].strip().split(".")[0]
+            print(f"{tmp_val1}: {tmp_val2}")
+
+        print()
+        print()
+
+        for i in range(len(l_incorrect)):
+            tmp_val = present_question(l_question_bank[idx[i]])
+
 ##### end: process_questions()
 
 
@@ -292,6 +319,8 @@ def process_questions(l_question_bank, units, int_num_questions, int_random_seed
 # int_random_seed: an integer random seed, used to shuffle the questions
 #
 def process_questions2(l_question_bank, units, int_num_questions, int_random_seed):
+    l_incorrect = []
+
     if units == '0':
         np.random.seed(int_random_seed)
         idx = np.arange(len(l_question_bank))
@@ -301,7 +330,24 @@ def process_questions2(l_question_bank, units, int_num_questions, int_random_see
             int_num_questions = len(l_question_bank)
 
         for i in range(int_num_questions):
-            present_question2(l_question_bank[idx[i]])
+            tmp_val = present_question2(l_question_bank[idx[i]])
+            if tmp_val is not None:
+                l_incorrect.append(tmp_val)
+
+    # Replay the incorrect questions
+    if len(l_incorrect) > 0:
+        print(f"You missed {len(l_incorrect)} questions.")
+        print()
+        
+        for val in l_incorrect:
+            print(f"{val[0]}: {val[1]}")
+
+        print()
+        print()
+
+        for i in range(len(l_incorrect)):
+            tmp_val = present_question2(l_question_bank[idx[i]])
+
 ##### end: process_questions2()
 
 
@@ -319,27 +365,9 @@ if test_type == "1":
     process_questions(questions, unit_number, int(num_questions), int(random_seed))
 
 elif test_type == "2":
-    questions = get_questions_and_answers2("az_unit_6.txt")
+    questions = get_questions_and_answers2(filename)
     process_questions2(questions, unit_number, int(num_questions), int(random_seed))
     
-
-"""
-filename = input("Enter the test file name: ")
-num_questions = input("Enter length of test: ")
-unit_number = input("Enter unit number, or 0 for all units: ")
-random_seed = input("Enter a random integer: ")
-
-questions = get_questions_and_answers(filename)
-process_questions(questions, unit_number, int(num_questions), int(random_seed))
-"""
-
-#filename = input("Enter the test file name: ")
-#num_questions = input("Enter length of test: ")
-#unit_number = input("Enter unit number, or 0 for all units: ")
-#random_seed = input("Enter a random integer: ")
-
-#questions = get_questions_and_answers2("az_unit_6.txt")
-#process_questions2(questions, unit_number, int(num_questions), int(random_seed))
 
 ## TO DO ##
 #
@@ -348,3 +376,4 @@ process_questions(questions, unit_number, int(num_questions), int(random_seed))
 #----- list incorrect answers (unit and question #)
 #----- summary by unit
 #--------- % correct for each unit
+#----- option to enter specific question #s, and present these questions in random order
