@@ -306,7 +306,7 @@ def process_questions(l_question_bank, units, int_num_questions, int_random_seed
         print()
 
         for i in range(len(l_incorrect)):
-            tmp_val = present_question(l_question_bank[idx[i]])
+            tmp_val = present_question(l_incorrect[i])
 
 ##### end: process_questions()
 
@@ -346,7 +346,7 @@ def process_questions2(l_question_bank, units, int_num_questions, int_random_see
         print()
 
         for i in range(len(l_incorrect)):
-            tmp_val = present_question2(l_question_bank[idx[i]])
+            tmp_val = present_question2(l_incorrect[i])
 
 ##### end: process_questions2()
 
