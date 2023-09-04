@@ -294,6 +294,9 @@ def process_questions(l_question_bank, units, int_num_questions, int_random_seed
 
     # Replay the incorrect questions
     if len(l_incorrect) > 0:
+        print('                                             !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+        print('                                             !!!!!!!!!!!  RESULTS  !!!!!!!!!!!')
+        print('                                             !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
         print(f"You missed {len(l_incorrect)} questions.")
         print()
 
@@ -336,6 +339,9 @@ def process_questions2(l_question_bank, units, int_num_questions, int_random_see
 
     # Replay the incorrect questions
     if len(l_incorrect) > 0:
+        print('                                             !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
+        print('                                             !!!!!!!!!!!  RESULTS  !!!!!!!!!!!')
+        print('                                             !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!')
         print(f"You missed {len(l_incorrect)} questions.")
         print()
         
