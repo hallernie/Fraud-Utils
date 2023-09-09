@@ -6,7 +6,7 @@ Note: Ignore this content
 Unit 12_2: Real Estate Financing
 *****
 
-40. Developed software to create credit scores
+1. Developed software to create credit scores
 
 A)
 FHA
@@ -17,7 +17,7 @@ LTV
 D) X
 FICO
 
-40. Government-sponsored loan program
+2. Government-sponsored loan program
 
 A) X
 FHA
@@ -28,7 +28,7 @@ LTV
 D)
 FICO
 
-40. Homeowner's expenses
+3. Homeowner's expenses
 
 A)
 FHA
@@ -39,7 +39,7 @@ LTV
 D)
 FICO
 
-40. Percentage of a homebuyer's income used to repay debt
+4. Percentage of a homebuyer's income used to repay debt
 
 A) X
 DTI
@@ -50,7 +50,7 @@ LTV
 D)
 FICO
 
-40. Percentage of a property's value that the lender is willing to lend
+5. Percentage of a property's value that the lender is willing to lend
 
 A)
 DTI
@@ -61,7 +61,7 @@ LTV
 D)
 FICO
 
-40. A charge by the lender to cover the expenses involved in generating the loan
+6. A charge by the lender to cover the expenses involved in generating the loan
 
 A)
 discount point
@@ -72,7 +72,7 @@ loan origination fee
 D)
 prepayment penalty
 
-40. A fee assessed against the unearned portion of the interest for any payments made ahead of schedule
+7. A fee assessed against the unearned portion of the interest for any payments made ahead of schedule
 
 A)
 discount point
@@ -83,7 +83,7 @@ loan origination fee
 D) X
 prepayment penalty
 
-40. Charging interest in excess of the maximum rate allowed by law
+8. Charging interest in excess of the maximum rate allowed by law
 
 A)
 discount point
@@ -94,7 +94,7 @@ loan origination fee
 D)
 prepayment penalty
 
-40. A charge to increase the lender's yield (rate of return) on its investment
+9. A charge to increase the lender's yield (rate of return) on its investment
 
 A) X
 discount point
@@ -105,7 +105,7 @@ loan origination fee
 D)
 prepayment penalty
 
-40. A borrower's written commitment to pay a debt
+10. A borrower's written commitment to pay a debt
 
 A) X
 promissory note
@@ -116,7 +116,7 @@ loan origination fee
 D)
 prepayment penalty
 
-40. The debtor retains the right of possession and control of the secured property, while the creditor receives an equitable right in the property
+11. The debtor retains the right of possession and control of the secured property, while the creditor receives an equitable right in the property
 
 A)
 promissory note
@@ -127,7 +127,7 @@ loan origination fee
 D) X
 hypothecation
 
-40. Lien on the property to secure a loan
+12. Lien on the property to secure a loan
 
 A)
 promissory note
@@ -138,7 +138,7 @@ loan origination fee
 D)
 hypothecation
 
-40. In respect to a promissory note, the lender is?
+13. In respect to a promissory note, the lender is?
 
 A)
 fiduciary
@@ -149,7 +149,7 @@ payee
 D)
 subagent
 
-40. In respect to a promissory note, the borrower is?
+14. In respect to a promissory note, the borrower is?
 
 A)
 fiduciary
@@ -160,7 +160,7 @@ payee
 D)
 subagent
 
-40. What is paying interest on a debt at the end of the payment period?
+15. What is paying interest on a debt at the end of the payment period?
 
 A)
 nonpayment of dept
@@ -171,7 +171,7 @@ usury
 D)
 hypothecation
 
-40. In a lien theory state, the borrower is the
+16. In a lien theory state, the borrower is the
 
 A) X
 mortgagor
@@ -182,7 +182,7 @@ trustor
 D)
 trustee
 
-40. In a title theory state, the borrower is the
+17. In a title theory state, the borrower is the
 
 A)
 mortgagor
@@ -193,7 +193,7 @@ trustor
 D)
 trustee
 
-40. In a lien theory state, the lender is the
+18. In a lien theory state, the lender is the
 
 A)
 mortgagor
@@ -204,7 +204,7 @@ trustor
 D)
 trustee
 
-40. In a title theory state, the lender is the
+19. In a title theory state, the lender is the
 
 A)
 mortgagor
@@ -215,7 +215,7 @@ trustor
 D) X
 beneficiary
 
-40. A mortgage must be recorded in the XXX in which the real estate is located
+20. A mortgage must be recorded in the XXX in which the real estate is located
 
 A)
 state
@@ -226,7 +226,7 @@ township
 D) X
 county
 
-40. Financing instrument where if the borrower defaults, the lender must go through a formal foreclosure proceeding to obtain legal title
+21. Financing instrument where if the borrower defaults, the lender must go through a formal foreclosure proceeding to obtain legal title
 
 A) X
 mortgage
@@ -237,7 +237,7 @@ na
 D)
 na
 
-40. Financing instrument where lender has the right to immediate possession of and rents from the property if the borrower defaults
+22. Financing instrument where lender has the right to immediate possession of and rents from the property if the borrower defaults
 
 A)
 mortgage
@@ -248,7 +248,7 @@ na
 D)
 na
 
-40. Financing instrument where the borrower gives legal title to a designated individual and retains equitable title
+23. Financing instrument where the borrower gives legal title to a designated individual and retains equitable title
 
 A)
 mortgage
@@ -259,7 +259,7 @@ na
 D)
 na
 
-40. Financing instrument where the borrower retains both legal and equitable title
+24. Financing instrument where the borrower retains both legal and equitable title
 
 A) X
 mortgage
@@ -270,7 +270,7 @@ na
 D)
 na
 
-40. Statement that allows lender to declare the entire debt due and payable immediately
+25. Statement that allows lender to declare the entire debt due and payable immediately
 
 A) X
 acceleration clause
@@ -281,7 +281,7 @@ assignment of mortgage
 D)
 trustor
 
-40. Provision that requires lender to execute a satisfaction (release or discharge) when the note has been fully paid
+26. Provision that requires lender to execute a satisfaction (release or discharge) when the note has been fully paid
 
 A)
 acceleration clause
@@ -292,7 +292,7 @@ assignment of mortgage
 D)
 trustor
 
-40. Clause that allows the note to be sold to a third party
+27. Clause that allows the note to be sold to a third party
 
 A)
 acceleration clause
@@ -303,7 +303,7 @@ assignment of mortgage
 D)
 trustor
 
-40. In a lien theory state, a mortgagor actually gives legal title to the mortgagee (or some other designated individual) and retains equitable title.
+28. In a lien theory state, a mortgagor actually gives legal title to the mortgagee (or some other designated individual) and retains equitable title.
 
 A)
 true
@@ -314,7 +314,7 @@ na
 D)
 na
 
-40. Under a deed of trust, the trustor retains equitable title.
+29. Under a deed of trust, the trustor retains equitable title.
 
 A) X
 true
@@ -325,7 +325,7 @@ na
 D)
 na
 
-40. Interest only loan
+30. Interest only loan
 
 A)
 balloon
@@ -336,7 +336,7 @@ straight
 D)
 ARM
 
-40. Rapid-payoff mortgage
+31. Rapid-payoff mortgage
 
 A) X
 GEM
@@ -347,7 +347,7 @@ straight
 D)
 ARM
 
-40. Mortgagor pays the same amount each month with some going to principle and some to interest
+32. Mortgagor pays the same amount each month with some going to principle and some to interest
 
 A)
 GEM
@@ -358,7 +358,7 @@ straight
 D)
 ARM
 
-40. A straight loan is also called a fully amortized loan
+33. A straight loan is also called a fully amortized loan
 
 A)
 true
@@ -369,7 +369,7 @@ na
 D)
 na
 
-40. A balloon payment will be required in a partially amortized loan
+34. A balloon payment will be required in a partially amortized loan
 
 A) X
 true
@@ -380,7 +380,7 @@ na
 D)
 na
 
-40. A court-ordered deadline for payment of the defaulted debt passes with the debt unpaid, allowing the title to be awarded to the lender; no sale required
+35. A court-ordered deadline for payment of the defaulted debt passes with the debt unpaid, allowing the title to be awarded to the lender; no sale required
 
 A) X
 strict foreclosure
@@ -391,7 +391,7 @@ nonjudicial foreclosure
 D)
 deed in lieu of foreclosure
 
-40. The property may be ordered sold to the highest bidder following a court hearing
+36. The property may be ordered sold to the highest bidder following a court hearing
 
 A)
 strict foreclosure
@@ -402,7 +402,7 @@ nonjudicial foreclosure
 D)
 deed in lieu of foreclosure
 
-40. The security instrument contains a power-of-sale clause
+37. The security instrument contains a power-of-sale clause
 
 A)
 strict foreclosure
@@ -413,7 +413,7 @@ nonjudicial foreclosure
 D)
 deed in lieu of foreclosure
 
-40. Borrower voluntarily surrenders the deed
+38. Borrower voluntarily surrenders the deed
 
 A)
 strict foreclosure
@@ -424,7 +424,7 @@ nonjudicial foreclosure
 D) X
 deed in lieu of foreclosure
 
-40. Type of homeowners insurance that covers collapse of the building, falling objects, and damage to plumbing.
+39. Type of homeowners insurance that covers collapse of the building, falling objects, and damage to plumbing.
 
 A) X
 broad form
@@ -446,7 +446,7 @@ na
 D)
 na
 
-40. Established the National Flood Insurance Program
+41. Established the National Flood Insurance Program
 
 A) X
 congress
@@ -457,7 +457,7 @@ Army Corps of Engineers
 D)
 na
 
-40. Administers the flood program
+42. Administers the flood program
 
 A)
 congress
@@ -468,7 +468,7 @@ Army Corps of Engineers
 D)
 na
 
-40. Prepared maps indentifying flood-prone areas
+43. Prepared maps indentifying flood-prone areas
 
 A)
 congress
