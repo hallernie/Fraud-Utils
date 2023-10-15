@@ -288,6 +288,7 @@ def process_questions(l_question_bank, units, int_num_questions, int_random_seed
             int_num_questions = len(l_question_bank)
 
         for i in range(int_num_questions):
+            print(f"Question: {i+1}")
             tmp_val = present_question(l_question_bank[idx[i]])
             if tmp_val is not None:
                 l_incorrect.append(tmp_val)
@@ -333,6 +334,7 @@ def process_questions2(l_question_bank, units, int_num_questions, int_random_see
             int_num_questions = len(l_question_bank)
 
         for i in range(int_num_questions):
+            print(f"Question: {i+1}")
             tmp_val = present_question2(l_question_bank[idx[i]])
             if tmp_val is not None:
                 l_incorrect.append(tmp_val)
@@ -363,7 +365,8 @@ test_type = input("Enter 1 for national, 2 for Arizona: ")
 
 filename = input("Enter the test file name: ")
 num_questions = input("Enter length of test: ")
-unit_number = input("Enter unit number, or 0 for all units: ")
+#unit_number = input("Enter unit number, or 0 for all units: ")
+unit_number = "0"
 random_seed = input("Enter a random integer: ")
 
 if test_type == "1":
