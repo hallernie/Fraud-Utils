@@ -67,6 +67,24 @@ c. /\%Vmy_search_text
 
 
 
+**** (Vim) Search for string, but only in the visually selected portion (another way)
+
+1. highlight the search region
+2. :
+3. :'<,'> /\%Vsearch_pattern/
+
+
+
+**** (Vim) Search/Replace string, but only in the visually selected portion
+
+a. Select visually the part of the document to be searched
+b. :
+b. :'<,'>s/\%Vsearch_string/replacement_string/
+
+Note: This is the usual search/replace method for the entire file. The %V tells VIM to act on only the visually selected portion
+
+
+
 **** (Vim) Word movement commands
 
 a. Move to the end of the current word
@@ -308,6 +326,20 @@ In [5]: for x,y in tmp2.values:
             print(f'{x}     {y}')
 
 
+**** (Pandas) Reloading a module
+
+-- I can create my own python methods in a file (my_file.py). I can import the methods into Jupyter Notebook as follows:
+
+import my_file
+or
+from my_file import a_my_file_method
+
+If I change the code in my_file.py, I will need to reload the module for the changes to take effect inside Jupyter Notebook:
+
+import importlib
+importlib.reload(my_file)
+
+
 **** (Misc) The 7 most popular ways to plot data in Python
 
 1. Matplotlib
@@ -347,3 +379,122 @@ Ex:
 
 :vimgrep /<note/ %
 :cwindow
+
+
+
+**** (VIM) Adjust screen to top, middle, bottom of the current window
+
+-- Adjust screen so that current line is at the top
+
+z <Enter>
+
+-- Adjust screen so that current line is on the bottom
+
+zb
+
+-- Adjust screen so that current line is in the middle 
+
+zz
+
+
+**** (VIM) Adjust screen to top, middle, bottom of the current window
+
+-- Move cursor to top of screen
+
+<Shift> H
+
+-- Move cursor to middle of screen
+
+<Shift> M
+
+-- Move cursor to middle of screen
+
+<Shift> L
+
+
+**** (Pandas) One method for writing sql against a pandas DataFrame
+
+# From Jupyter notebook install pandasql
+
+!conda install --yes pandasql
+
+# import required method
+
+from pandasql import sqldf
+
+# some example queries of the DataFrame via sql
+
+# (1)
+tmp = """
+select count(*)
+from df
+where rep1_hri_1 not in ('25')
+and
+rep2_hri_1 = '25'
+"""
+sqldf(tmp)
+
+# (2)
+tmp = """
+select count(*)
+from df
+where rep1_hri_1 is null
+"""
+sqldf(tmp)
+
+# (3)
+tmp = """
+select count(*)
+from df
+where rep1_hri_1 is not null
+"""
+sqldf(tmp)
+
+
+
+**** (VIM) Set the background and foreground highlighted search colors
+
+-- From within file opened with VIM application
+:hi Search guibg=DarkYellow guifg='NONE'
+:hi Search guibg=peru guifg=wheat
+:hi Search guibg=peru guifg='NONE'
+
+-- From within file opened with VIM from the command line
+:hi Search ctermbg=DarkYellow ctermfg='NONE'
+
+
+
+
+**** (Pandas) Example loc and iloc
+
+ciid.iloc[2:3,84:124]            # row 2, columns 84-124
+ciid.iloc[:,84:124]              # all rows, columns 84-124
+ciid.iloc[[2,30],84:124]         # row 2 and 30, columns 84-124
+
+ciid.loc[:,"fname":"outlname"]   # all rows, columns fname to outlname
+ciid.loc[:,['fname',"outlname"]] # all rows, columns fname and outlname
+
+
+
+
+**** (Excel) Some shortcuts
+
+HOME			# move to first column
+END then RightArrow	# move to last column
+CTRL+HOME		# move to first row, first column
+CTRL+END		# move to last row, last column
+
+
+
+**** (VIM) To remove lines matching a pattern, simply use the /d flag to the command. Here are some examples:
+
+:g/pattern/d – Remove lines matching pattern
+:g!/pattern/d – Remove lines that do NOT match the pattern
+:v/pattern/d – Also removes lines that do not match the pattern
+
+
+
+
+**** (VIM) Count lines that match a pattern
+
+:%s/pattern//gn
