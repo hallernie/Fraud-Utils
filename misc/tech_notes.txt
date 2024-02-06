@@ -498,3 +498,24 @@ CTRL+END		# move to last row, last column
 **** (VIM) Count lines that match a pattern
 
 :%s/pattern//gn
+
+
+
+**** (DUCKDB) Quickstart from Jupyter Notebook
+
+-- Import
+import duckdb
+
+-- Run a sql command to read a .csv file
+val = duckdb.sql(
+"SELECT * FROM read_csv_auto('tmp.csv')"
+)
+
+-- Run a sql command
+val2 = duckdb.sql(
+"""
+select *
+from val
+where request_id = '1234jjgjieieui'
+"""
+)
