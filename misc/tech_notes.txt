@@ -519,3 +519,27 @@ from val
 where request_id = '1234jjgjieieui'
 """
 )
+
+
+
+
+**** (ThreatMetrix) Utilizing json_get_numeric and json_get_string
+
+-- Example expression condition entry in ThreatMetrix rule
+json_get_numeric(CUSTOM_ATTRIBUTE_1, "/bob") > 1
+json_get_string(CUSTOM_ATTRIBUTE_1, "/mary") = "evil"
+
+-- Example of json attribute sent via Postman
+"local_attrib_1": "{\"bob\":3,\"mary\":\"evil\"}"
+
+
+
+**** (Pandas) Performing group by operations
+tmp_grp = df[["unks","session_id"]].groupby(df["session_id"])
+
+# Only keep groups matching criteria
+# Remember that in the "filter" I am acting on the "unks" column as a group
+# The filter will return a DataFrame containing the groups that were not filtered out
+# but all the groups data has been expanded back into a DataFrame
+# So I may need to group again to perform additional grouping operations
+df_tmp = tmp_grp.filter(lambda g: g['unks'].nunique() == 1)
