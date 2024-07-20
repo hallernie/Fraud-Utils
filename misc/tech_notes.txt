@@ -534,12 +534,105 @@ json_get_string(CUSTOM_ATTRIBUTE_1, "/mary") = "evil"
 
 
 
-**** (Pandas) Performing group by operations
-tmp_grp = df[["unks","session_id"]].groupby(df["session_id"])
+**** (Pandas) Examples groupby operations
 
-# Only keep groups matching criteria
-# Remember that in the "filter" I am acting on the "unks" column as a group
-# The filter will return a DataFrame containing the groups that were not filtered out
-# but all the groups data has been expanded back into a DataFrame
-# So I may need to group again to perform additional grouping operations
-df_tmp = tmp_grp.filter(lambda g: g['unks'].nunique() == 1)
+-- Start with a DataFrame
+
+data = {'ted': ['hello','there','there','hello','hello'],
+       'alice': [1,4,5,1,2],
+       'jim':   [1,1,1,1,1]}
+
+df = pd.DataFrame('data')
+
+         ted	alice	jim
+0	hello	1	1
+1	there	4	1
+2	there	5	1
+3	hello	1	1
+4	hello	2	1
+
+-- Create a group object using the 'ted' column as the key
+
+grp = df.groupby(['ted'])
+
+OR (select what columns I want in my group object)
+
+grp = df[['ted','alice']].groupby(['ted'])
+
+-- Here's how to see the groups (index rows) in my group
+
+grp.groups
+
+{'hello': [0, 3, 4], 'there': [1, 2]}
+
+-- Let's show the sum() of my groups
+
+grp.sum()
+
+	alice	jim
+ted		
+hello	4	3
+there	9	2
+
+-- Let's show the sum() of just the 'alice' column
+
+grp['alice'].sum()
+
+	alice
+ted	
+hello	4
+there	9
+
+-- Let's filter out some of the groups based on group criteria
+-- The output of the filter is a DataFrame containing all the 'expanded'
+-- groups that met the filter criteria. More precisely, the output of the 
+-- filter is a DataFrame containing the index rows of the groups that
+-- met the filter criteria (notice the index column values below).
+
+grp.filter(lambda g: g['alice'].sum() > 8)
+
+	ted	alice	jim
+1	there	4	1
+2	there	5	1
+
+
+
+
+**** (Pandas) Transpose (T) a DataFrame
+
+-- Start with a DataFrame
+
+data = {'ted': ['hello','there','there','hello','hello'],
+       'alice': [1,4,5,1,2],
+       'jim':   [1,1,1,1,1]}
+
+df = pd.DataFrame('data')
+
+         ted	alice	jim
+0	hello	1	1
+1	there	4	1
+2	there	5	1
+3	hello	1	1
+4	hello	2	1
+
+-- What would df.T look like?
+
+-- Step 1: Column data become row data
+
+hello	there	there	hello	hello
+1	4	5	1	2
+1	1	1	1	1
+
+-- Step 2: Column names become the new index
+
+ted	hello	there	there	hello	hello
+alice	1	4	5	1	2
+jim	1	1	1	1	1
+
+-- Step 3: Index values become column names
+
+	0	1	2	3	4
+ted	hello	there	there	hello	hello
+alice	1	4	5	1	2
+jim	1	1	1	1	1
+
