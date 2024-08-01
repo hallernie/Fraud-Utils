@@ -326,7 +326,7 @@ In [5]: for x,y in tmp2.values:
             print(f'{x}     {y}')
 
 
-**** (Pandas) Reloading a module
+**** (Pandas) Reloading a module. Write code in a .py file and then import the code.
 
 -- I can create my own python methods in a file (my_file.py). I can import the methods into Jupyter Notebook as follows:
 
@@ -532,6 +532,10 @@ json_get_string(CUSTOM_ATTRIBUTE_1, "/mary") = "evil"
 -- Example of json attribute sent via Postman
 "local_attrib_1": "{\"bob\":3,\"mary\":\"evil\"}"
 
+-- Example of json if I send the value via Manual Event in the portal
+{"bob":3,"date1":"2024-07-30"}
+{"r":"some role","noa":15,"fed":"2024-07-15","cad": "2023-03-31"}
+
 
 
 **** (Pandas) Examples groupby operations
@@ -555,7 +559,7 @@ df = pd.DataFrame('data')
 
 grp = df.groupby(['ted'])
 
-OR (select what columns I want in my group object)
+OR select what columns I want in my group object
 
 grp = df[['ted','alice']].groupby(['ted'])
 
