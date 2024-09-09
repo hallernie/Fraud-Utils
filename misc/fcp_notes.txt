@@ -1,0 +1,57 @@
+Library
+-- Event
+------ Media
+------ Projects
+
+
+Keyword Collection:
+
+-- Grouping of media based on a keyword
+-- Clips that have a keyword applied will have a "blue" bar across the media
+-- Clips with a "purple" bar are those that were analyzed and tagged as "people" during import
+
+-- Note: You can keyword entire, part, and multiple parts of a clip
+
+Smart Collection:
+
+-- Grouping of media based on rules that I define
+
+-- Two types:
+---- Event Smart Collections
+---- Library Smart Collections
+
+Rating Clips:
+
+-- Two rating possible (Under the "Mark" menu):
+---- Favorite (have a "green" bar across the media)
+-------- Note: You can favorite entire, part, and multiple parts of a clip
+
+---- Reject (have a "red" bar across the media)
+-------- Note: You can reject entire, part, and multiple parts of a clip
+
+
+Timeline movement:
+
+-- Up-Arrow: Back a clip
+-- Down-Arrow: Forward a clip
+-- Left-Arrow: Back a frame
+-- Shift-Left-Arrow: Back 10 frames
+-- Right-Arrow: Forward a frame
+-- Shift-Right-Arrow: Forward 10 frames
+-- Home: Beginning of timeline
+-- End: End of timeline
+-- Shift-Z: Fit all clips to the timeline
+
+-- Cmd-1: Navigate to clip browser
+-- Cmd-2: Navigate to timeline
+
+-- Ctrl-p: Navigate by time code
+---- 5.15-Enter (navigate to 5-seconds and 15-frames)
+---- +110-Enter (navigate 1-seconds and 10-frames from the current playhead position)
+---- -110-Enter (navigate 1-seconds and 10-frames backwards from the current playhead position)
+
+
+Clip marking:
+
+-- i: Mark an "in" point
+-- o: Mark an "out" point
