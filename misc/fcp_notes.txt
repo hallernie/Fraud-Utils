@@ -4,6 +4,8 @@ Library
 ------ Projects
 
 
+
+
 Keyword Collection:
 
 -- Grouping of media based on a keyword
@@ -17,8 +19,11 @@ Smart Collection:
 -- Grouping of media based on rules that I define
 
 -- Two types:
----- Event Smart Collections
 ---- Library Smart Collections
+---- Event Smart Collections
+
+
+
 
 Rating Clips:
 
@@ -28,6 +33,8 @@ Rating Clips:
 
 ---- Reject (have a "red" bar across the media)
 -------- Note: You can reject entire, part, and multiple parts of a clip
+
+
 
 
 Timeline movement:
@@ -40,18 +47,74 @@ Timeline movement:
 -- Shift-Right-Arrow: Forward 10 frames
 -- Home: Beginning of timeline
 -- End: End of timeline
+
+-- L: Play forward   (note: multiple taps increases forward speed)
+-- J: Play backward  (note: multiple taps increases backward speed)
+-- K: Stop playback
+-- Shift-?: Play clip around the edit point
+-- /: Play the selected clip in the timeline
+
 -- Shift-Z: Fit all clips to the timeline
 
 -- Cmd-1: Navigate to clip browser
 -- Cmd-2: Navigate to timeline
 
--- Ctrl-p: Navigate by time code
+
+
+
+-- Navigate by time code --
+
+-- Ctrl-p:  (or click once on the timecode in the display)
 ---- 5.15-Enter (navigate to 5-seconds and 15-frames)
+
+-- Click anywhere in the timeline
 ---- +110-Enter (navigate 1-seconds and 10-frames from the current playhead position)
 ---- -110-Enter (navigate 1-seconds and 10-frames backwards from the current playhead position)
+
+
 
 
 Clip marking:
 
 -- i: Mark an "in" point
 -- o: Mark an "out" point
+
+
+
+
+
+Misc:
+
+-- Click on a clip in the browser
+---- Ctrl-d     (Shows the duration of the clip in the browser)
+
+-- a: returns to the selection arrow, for example after using the blade tool
+
+
+
+
+Connected Clips:
+
+-- Click on the selected clip in the browser
+
+---- "Period" key nudges the clip right one frame
+---- "Comma" key nudges the clip left one frame
+---- "Shift-Period" key nudges the clip right 10 frames
+---- "Shift-Comma" key nudges the clip left 10 frames
+---- "v" key disables the connected clip so that I can see the clip below
+
+-- Move the playhead over the clip
+
+---- "x"     creates a selection range spanning the entire clip under the skimmer or playhead
+---- "c"     select the clip under the skimmer or playhead
+---- Select the clip and press "/" will play back the selection
+
+
+
+
+Types of edits when selecting "trim" from the dropdown above the timeline:
+
+-- ripple: Clips earlier or later in time shift based on the edit
+-- rolling: Trims two sides of an edit point at once. So two clips get longer or shorter based on moving left or right
+-- slip: Change the start and end frames of a single clip simultaneously
+-- slide: The center clip stays the same, but the clips on either side get longer or shorter
