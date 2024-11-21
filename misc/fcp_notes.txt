@@ -5,6 +5,30 @@ Library
 
 
 
+Organizational Structure for my FCP projects:
+
+-- FCP library-event-project structure:
+------ Each project will have its own library in FCP
+-------- and the library will be stored in the FCP laptop folder indicated below
+-------- and the name of the library will be the same as folder name created for the project on my laptop (XXXX)
+
+-- The FCP library will have the following events
+------ Footage
+------ Audio
+------ Images
+------ Event Project (this is the event that will have the timeline project)
+-------- and the timeline project name will be the same as the library name (XXXX)
+
+-- Mac folder structure:
+------ New folder for each project. Each project folder will contains the following sub folders (XXXX)
+---------- FCP (this is where I create my library in FCP)
+---------- Footage
+---------- Images
+---------- Audio
+---------- Deliverables (this is where I save my exported completed project video(s)
+
+
+
 
 Keyword Collection:
 
@@ -52,12 +76,15 @@ Timeline movement:
 -- J: Play backward  (note: multiple taps increases backward speed)
 -- K: Stop playback
 -- Shift-?: Play clip around the edit point
--- /: Play the selected clip in the timeline
+-- /: Play the selected clip in the timeline or browser
 
--- Shift-Z: Fit all clips to the timeline
+-- Ctrl-;: Navigate to previous mark
+-- Ctrl-': Navigate to next mark
+
 
 -- Cmd-1: Navigate to clip browser
 -- Cmd-2: Navigate to timeline
+-- Cmd-3: Navigate to viewer
 
 
 
@@ -68,16 +95,22 @@ Timeline movement:
 ---- 5.15-Enter (navigate to 5-seconds and 15-frames)
 
 -- Click anywhere in the timeline
----- +110-Enter (navigate 1-seconds and 10-frames from the current playhead position)
----- -110-Enter (navigate 1-seconds and 10-frames backwards from the current playhead position)
+---- +110-Enter (navigate 1-seconds and 10-frames from the current skimmer or playhead position)
+---- -110-Enter (navigate 1-seconds and 10-frames backwards from the current skimmer or playhead position)
+---- NOTE: Just hit the + key, don't hit Shift-+
 
 
 
 
 Clip marking:
 
--- i: Mark an "in" point
+-- i: Mark an "in" point. The out put will be set to the end of the clip
 -- o: Mark an "out" point
+-- Option-x: Clear selection ranges
+
+Select a precise range in the browser or the timeline:
+-- io+number  <- the "io" places in/out at same position, then "+number" moves the out point
+-- io+1200    <- mark in/out point then move out point 12 seconds into the future
 
 
 
@@ -87,15 +120,43 @@ Misc:
 
 -- Click on a clip in the browser
 ---- Ctrl-d     (Shows the duration of the clip in the browser)
+---- Ctrl-v     (Show/hide the animation editor. This is where I can see the keyframes assigned to a clip)
+                (A keyframe is indicated by a diamond)
+                (Stacked diamonds indicate more than one parameter has been adjusted at this keyframe)
 
 -- a: returns to the selection arrow, for example after using the blade tool
+-- Cmd-Comma: Display the preferences window
+
+-- An orange bar at the bottom of a clip is called the used clip indicator
+
+-- Shift-z: Fit all clips to the timeline (if the timeline is enabled)
+-- Shift-z: Fit the image to the window (if I clicked inside the viewer)
+
+
+Copy clip (or selected portion of clip) from primary storyline to b-roll:
+-- Select the clip
+-- Cmd-c to copy
+-- Opt-v to paste into b-roll
+
+Place clip into its own storyline:
+-- Select the clip
+-- Clip->Create Storyline (or Opt-g)
+-- Note: A grey boundary in placed around the clip to indicate that it is now in its own storyline
+-- Note: One use for this is to add a gap clip to a clip in b-roll. First add the b-roll clip to its own storyline. Then I can add the gap to the clip. You might do this to extend the length of a clip intented to be used in a drop-zone.
+
+
+Match Frame:
+-- Click in the timeline to set the playhead
+-- Then press "Shift-f"
+-- This creates a selection range in the browser spanning the clip in the timeline
+-- There is a a vertical line in the browser locating the playhead position in the timeline
 
 
 
 
 Connected Clips:
 
--- Click on the selected clip in the browser
+-- Click on the selected clip in the timeline
 
 ---- "Period" key nudges the clip right one frame
 ---- "Comma" key nudges the clip left one frame
